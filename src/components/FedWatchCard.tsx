@@ -1,20 +1,4 @@
-export interface FedWatchData {
-  next_fomc: string
-  days_until: number
-  current_rate_low: number
-  current_rate_high: number
-  probabilities: {
-    cut_50bp: number
-    cut_25bp: number
-    hold: number
-    hike_25bp: number
-  }
-  fomc_schedule: Array<{
-    date: string
-    decision: string | null
-    rate: number | null
-  }>
-}
+import type { FedWatchData } from '../hooks/useMarketData'
 
 interface Props { data: FedWatchData }
 

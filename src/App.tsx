@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from 'react'
-import { useMarketData } from './hooks/useMarketData'
+import { useMarketData, getUpdatedAt } from './hooks/useMarketData'
 import BottomTabBar, { type TabId } from './components/BottomTabBar'
 import TemperatureTab from './tabs/TemperatureTab'
 import MarketTab from './tabs/MarketTab'
@@ -41,7 +41,7 @@ export default function App() {
             <h1 className="text-base font-bold text-gray-900 dark:text-white">📊 시장 온도계</h1>
             {data && (
               <p className="text-xs text-gray-400">
-                업데이트: {data.updated_at.slice(0, 16).replace('T', ' ')}
+                업데이트: {getUpdatedAt(data.updated_at)}
               </p>
             )}
           </div>

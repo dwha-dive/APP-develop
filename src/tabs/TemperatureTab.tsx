@@ -2,7 +2,7 @@ import ThermometerBar from '../components/ThermometerBar'
 import StatusBadge from '../components/StatusBadge'
 import InfoTooltip from '../components/InfoTooltip'
 import { temperatureColor } from '../utils/scoreCalc'
-import type { MarketData } from '../hooks/useMarketData'
+import { getUpdatedAt, type MarketData } from '../hooks/useMarketData'
 
 interface Props {
   data: MarketData
@@ -60,7 +60,7 @@ export default function TemperatureTab({ data }: Props) {
         <p className="text-sm text-gray-600 dark:text-gray-400 mb-2">{composite.description}</p>
         <ThermometerBar score={composite.score} />
         <div className="text-xs text-gray-400 mt-2 text-right">
-          기준일: {data.updated_at.slice(0, 10)}
+          기준일: {getUpdatedAt(data.updated_at).slice(0, 10)}
         </div>
       </div>
 

@@ -1,7 +1,7 @@
 import MetricCard from '../components/MetricCard'
 import ThermometerBar from '../components/ThermometerBar'
 import StatusBadge from '../components/StatusBadge'
-import type { MarketData } from '../hooks/useMarketData'
+import { getUpdatedAt, type MarketData } from '../hooks/useMarketData'
 
 interface Props { data: MarketData }
 
@@ -58,7 +58,7 @@ export default function HomeTab({ data }: Props) {
       </div>
 
       <div className="text-xs text-center text-gray-400">
-        업데이트: {data.updated_at.slice(0, 16).replace('T', ' ')} KST
+        업데이트: {getUpdatedAt(data.updated_at)} KST
       </div>
     </div>
   )

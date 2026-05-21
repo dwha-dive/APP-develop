@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import EconomicCalendar from '../components/EconomicCalendar'
-import EarningsCalendar from '../components/EarningsCalendar'
+import EarningsGrid from '../components/EarningsGrid'
 import FedWatchCard from '../components/FedWatchCard'
 import type { MarketData } from '../hooks/useMarketData'
 
@@ -10,15 +10,14 @@ interface Props { data: MarketData }
 
 export default function CalendarTab({ data }: Props) {
   const [sub, setSub] = useState<Sub>('economic')
-  const cal = data.calendar
+  const fedWatch = data.fed_watch ?? data.calendar?.fed_watch
 
   return (
     <div>
-      {/* Sub tabs */}
       <div className="flex border-b border-gray-200 dark:border-gray-700 px-4">
         {([
           ['economic', '경제지표'],
-          ['earnings', '어닝'],
+          ['earnings', '실적발표'],
           ['fedwatch', 'Fed Watch'],
         ] as [Sub, string][]).map(([id, label]) => (
           <button
@@ -36,17 +35,25 @@ export default function CalendarTab({ data }: Props) {
       </div>
 
       {sub === 'economic' && (
-        <EconomicCalendar events={cal?.economic ?? []} />
+        <EconomicCalendar
+          economic_calendar={data.economic_calendar}
+          events={data.calendar?.economic}
+        />
       )}
+
       {sub === 'earnings' && (
-        <EarningsCalendar earnings={cal?.earnings ?? []} />
+        <EarningsGrid
+          prev_week={data.earnings?.prev_week}
+          curr_week={data.earnings?.curr_week}
+          next_week={data.earnings?.next_week}
+        />
       )}
-      {sub === 'fedwatch' && cal?.fed_watch && (
-        <FedWatchCard data={cal.fed_watch} />
-      )}
-      {sub === 'fedwatch' && !cal?.fed_watch && (
+
+      {sub === 'fedwatch' && fedWatch ? (
+        <FedWatchCard data={fedWatch} />
+      ) : sub === 'fedwatch' ? (
         <div className="text-center text-gray-400 py-12 text-sm">Fed Watch 데이터 없음</div>
-      )}
+      ) : null}
     </div>
   )
 }
