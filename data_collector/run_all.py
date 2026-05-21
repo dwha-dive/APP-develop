@@ -63,6 +63,14 @@ try:
 except Exception as e:
     print(f"  ⚠️  macro: {e}")
 
+# Always update header tickers (real-time prices)
+print("📈 Collecting header tickers...")
+try:
+    from collect_header_tickers import collect_header_tickers
+    data = deep_merge(data, collect_header_tickers())
+except Exception as e:
+    print(f"  ⚠️  header_tickers: {e}")
+
 if is_kr_session:
     print("🇰🇷 Korean session detected")
 

@@ -24,6 +24,26 @@ DOW30_TICKERS = [
     'UNH','JNJ','PG','CVX','AMGN','MMM','DIS','IBM','HON','VZ',
 ]
 
+COMPANY_NAMES = {
+    'AAPL': 'Apple', 'MSFT': 'Microsoft', 'NVDA': 'NVIDIA', 'AMZN': 'Amazon',
+    'GOOGL': 'Alphabet', 'META': 'Meta', 'TSLA': 'Tesla', 'JPM': 'JPMorgan',
+    'V': 'Visa', 'UNH': 'UnitedHealth', 'AVGO': 'Broadcom', 'XOM': 'ExxonMobil',
+    'LLY': 'Eli Lilly', 'MA': 'Mastercard', 'HD': 'Home Depot', 'COST': 'Costco',
+    'NFLX': 'Netflix', 'AMD': 'AMD', 'ORCL': 'Oracle', 'ADBE': 'Adobe',
+    'CRM': 'Salesforce', 'ACN': 'Accenture', 'MCD': "McDonald's", 'NKE': 'Nike',
+    'TMO': 'Thermo Fisher', 'ABT': 'Abbott', 'DHR': 'Danaher', 'NEE': 'NextEra',
+    'AMAT': 'Applied Materials', 'PANW': 'Palo Alto',
+    'QCOM': 'Qualcomm', 'INTU': 'Intuit', 'CSCO': 'Cisco',
+    'REGN': 'Regeneron', 'GILD': 'Gilead', 'VRTX': 'Vertex',
+    'ISRG': 'Intuitive Surgical', 'MDLZ': 'Mondelez',
+    'GS': 'Goldman Sachs', 'BAC': 'BofA', 'WMT': 'Walmart',
+    'JNJ': 'J&J', 'PG': 'P&G', 'CVX': 'Chevron', 'AMGN': 'Amgen',
+    'MMM': '3M', 'DIS': 'Disney', 'IBM': 'IBM', 'HON': 'Honeywell',
+    'VZ': 'Verizon', 'CAT': 'Caterpillar', 'BA': 'Boeing',
+    'TGT': 'Target', 'LOW': 'Lowe\'s', 'BIDU': 'Baidu',
+    'ROSS': 'Ross Stores',
+}
+
 SECTOR_MAP = {
     'AAPL':'기술','MSFT':'기술','NVDA':'기술','AVGO':'기술','AMD':'기술',
     'ADBE':'기술','QCOM':'기술','INTU':'기술','CSCO':'기술','PANW':'기술',
@@ -60,7 +80,7 @@ def fetch_tickers(tickers: list) -> list:
 
             result.append({
                 'ticker': ticker,
-                'name': ticker,
+                'name': COMPANY_NAMES.get(ticker, ticker),
                 'sector': SECTOR_MAP.get(ticker, '기타'),
                 'price': round(close, 2),
                 'change_pct': change_pct,

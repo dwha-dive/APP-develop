@@ -34,31 +34,35 @@ function groupBySector(stocks: HeatmapStock[]) {
 
 interface CellProps {
   x?: number; y?: number; width?: number; height?: number
-  name?: string; change?: number
+  name?: string; displayName?: string; change?: number
 }
 
-function CustomCell({ x = 0, y = 0, width = 0, height = 0, name = '', change = 0 }: CellProps) {
+function CustomCell({ x = 0, y = 0, width = 0, height = 0, name = '', displayName, change = 0 }: CellProps) {
   const bg = getHeatColor(change)
+  const label = displayName ?? name
   const show = width > 30 && height > 24
+  const showChange = height > 38
   return (
     <g>
       <rect x={x} y={y} width={width} height={height} fill={bg} stroke="#111827" strokeWidth={1} />
       {show && (
         <>
           <text
-            x={x + width / 2} y={y + height / 2 - 7}
+            x={x + width / 2} y={showChange ? y + height / 2 - 6 : y + height / 2 + 4}
             textAnchor="middle" fill="white"
-            fontSize={Math.min(13, width / 4)} fontWeight="bold"
+            fontSize={Math.min(12, width / 5)} fontWeight="bold"
           >
-            {name}
+            {label}
           </text>
-          <text
-            x={x + width / 2} y={y + height / 2 + 9}
-            textAnchor="middle" fill="white"
-            fontSize={Math.min(10, width / 5)}
-          >
-            {change > 0 ? '+' : ''}{change.toFixed(2)}%
-          </text>
+          {showChange && (
+            <text
+              x={x + width / 2} y={y + height / 2 + 10}
+              textAnchor="middle" fill="white"
+              fontSize={Math.min(10, width / 6)}
+            >
+              {change > 0 ? '+' : ''}{change.toFixed(2)}%
+            </text>
+          )}
         </>
       )}
     </g>

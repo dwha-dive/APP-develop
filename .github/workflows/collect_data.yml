@@ -2,10 +2,8 @@ name: Collect Market Data
 
 on:
   schedule:
-    # 한국 장마감 후 (15:35 KST = 06:35 UTC)
-    - cron: '35 6 * * 1-5'
-    # 미국 장마감 후 (21:05 KST 다음날 = 21:05 UTC)
-    - cron: '05 21 * * 1-5'
+    # 매일 1회 — 미국 장마감 후 (21:05 UTC = 익일 06:05 KST)
+    - cron: '05 21 * * *'
   workflow_dispatch:
 
 permissions:
@@ -25,8 +23,8 @@ jobs:
       - name: Install dependencies
         run: pip install pykrx yfinance requests beautifulsoup4 lxml pytz
 
-      - name: Detect session and collect
-        run: python data_collector/run_all.py
+      - name: Collect all data
+        run: python data_collector/run_all.py --all
 
       - name: Commit & push data.json
         run: |

@@ -2,16 +2,49 @@ import { useState } from 'react'
 import MarketHeader from '../components/MarketHeader'
 import IndexDropdown, { type MarketIndex } from '../components/IndexDropdown'
 import ViewToggle, { type ViewMode } from '../components/ViewToggle'
-import FinvizHeatmap from '../components/FinvizHeatmap'
 import KoreanHeatmap from '../components/KoreanHeatmap'
 import SectorView from '../components/SectorView'
 import IndustryView from '../components/IndustryView'
-import { getSectors, type MarketData } from '../hooks/useMarketData'
+import { type MarketData, type HeatmapStock, type SectorItem } from '../hooks/useMarketData'
 
 type Period = '1일' | '5일' | '1개월' | '3개월' | '1년'
 
 const US_INDICES: MarketIndex[] = ['sp500', 'nasdaq100', 'dow30']
 const PERIODS: Period[] = ['1일', '5일', '1개월', '3개월', '1년']
+
+const SECTOR_EMOJIS: Record<string, string> = {
+  '기술': '🔧', 'IT': '🔧', 'Technology': '🔧', 'Information Technology': '🔧',
+  '금융': '💰', 'Financial Services': '💰', 'Financials': '💰',
+  '헬스케어': '💊', 'Healthcare': '💊', 'Health Care': '💊',
+  '경기소비재': '🛍️', 'Consumer Cyclical': '🛍️', 'Consumer Discretionary': '🛍️',
+  '필수소비재': '🧴', 'Consumer Staples': '🧴', 'Consumer Defensive': '🧴',
+  '에너지': '🛢️', 'Energy': '🛢️',
+  '산업재': '🏭', 'Industrials': '🏭',
+  '소재': '⚗️', 'Materials': '⚗️', 'Basic Materials': '⚗️',
+  '부동산': '🏢', 'Real Estate': '🏢',
+  '통신서비스': '📡', 'Communication Services': '📡', 'Communication': '📡',
+  '유틸리티': '⚡', 'Utilities': '⚡',
+  '기타': '📦',
+}
+
+function computeSectors(stocks: HeatmapStock[]): SectorItem[] {
+  const map = new Map<string, { totalChange: number; count: number }>()
+  for (const s of stocks) {
+    const sec = s.sector ?? '기타'
+    if (!map.has(sec)) map.set(sec, { totalChange: 0, count: 0 })
+    const entry = map.get(sec)!
+    entry.totalChange += s.change_pct
+    entry.count++
+  }
+  return Array.from(map.entries())
+    .map(([name, { totalChange, count }]) => ({
+      name,
+      emoji: SECTOR_EMOJIS[name],
+      etf: '',
+      change_pct: Math.round(totalChange / count * 100) / 100,
+    }))
+    .sort((a, b) => b.change_pct - a.change_pct)
+}
 
 interface Props { data: MarketData }
 
@@ -21,13 +54,23 @@ export default function MarketTab({ data }: Props) {
   const [view, setView] = useState<ViewMode>('map')
 
   const isUS = US_INDICES.includes(index)
-  const sectors = getSectors(data)
+
+  const currentStocks: HeatmapStock[] =
+    index === 'sp500'      ? (data.heatmap?.sp500     ?? [])
+    : index === 'nasdaq100'  ? (data.heatmap?.nasdaq100 ?? [])
+    : index === 'dow30'      ? (data.heatmap?.dow30     ?? [])
+    : index === 'kospi200'   ? (data.heatmap?.kospi200  ?? data.heatmap?.kospi ?? [])
+    :                          (data.heatmap?.kosdaq150 ?? [])
+
+  const sectors = computeSectors(currentStocks)
   const industries = data.industries ?? []
 
-  const krStocks =
-    index === 'kospi200'
-      ? (data.heatmap?.kospi200 ?? data.heatmap?.kospi ?? [])
-      : (data.heatmap?.kosdaq150 ?? [])
+  const heatmapLabel =
+    index === 'sp500'     ? 'S&P 500'
+    : index === 'nasdaq100' ? 'NASDAQ 100'
+    : index === 'dow30'     ? 'DOW 30'
+    : index === 'kospi200'  ? '코스피 200'
+    : '코스닥 150'
 
   return (
     <div>
@@ -62,12 +105,11 @@ export default function MarketTab({ data }: Props) {
 
       {/* Content */}
       {view === 'map' && (
-        isUS
-          ? <FinvizHeatmap index={index} period={period} />
-          : <KoreanHeatmap
-              stocks={krStocks}
-              label={index === 'kospi200' ? '코스피 200' : '코스닥 150'}
-            />
+        currentStocks.length > 0
+          ? <KoreanHeatmap stocks={currentStocks} label={heatmapLabel} />
+          : <div className="flex items-center justify-center h-40 text-gray-400 text-sm">
+              {isUS ? '미국 히트맵 데이터 로딩 중...' : '한국 히트맵 데이터 로딩 중...'}
+            </div>
       )}
 
       {view === 'sector' && (
