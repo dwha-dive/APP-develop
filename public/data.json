@@ -1,0 +1,161 @@
+{
+  "updated_at": "2026-05-21T16:35:00+09:00",
+  "temperature": {
+    "composite": { "score": 62.32, "status": "온난", "description": "탐욕 우세·시장 온도 상승 구간" },
+    "vix":        { "value": 17.44, "score": 57.07, "status": "평균 수준" },
+    "fear_greed": { "value": 60.90, "score": 64.90, "status": "탐욕" },
+    "forward_pe": { "value": 22.15, "score": 67.67, "status": "상단 범위" }
+  },
+  "kr_market": {
+    "kospi":   { "value": 2718.45, "change": 1.23 },
+    "kosdaq":  { "value": 891.20,  "change": -0.45 },
+    "kospi200":{ "value": 369.10,  "change": 0.87 }
+  },
+  "us_market": {
+    "sp500":    { "value": 5304.72,  "change": 0.84 },
+    "nasdaq":   { "value": 16920.10, "change": -0.31 },
+    "dow":      { "value": 39876.50, "change": 0.52 },
+    "russell":  { "value": 2098.30,  "change": -0.21 }
+  },
+  "macro": {
+    "fed_rate":    { "value": 5.25 },
+    "us_10y":      { "value": 4.62 },
+    "us_2y":       { "value": 4.89 },
+    "spread_10_2": { "value": -0.27 },
+    "dxy":         { "value": 104.32 },
+    "usd_krw":     { "value": 1368.5 },
+    "wti":         { "value": 79.45 },
+    "gold":        { "value": 2340.10 }
+  },
+  "global_index": {
+    "nikkei":   { "value": 38910.50, "change": 1.12 },
+    "shanghai": { "value": 3210.80,  "change": 0.34 },
+    "hangseng": { "value": 18540.20, "change": -0.67 },
+    "dax":      { "value": 18320.40, "change": 0.23 }
+  },
+  "supply_demand": {
+    "date": "20260521",
+    "kospi_foreign":     482000000000,
+    "kospi_institution": -213000000000,
+    "kosdaq_foreign":    -38000000000,
+    "pension":           120000000000,
+    "individual":        -351000000000,
+    "top_buy_foreign": [
+      { "ticker": "005930", "name": "삼성전자",  "net": 184000000000,  "change": 2.3 },
+      { "ticker": "000660", "name": "SK하이닉스","net": 97000000000,   "change": 1.8 },
+      { "ticker": "035420", "name": "NAVER",     "net": 62000000000,   "change": 0.9 },
+      { "ticker": "035720", "name": "카카오",    "net": 48000000000,   "change": -0.5 },
+      { "ticker": "005380", "name": "현대차",    "net": 41000000000,   "change": 1.2 },
+      { "ticker": "068270", "name": "셀트리온",  "net": 38000000000,   "change": 3.1 },
+      { "ticker": "207940", "name": "삼성바이오","net": 35000000000,   "change": 0.7 },
+      { "ticker": "006400", "name": "삼성SDI",   "net": 29000000000,   "change": -1.1 },
+      { "ticker": "051910", "name": "LG화학",    "net": 24000000000,   "change": 0.4 },
+      { "ticker": "096770", "name": "SK이노",    "net": 21000000000,   "change": 1.5 }
+    ],
+    "top_buy_institution": [
+      { "ticker": "005930", "name": "삼성전자",  "net": 95000000000,   "change": 2.3 },
+      { "ticker": "000660", "name": "SK하이닉스","net": 72000000000,   "change": 1.8 },
+      { "ticker": "035420", "name": "NAVER",     "net": 54000000000,   "change": 0.9 },
+      { "ticker": "003550", "name": "LG",        "net": 43000000000,   "change": 0.6 },
+      { "ticker": "015760", "name": "한국전력",  "net": 38000000000,   "change": 2.1 },
+      { "ticker": "055550", "name": "신한지주",  "net": 31000000000,   "change": 0.8 },
+      { "ticker": "105560", "name": "KB금융",    "net": 27000000000,   "change": 1.0 },
+      { "ticker": "086790", "name": "하나금융",  "net": 22000000000,   "change": 0.5 },
+      { "ticker": "018260", "name": "삼성SDS",   "net": 18000000000,   "change": -0.3 },
+      { "ticker": "000270", "name": "기아",      "net": 15000000000,   "change": 1.7 }
+    ],
+    "foreign_daily": [
+      { "date": "20260429", "net": 120000000000 },
+      { "date": "20260430", "net": -85000000000 },
+      { "date": "20260502", "net": 230000000000 },
+      { "date": "20260503", "net": 45000000000 },
+      { "date": "20260507", "net": -120000000000 },
+      { "date": "20260508", "net": 310000000000 },
+      { "date": "20260509", "net": 180000000000 },
+      { "date": "20260512", "net": -95000000000 },
+      { "date": "20260513", "net": 420000000000 },
+      { "date": "20260514", "net": 280000000000 },
+      { "date": "20260515", "net": 150000000000 },
+      { "date": "20260516", "net": -220000000000 },
+      { "date": "20260519", "net": 380000000000 },
+      { "date": "20260520", "net": 210000000000 },
+      { "date": "20260521", "net": 482000000000 }
+    ],
+    "foreign_holdings": [
+      { "ticker": "005930", "name": "삼성전자",  "ratio": 52.4, "change": 0.3 },
+      { "ticker": "000660", "name": "SK하이닉스","ratio": 48.7, "change": 0.1 },
+      { "ticker": "035420", "name": "NAVER",     "ratio": 55.2, "change": -0.2 },
+      { "ticker": "035720", "name": "카카오",    "ratio": 38.1, "change": 0.0 },
+      { "ticker": "005380", "name": "현대차",    "ratio": 44.6, "change": 0.4 }
+    ]
+  },
+  "calendar": [
+    {
+      "date": "2026-05-21",
+      "event": "한국 수출입 물가지수",
+      "importance": "low",
+      "expected": null,
+      "previous": null
+    },
+    {
+      "date": "2026-05-22",
+      "event": "FOMC 의사록",
+      "importance": "high",
+      "expected": null,
+      "previous": null
+    },
+    {
+      "date": "2026-05-23",
+      "event": "미국 PMI (제조업/서비스업)",
+      "importance": "medium",
+      "expected": "52.0",
+      "previous": "51.3"
+    },
+    {
+      "date": "2026-05-28",
+      "event": "미국 GDP (1Q 수정)",
+      "importance": "high",
+      "expected": "1.2%",
+      "previous": "1.6%"
+    },
+    {
+      "date": "2026-05-29",
+      "event": "한국 금통위 금리결정",
+      "importance": "high",
+      "expected": "2.75%",
+      "previous": "3.00%"
+    },
+    {
+      "date": "2026-05-30",
+      "event": "미국 PCE (4월)",
+      "importance": "high",
+      "expected": "2.6%",
+      "previous": "2.7%"
+    },
+    {
+      "date": "2026-06-06",
+      "event": "미국 고용보고서 (NFP)",
+      "importance": "high",
+      "expected": "185K",
+      "previous": "177K"
+    }
+  ],
+  "earnings": [
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA",
+      "date": "2026-05-28",
+      "eps_expected": 0.74,
+      "eps_actual": null,
+      "surprise_pct": null
+    },
+    {
+      "ticker": "005930",
+      "name": "삼성전자",
+      "date": "2026-07-08",
+      "eps_expected": 1850,
+      "eps_actual": null,
+      "surprise_pct": null
+    }
+  ]
+}

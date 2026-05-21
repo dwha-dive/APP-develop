@@ -1,0 +1,34 @@
+name: Collect Market Data
+
+on:
+  schedule:
+    - cron: '35 7 * * 1-5'   # 매주 월-금 16:35 KST (UTC 07:35)
+  workflow_dispatch:            # 수동 실행 가능
+
+permissions:
+  contents: write
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install pykrx yfinance requests
+
+      - name: Collect data
+        run: python data_collector/run_all.py
+
+      - name: Commit & push data.json
+        run: |
+          git config user.email "action@github.com"
+          git config user.name "GitHub Action"
+          git add public/data.json
+          git commit -m "data: $(TZ='Asia/Seoul' date '+%Y-%m-%d %H:%M KST')" || echo "No changes"
+          git push
