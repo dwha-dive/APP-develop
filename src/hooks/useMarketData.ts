@@ -70,8 +70,8 @@ export function useMarketData() {
   const [error, setError] = useState<string | null>(null)
 
   useEffect(() => {
-    fetch('/data.json')
-      .then(r => r.json())
+    fetch(`${import.meta.env.BASE_URL}data.json`)
+      .then(r => { if (!r.ok) throw new Error(r.status.toString()); return r.json() })
       .then(d => { setData(d); setLoading(false) })
       .catch(() => { setError('데이터를 불러올 수 없습니다'); setLoading(false) })
   }, [])
