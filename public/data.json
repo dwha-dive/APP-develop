@@ -140,22 +140,114 @@
       "previous": "177K"
     }
   ],
-  "earnings": [
-    {
-      "ticker": "NVDA",
-      "name": "NVIDIA",
-      "date": "2026-05-28",
-      "eps_expected": 0.74,
-      "eps_actual": null,
-      "surprise_pct": null
-    },
-    {
-      "ticker": "005930",
-      "name": "삼성전자",
-      "date": "2026-07-08",
-      "eps_expected": 1850,
-      "eps_actual": null,
-      "surprise_pct": null
+  "heatmap": {
+    "sp500": [
+      {"ticker":"AAPL",  "price":189.30,"change_pct": 1.24,"market_cap":2940000000000,"pe_ratio":28.4,"forward_pe":26.1,"week52_high":199.62,"week52_low":164.08,"dividend_yield":0.0054},
+      {"ticker":"MSFT",  "price":415.20,"change_pct": 0.87,"market_cap":3080000000000,"pe_ratio":34.2,"forward_pe":30.1},
+      {"ticker":"NVDA",  "price":875.40,"change_pct": 2.31,"market_cap":2160000000000,"pe_ratio":62.1,"forward_pe":38.4},
+      {"ticker":"AMZN",  "price":185.10,"change_pct": 0.54,"market_cap":1940000000000,"pe_ratio":44.8,"forward_pe":35.2},
+      {"ticker":"GOOGL", "price":171.80,"change_pct":-0.31,"market_cap":2120000000000,"pe_ratio":22.4,"forward_pe":19.8},
+      {"ticker":"META",  "price":489.20,"change_pct": 1.65,"market_cap":1250000000000,"pe_ratio":24.1,"forward_pe":20.5},
+      {"ticker":"TSLA",  "price":180.40,"change_pct":-1.82,"market_cap": 574000000000,"pe_ratio":48.2,"forward_pe":62.1},
+      {"ticker":"JPM",   "price":195.60,"change_pct": 0.43,"market_cap": 567000000000,"pe_ratio":11.8,"forward_pe":12.2},
+      {"ticker":"V",     "price":278.40,"change_pct": 0.68,"market_cap": 559000000000,"pe_ratio":30.2,"forward_pe":27.1},
+      {"ticker":"UNH",   "price":512.30,"change_pct":-0.44,"market_cap": 472000000000,"pe_ratio":19.4,"forward_pe":18.2},
+      {"ticker":"AVGO",  "price":156.80,"change_pct": 1.92,"market_cap": 728000000000,"pe_ratio":26.8,"forward_pe":23.4},
+      {"ticker":"XOM",   "price":118.40,"change_pct": 0.21,"market_cap": 471000000000,"pe_ratio":13.8},
+      {"ticker":"LLY",   "price":815.20,"change_pct": 1.14,"market_cap": 774000000000,"pe_ratio":72.4},
+      {"ticker":"MA",    "price":468.90,"change_pct": 0.51,"market_cap": 440000000000,"pe_ratio":35.1},
+      {"ticker":"HD",    "price":342.10,"change_pct":-0.24,"market_cap": 340000000000,"pe_ratio":23.1},
+      {"ticker":"COST",  "price":785.40,"change_pct": 0.78,"market_cap": 347000000000,"pe_ratio":50.2},
+      {"ticker":"NFLX",  "price":628.70,"change_pct": 2.14,"market_cap": 271000000000,"pe_ratio":42.8},
+      {"ticker":"AMD",   "price":162.30,"change_pct": 3.24,"market_cap": 262000000000,"pe_ratio":112.4,"forward_pe":28.1},
+      {"ticker":"ORCL",  "price":124.80,"change_pct": 0.89,"market_cap": 341000000000,"pe_ratio":32.4},
+      {"ticker":"ADBE",  "price":518.40,"change_pct":-0.67,"market_cap": 239000000000,"pe_ratio":44.8}
+    ],
+    "nasdaq100": [
+      {"ticker":"AAPL",  "price":189.30,"change_pct": 1.24,"market_cap":2940000000000},
+      {"ticker":"MSFT",  "price":415.20,"change_pct": 0.87,"market_cap":3080000000000},
+      {"ticker":"NVDA",  "price":875.40,"change_pct": 2.31,"market_cap":2160000000000},
+      {"ticker":"AMZN",  "price":185.10,"change_pct": 0.54,"market_cap":1940000000000},
+      {"ticker":"GOOGL", "price":171.80,"change_pct":-0.31,"market_cap":2120000000000},
+      {"ticker":"META",  "price":489.20,"change_pct": 1.65,"market_cap":1250000000000},
+      {"ticker":"TSLA",  "price":180.40,"change_pct":-1.82,"market_cap": 574000000000},
+      {"ticker":"AVGO",  "price":156.80,"change_pct": 1.92,"market_cap": 728000000000},
+      {"ticker":"NFLX",  "price":628.70,"change_pct": 2.14,"market_cap": 271000000000},
+      {"ticker":"AMD",   "price":162.30,"change_pct": 3.24,"market_cap": 262000000000},
+      {"ticker":"ADBE",  "price":518.40,"change_pct":-0.67,"market_cap": 239000000000},
+      {"ticker":"QCOM",  "price":162.80,"change_pct": 0.42,"market_cap": 181000000000},
+      {"ticker":"INTU",  "price":628.40,"change_pct": 0.91,"market_cap": 174000000000},
+      {"ticker":"CSCO",  "price":48.20, "change_pct":-0.18,"market_cap": 196000000000},
+      {"ticker":"PANW",  "price":314.20,"change_pct": 1.34,"market_cap": 104000000000}
+    ],
+    "kospi": [
+      {"ticker":"005930","name":"삼성전자",         "price":78500, "change_pct": 2.30,"market_cap":468000000000000},
+      {"ticker":"000660","name":"SK하이닉스",        "price":198000,"change_pct": 1.80,"market_cap":143000000000000},
+      {"ticker":"035420","name":"NAVER",             "price":192000,"change_pct": 0.90,"market_cap": 31000000000000},
+      {"ticker":"005380","name":"현대차",            "price":218000,"change_pct": 1.20,"market_cap": 46000000000000},
+      {"ticker":"035720","name":"카카오",            "price":42850, "change_pct":-0.50,"market_cap": 18000000000000},
+      {"ticker":"207940","name":"삼성바이오로직스",  "price":895000,"change_pct": 0.70,"market_cap": 63000000000000},
+      {"ticker":"068270","name":"셀트리온",          "price":185000,"change_pct": 3.10,"market_cap": 24000000000000},
+      {"ticker":"006400","name":"삼성SDI",           "price":312000,"change_pct":-1.10,"market_cap": 21000000000000},
+      {"ticker":"051910","name":"LG화학",            "price":345000,"change_pct": 0.40,"market_cap": 24000000000000},
+      {"ticker":"003550","name":"LG",               "price":89200, "change_pct": 0.60,"market_cap": 15000000000000},
+      {"ticker":"055550","name":"신한지주",          "price":52400, "change_pct": 0.80,"market_cap": 26000000000000},
+      {"ticker":"105560","name":"KB금융",            "price":84200, "change_pct": 1.00,"market_cap": 34000000000000},
+      {"ticker":"000270","name":"기아",             "price":104000,"change_pct": 1.70,"market_cap": 42000000000000},
+      {"ticker":"096770","name":"SK이노베이션",      "price":128500,"change_pct": 1.50,"market_cap": 12000000000000},
+      {"ticker":"018260","name":"삼성SDS",           "price":162000,"change_pct":-0.30,"market_cap": 12000000000000}
+    ]
+  },
+  "sectors": [
+    {"name":"Technology",        "etf":"XLK", "change_pct": 1.42, "stocks":[{"ticker":"AAPL","change_pct":1.24},{"ticker":"MSFT","change_pct":0.87},{"ticker":"NVDA","change_pct":2.31}]},
+    {"name":"Healthcare",        "etf":"XLV", "change_pct":-0.21, "stocks":[{"ticker":"UNH","change_pct":-0.44},{"ticker":"LLY","change_pct":1.14},{"ticker":"ABBV","change_pct":-1.20}]},
+    {"name":"Financials",        "etf":"XLF", "change_pct": 0.53, "stocks":[{"ticker":"JPM","change_pct":0.43},{"ticker":"BAC","change_pct":0.72},{"ticker":"GS","change_pct":0.91}]},
+    {"name":"Consumer Discret.", "etf":"XLY", "change_pct":-0.44, "stocks":[{"ticker":"AMZN","change_pct":0.54},{"ticker":"TSLA","change_pct":-1.82},{"ticker":"MCD","change_pct":0.31}]},
+    {"name":"Communication",     "etf":"XLC", "change_pct": 1.12, "stocks":[{"ticker":"GOOGL","change_pct":-0.31},{"ticker":"META","change_pct":1.65},{"ticker":"NFLX","change_pct":2.14}]},
+    {"name":"Industrials",       "etf":"XLI", "change_pct": 0.28, "stocks":[{"ticker":"HON","change_pct":0.41},{"ticker":"UPS","change_pct":-0.33},{"ticker":"RTX","change_pct":0.85}]},
+    {"name":"Consumer Staples",  "etf":"XLP", "change_pct":-0.12, "stocks":[{"ticker":"PG","change_pct":-0.15},{"ticker":"KO","change_pct":-0.08},{"ticker":"WMT","change_pct":0.22}]},
+    {"name":"Energy",            "etf":"XLE", "change_pct": 0.34, "stocks":[{"ticker":"XOM","change_pct":0.21},{"ticker":"CVX","change_pct":0.48}]},
+    {"name":"Utilities",         "etf":"XLU", "change_pct":-0.31, "stocks":[{"ticker":"NEE","change_pct":-0.41},{"ticker":"DUK","change_pct":-0.18}]},
+    {"name":"Real Estate",       "etf":"XLRE","change_pct":-0.54, "stocks":[{"ticker":"AMT","change_pct":-0.62},{"ticker":"PLD","change_pct":-0.45}]},
+    {"name":"Materials",         "etf":"XLB", "change_pct": 0.18, "stocks":[{"ticker":"LIN","change_pct":0.24},{"ticker":"APD","change_pct":0.11}]}
+  ],
+  "calendar": {
+    "economic": [
+      {"date":"2026-05-21","time":"","event":"한국 수출입 물가지수","importance":"low","expected":null,"previous":null,"actual":null,"country":"KR"},
+      {"date":"2026-05-22","time":"03:00","event":"FOMC 의사록","importance":"high","expected":null,"previous":null,"actual":null,"country":"US"},
+      {"date":"2026-05-23","time":"22:45","event":"미국 PMI (제조업/서비스업)","importance":"medium","expected":"52.0","previous":"51.3","actual":null,"country":"US"},
+      {"date":"2026-05-28","time":"21:30","event":"미국 GDP (1Q 수정)","importance":"high","expected":"1.2%","previous":"1.6%","actual":null,"country":"US"},
+      {"date":"2026-05-29","time":"11:00","event":"한국 금통위 금리결정","importance":"high","expected":"2.75%","previous":"3.00%","actual":null,"country":"KR"},
+      {"date":"2026-05-30","time":"21:30","event":"미국 PCE (4월)","importance":"high","expected":"2.6%","previous":"2.7%","actual":null,"country":"US"},
+      {"date":"2026-06-06","time":"21:30","event":"미국 고용보고서 (NFP)","importance":"high","expected":"185K","previous":"177K","actual":null,"country":"US"}
+    ],
+    "earnings": [
+      {"date":"2026-05-22","ticker":"NVDA","company":"NVIDIA Corp",   "timing":"AMC","eps_estimate":5.78,"eps_actual":null,"surprise_pct":null},
+      {"date":"2026-05-22","ticker":"TGT", "company":"Target Corp",   "timing":"BMO","eps_estimate":1.63,"eps_actual":null,"surprise_pct":null},
+      {"date":"2026-05-23","ticker":"COST","company":"Costco Wholesale","timing":"AMC","eps_estimate":3.71,"eps_actual":null,"surprise_pct":null},
+      {"date":"2026-05-28","ticker":"AMZN","company":"Amazon.com",    "timing":"AMC","eps_estimate":0.98,"eps_actual":null,"surprise_pct":null}
+    ],
+    "fed_watch": {
+      "next_fomc": "2026-06-18",
+      "days_until": 28,
+      "current_rate_low": 5.25,
+      "current_rate_high": 5.50,
+      "probabilities": {
+        "cut_50bp": 0.0,
+        "cut_25bp": 32.4,
+        "hold": 61.8,
+        "hike_25bp": 5.8
+      },
+      "fomc_schedule": [
+        {"date":"2026-01-29","decision":"hold",  "rate":5.375},
+        {"date":"2026-03-19","decision":"cut25", "rate":5.125},
+        {"date":"2026-05-07","decision":"hold",  "rate":5.125},
+        {"date":"2026-06-18","decision":null,    "rate":null},
+        {"date":"2026-07-30","decision":null,    "rate":null},
+        {"date":"2026-09-17","decision":null,    "rate":null},
+        {"date":"2026-11-05","decision":null,    "rate":null},
+        {"date":"2026-12-17","decision":null,    "rate":null}
+      ]
     }
-  ]
+  }
 }

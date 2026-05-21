@@ -17,3 +17,7 @@ body {
   max-width: 430px;
   margin: 0 auto;
 }
+
+/* iOS safe area helpers */
+.pt-safe { padding-top: env(safe-area-inset-top); }
+.pb-safe { padding-bottom: env(safe-area-inset-bottom); }

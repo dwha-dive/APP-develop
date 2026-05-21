@@ -5,48 +5,70 @@ import os
 from datetime import datetime, timezone, timedelta
 
 KST = timezone(timedelta(hours=9))
-
 sys.path.insert(0, os.path.dirname(__file__))
 
-from collect_kr_market  import collect as collect_kr
-from collect_us_market  import collect as collect_us
-from collect_temperature import collect as collect_temp
-from collect_calendar   import collect as collect_cal
+from collect_kr_market    import collect as collect_kr
+from collect_us_market    import collect as collect_us
+from collect_temperature  import collect as collect_temp
+from collect_heatmap      import collect as collect_heatmap
+from collect_sectors      import collect as collect_sectors
+from collect_earnings     import collect as collect_earnings
+from collect_fed_watch    import collect as collect_fed_watch
+from collect_economic_cal import collect as collect_eco_cal
 
 
-def merge(*dicts: dict) -> dict:
-    result = {}
-    for d in dicts:
-        result.update(d)
+def deep_merge(base: dict, override: dict) -> dict:
+    result = dict(base)
+    for k, v in override.items():
+        if k in result and isinstance(result[k], dict) and isinstance(v, dict):
+            result[k] = deep_merge(result[k], v)
+        else:
+            result[k] = v
     return result
 
 
 def main():
     print('▶ 데이터 수집 시작')
 
-    print('  [1/4] 한국 증시 + 수급...')
+    print('  [1/7] 한국 증시 + 수급...')
     kr = collect_kr()
 
-    print('  [2/4] 미국 증시 + 매크로...')
+    print('  [2/7] 미국 증시 + 매크로...')
     us = collect_us()
 
-    print('  [3/4] 시장 온도 지수...')
+    print('  [3/7] 시장 온도 지수...')
     temp = collect_temp()
 
-    print('  [4/4] 경제 일정...')
-    cal = collect_cal()
+    print('  [4/7] 히트맵 종목 데이터...')
+    heatmap = collect_heatmap()
 
-    data = merge(
-        {'updated_at': datetime.now(KST).isoformat(timespec='seconds')},
-        temp,
-        kr,
-        us,
-        cal,
+    print('  [5/7] 섹터 ETF...')
+    sectors = collect_sectors()
+
+    print('  [6/7] 어닝 + 경제지표 캘린더...')
+    earnings = collect_earnings()
+    eco_cal = collect_eco_cal()
+
+    print('  [7/7] Fed Watch...')
+    fed = collect_fed_watch()
+
+    # Build calendar section
+    calendar = {
+        "economic": eco_cal.get("calendar_economic", []),
+        "earnings":  earnings,
+        "fed_watch": fed.get("calendar", {}).get("fed_watch"),
+    }
+
+    data = {
+        "updated_at": datetime.now(KST).isoformat(timespec='seconds'),
+    }
+    for piece in [temp, kr, us, heatmap, sectors]:
+        data = deep_merge(data, piece)
+    data["calendar"] = calendar
+
+    out_path = os.path.abspath(
+        os.path.join(os.path.dirname(__file__), '..', 'public', 'data.json')
     )
-
-    out_path = os.path.join(os.path.dirname(__file__), '..', 'public', 'data.json')
-    out_path = os.path.abspath(out_path)
-
     with open(out_path, 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 

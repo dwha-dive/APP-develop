@@ -1,4 +1,9 @@
 import { useState, useEffect } from 'react'
+import type { HeatmapItem } from '../components/HeatmapView'
+import type { SectorData } from '../components/SectorView'
+import type { EconomicEvent } from '../components/EconomicCalendar'
+import type { EarningsItem } from '../components/EarningsCalendar'
+import type { FedWatchData } from '../components/FedWatchCard'
 
 export interface MarketData {
   updated_at: string
@@ -47,21 +52,17 @@ export interface MarketData {
     foreign_daily: Array<{ date: string; net: number }>
     foreign_holdings: Array<{ ticker: string; name: string; ratio: number; change: number }>
   }
-  calendar: Array<{
-    date: string
-    event: string
-    importance: 'high' | 'medium' | 'low'
-    expected: string | null
-    previous: string | null
-  }>
-  earnings: Array<{
-    ticker: string
-    name: string
-    date: string
-    eps_expected: number
-    eps_actual: number | null
-    surprise_pct: number | null
-  }>
+  heatmap?: {
+    sp500:     HeatmapItem[]
+    nasdaq100: HeatmapItem[]
+    kospi:     HeatmapItem[]
+  }
+  sectors?: SectorData[]
+  calendar?: {
+    economic: EconomicEvent[]
+    earnings: EarningsItem[]
+    fed_watch?: FedWatchData
+  }
 }
 
 export function useMarketData() {
