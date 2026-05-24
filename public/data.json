@@ -1,7 +1,7 @@
 {
   "updated_at": {
-    "kr_session": "2026-05-23T15:46:28+09:00",
-    "us_session": "2026-05-23T15:46:28+09:00"
+    "kr_session": "2026-05-24T09:16:23+09:00",
+    "us_session": "2026-05-24T09:16:23+09:00"
   },
   "market_status": {
     "us": "afterhours",
@@ -21,8 +21,8 @@
       "change_pct": 1.07
     },
     "bitcoin": {
-      "value": 75326.86,
-      "change_pct": -0.21
+      "value": 76609.43,
+      "change_pct": 0.0
     },
     "kospi": {
       "value": 7847.71,
@@ -1590,7 +1590,7 @@
   "economic_calendar": {
     "yesterday": [
       {
-        "event_id": "2026-05-23-placeholder",
+        "event_id": "2026-05-24-placeholder",
         "time_kst": "--:--",
         "country": "US",
         "flag": "🇺🇸",
@@ -1604,7 +1604,7 @@
     ],
     "today": [
       {
-        "event_id": "2026-05-23-placeholder",
+        "event_id": "2026-05-24-placeholder",
         "time_kst": "--:--",
         "country": "US",
         "flag": "🇺🇸",
