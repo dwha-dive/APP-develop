@@ -1,7 +1,7 @@
 {
   "updated_at": {
-    "kr_session": "2026-05-24T09:16:23+09:00",
-    "us_session": "2026-05-24T09:16:23+09:00"
+    "kr_session": "2026-05-25T20:59:30+09:00",
+    "us_session": "2026-05-25T20:59:30+09:00"
   },
   "market_status": {
     "us": "afterhours",
@@ -17,12 +17,12 @@
       "change_pct": 0.19
     },
     "usd_krw": {
-      "value": 1520.53,
-      "change_pct": 1.07
+      "value": 1513.52,
+      "change_pct": 0.61
     },
     "bitcoin": {
-      "value": 76609.43,
-      "change_pct": 0.0
+      "value": 77288.5,
+      "change_pct": 0.4
     },
     "kospi": {
       "value": 7847.71,
@@ -908,271 +908,8 @@
         "market_cap": 201888266927
       }
     ],
-    "kospi200": [
-      {
-        "ticker": "005930",
-        "name": "삼성전자",
-        "sector": "IT",
-        "price": 292500,
-        "change_pct": -2.34,
-        "market_cap": 0,
-        "pe_ratio": null
-      },
-      {
-        "ticker": "000660",
-        "name": "SK하이닉스",
-        "sector": "IT",
-        "price": 1941000,
-        "change_pct": 0.05,
-        "market_cap": 0,
-        "pe_ratio": null
-      },
-      {
-        "ticker": "035420",
-        "name": "NAVER",
-        "sector": "IT",
-        "price": 203000,
-        "change_pct": 1.75,
-        "market_cap": 0,
-        "pe_ratio": null
-      },
-      {
-        "ticker": "005380",
-        "name": "현대차",
-        "sector": "경기소비재",
-        "price": 655000,
-        "change_pct": -1.65,
-        "market_cap": 0,
-        "pe_ratio": null
-      },
-      {
-        "ticker": "207940",
-        "name": "삼성바이오로직스",
-        "sector": "헬스케어",
-        "price": 1415000,
-        "change_pct": 1.43,
-        "market_cap": 0,
-        "pe_ratio": null
-      },
-      {
-        "ticker": "068270",
-        "name": "셀트리온",
-        "sector": "헬스케어",
-        "price": 198700,
-        "change_pct": 4.8,
-        "market_cap": 0,
-        "pe_ratio": null
-      },
-      {
-        "ticker": "006400",
-        "name": "삼성SDI",
-        "sector": "에너지",
-        "price": 647000,
-        "change_pct": 5.03,
-        "market_cap": 0,
-        "pe_ratio": null
-      },
-      {
-        "ticker": "051910",
-        "name": "LG화학",
-        "sector": "소재",
-        "price": 351000,
-        "change_pct": 0.86,
-        "market_cap": 0,
-        "pe_ratio": null
-      },
-      {
-        "ticker": "003550",
-        "name": "LG",
-        "sector": "산업재",
-        "price": 118500,
-        "change_pct": -3.66,
-        "market_cap": 0,
-        "pe_ratio": null
-      },
-      {
-        "ticker": "035720",
-        "name": "카카오",
-        "sector": "IT",
-        "price": 41850,
-        "change_pct": 0.12,
-        "market_cap": 0,
-        "pe_ratio": null
-      },
-      {
-        "ticker": "055550",
-        "name": "신한지주",
-        "sector": "금융",
-        "price": 98200,
-        "change_pct": 3.59,
-        "market_cap": 0,
-        "pe_ratio": null
-      },
-      {
-        "ticker": "105560",
-        "name": "KB금융",
-        "sector": "금융",
-        "price": 160000,
-        "change_pct": 2.7,
-        "market_cap": 0,
-        "pe_ratio": null
-      },
-      {
-        "ticker": "000270",
-        "name": "기아",
-        "sector": "경기소비재",
-        "price": 164800,
-        "change_pct": -1.85,
-        "market_cap": 0,
-        "pe_ratio": null
-      },
-      {
-        "ticker": "096770",
-        "name": "SK이노베이션",
-        "sector": "에너지",
-        "price": 123700,
-        "change_pct": 4.12,
-        "market_cap": 0,
-        "pe_ratio": null
-      },
-      {
-        "ticker": "018260",
-        "name": "삼성에스디에스",
-        "sector": "IT",
-        "price": 194700,
-        "change_pct": 5.07,
-        "market_cap": 0,
-        "pe_ratio": null
-      },
-      {
-        "ticker": "066570",
-        "name": "LG전자",
-        "sector": "기타",
-        "price": 237000,
-        "change_pct": 0.85,
-        "market_cap": 0,
-        "pe_ratio": null
-      },
-      {
-        "ticker": "028260",
-        "name": "삼성물산",
-        "sector": "기타",
-        "price": 420500,
-        "change_pct": 0.48,
-        "market_cap": 0,
-        "pe_ratio": null
-      },
-      {
-        "ticker": "011200",
-        "name": "HMM",
-        "sector": "기타",
-        "price": 20500,
-        "change_pct": 1.23,
-        "market_cap": 0,
-        "pe_ratio": null
-      },
-      {
-        "ticker": "034730",
-        "name": "SK",
-        "sector": "기타",
-        "price": 642000,
-        "change_pct": 11.46,
-        "market_cap": 0,
-        "pe_ratio": null
-      },
-      {
-        "ticker": "032830",
-        "name": "삼성생명",
-        "sector": "기타",
-        "price": 364500,
-        "change_pct": 2.68,
-        "market_cap": 0,
-        "pe_ratio": null
-      }
-    ],
-    "kosdaq150": [
-      {
-        "ticker": "086900",
-        "name": "메디톡스",
-        "sector": "기타",
-        "price": 102400,
-        "change_pct": 5.13,
-        "market_cap": 0,
-        "pe_ratio": null
-      },
-      {
-        "ticker": "263750",
-        "name": "펄어비스",
-        "sector": "기타",
-        "price": 46050,
-        "change_pct": 1.32,
-        "market_cap": 0,
-        "pe_ratio": null
-      },
-      {
-        "ticker": "196170",
-        "name": "알테오젠",
-        "sector": "기타",
-        "price": 364500,
-        "change_pct": 3.7,
-        "market_cap": 0,
-        "pe_ratio": null
-      },
-      {
-        "ticker": "145020",
-        "name": "휴젤",
-        "sector": "기타",
-        "price": 267500,
-        "change_pct": 3.28,
-        "market_cap": 0,
-        "pe_ratio": null
-      },
-      {
-        "ticker": "293490",
-        "name": "카카오게임즈",
-        "sector": "기타",
-        "price": 10640,
-        "change_pct": 6.72,
-        "market_cap": 0,
-        "pe_ratio": null
-      },
-      {
-        "ticker": "357780",
-        "name": "솔브레인",
-        "sector": "기타",
-        "price": 429500,
-        "change_pct": 0.12,
-        "market_cap": 0,
-        "pe_ratio": null
-      },
-      {
-        "ticker": "112040",
-        "name": "위메이드",
-        "sector": "기타",
-        "price": 20550,
-        "change_pct": 4.1,
-        "market_cap": 0,
-        "pe_ratio": null
-      },
-      {
-        "ticker": "041510",
-        "name": "에스엠",
-        "sector": "기타",
-        "price": 88200,
-        "change_pct": 4.01,
-        "market_cap": 0,
-        "pe_ratio": null
-      },
-      {
-        "ticker": "039030",
-        "name": "이오테크닉스",
-        "sector": "기타",
-        "price": 573000,
-        "change_pct": 4.37,
-        "market_cap": 0,
-        "pe_ratio": null
-      }
-    ],
+    "kospi200": [],
+    "kosdaq150": [],
     "kospi": [
       {
         "ticker": "005930",
@@ -1526,13 +1263,6 @@
   "earnings": {
     "prev_week": {
       "range": {
-        "start": "2026-05-11",
-        "end": "2026-05-15"
-      },
-      "items": []
-    },
-    "curr_week": {
-      "range": {
         "start": "2026-05-18",
         "end": "2026-05-22"
       },
@@ -1552,7 +1282,7 @@
         }
       ]
     },
-    "next_week": {
+    "curr_week": {
       "range": {
         "start": "2026-05-25",
         "end": "2026-05-29"
@@ -1585,12 +1315,46 @@
           "surprise_pct": null
         }
       ]
+    },
+    "next_week": {
+      "range": {
+        "start": "2026-06-01",
+        "end": "2026-06-05"
+      },
+      "items": [
+        {
+          "ticker": "PANW",
+          "company": "Palo Alto Networks, Inc.",
+          "date": "2026-06-02",
+          "weekday": "화",
+          "timing": "AMC",
+          "time_str": "미정",
+          "market_cap": 211330367488,
+          "market_cap_tier": "large",
+          "eps_estimate": null,
+          "eps_actual": null,
+          "surprise_pct": null
+        },
+        {
+          "ticker": "AVGO",
+          "company": "Broadcom Inc.",
+          "date": "2026-06-03",
+          "weekday": "수",
+          "timing": "AMC",
+          "time_str": "미정",
+          "market_cap": 1960815624192,
+          "market_cap_tier": "large",
+          "eps_estimate": null,
+          "eps_actual": null,
+          "surprise_pct": null
+        }
+      ]
     }
   },
   "economic_calendar": {
     "yesterday": [
       {
-        "event_id": "2026-05-24-placeholder",
+        "event_id": "2026-05-25-placeholder",
         "time_kst": "--:--",
         "country": "US",
         "flag": "🇺🇸",
@@ -1604,7 +1368,7 @@
     ],
     "today": [
       {
-        "event_id": "2026-05-24-placeholder",
+        "event_id": "2026-05-25-placeholder",
         "time_kst": "--:--",
         "country": "US",
         "flag": "🇺🇸",
