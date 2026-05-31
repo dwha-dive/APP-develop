@@ -1,7 +1,7 @@
 {
   "updated_at": {
-    "kr_session": "2026-05-30T16:33:22+09:00",
-    "us_session": "2026-05-30T16:33:22+09:00"
+    "kr_session": "2026-05-31T17:27:20+09:00",
+    "us_session": "2026-05-31T17:27:20+09:00"
   },
   "market_status": {
     "us": "afterhours",
@@ -21,8 +21,8 @@
       "change_pct": 0.27
     },
     "bitcoin": {
-      "value": 73472.2,
-      "change_pct": 0.14
+      "value": 73853.99,
+      "change_pct": 0.13
     },
     "kospi": {
       "value": 8476.15,
@@ -469,7 +469,7 @@
         "sector": "필수소비재",
         "price": 956.32,
         "change_pct": -3.91,
-        "market_cap": 424141311728
+        "market_cap": 424273800302
       },
       {
         "ticker": "NFLX",
@@ -1557,7 +1557,7 @@
           "weekday": "목",
           "timing": "AMC",
           "time_str": "미정",
-          "market_cap": 424141291520,
+          "market_cap": 424273805312,
           "market_cap_tier": "large",
           "eps_estimate": null,
           "eps_actual": null,
@@ -1603,7 +1603,7 @@
   "economic_calendar": {
     "yesterday": [
       {
-        "event_id": "2026-05-30-placeholder",
+        "event_id": "2026-05-31-placeholder",
         "time_kst": "--:--",
         "country": "US",
         "flag": "🇺🇸",
@@ -1617,7 +1617,7 @@
     ],
     "today": [
       {
-        "event_id": "2026-05-30-placeholder",
+        "event_id": "2026-05-31-placeholder",
         "time_kst": "--:--",
         "country": "US",
         "flag": "🇺🇸",
