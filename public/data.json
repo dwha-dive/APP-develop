@@ -1,7 +1,7 @@
 {
   "updated_at": {
-    "kr_session": "2026-06-02T21:16:58+09:00",
-    "us_session": "2026-06-02T21:16:58+09:00"
+    "kr_session": "2026-06-03T23:18:44+09:00",
+    "us_session": "2026-06-03T23:18:44+09:00"
   },
   "market_status": {
     "us": "afterhours",
@@ -9,20 +9,20 @@
   },
   "header_tickers": {
     "sp500": {
-      "value": 7599.96,
-      "change_pct": 0.26
+      "value": 7583.45,
+      "change_pct": -0.35
     },
     "nasdaq": {
-      "value": 27086.81,
-      "change_pct": 0.42
+      "value": 26991.41,
+      "change_pct": -0.38
     },
     "usd_krw": {
-      "value": 1516.38,
-      "change_pct": 0.63
+      "value": 1527.3,
+      "change_pct": 1.06
     },
     "bitcoin": {
-      "value": 69189.73,
-      "change_pct": -2.99
+      "value": 66645.51,
+      "change_pct": -0.09
     },
     "kospi": {
       "value": 8801.49,
@@ -347,241 +347,241 @@
         "ticker": "AAPL",
         "name": "Apple",
         "sector": "기술",
-        "price": 306.31,
-        "change_pct": -1.84,
-        "market_cap": 4498883980502
+        "price": 315.56,
+        "change_pct": 0.11,
+        "market_cap": 4634962548989
       },
       {
         "ticker": "MSFT",
         "name": "Microsoft",
         "sector": "기술",
-        "price": 460.52,
-        "change_pct": 2.28,
-        "market_cap": 3420942668274
+        "price": 432.92,
+        "change_pct": -1.9,
+        "market_cap": 3215918051802
       },
       {
         "ticker": "NVDA",
         "name": "NVIDIA",
         "sector": "기술",
-        "price": 224.36,
-        "change_pct": 6.26,
-        "market_cap": 5434223574783
+        "price": 216.47,
+        "change_pct": -2.85,
+        "market_cap": 5243119899566
       },
       {
         "ticker": "AMZN",
         "name": "Amazon",
         "sector": "경기소비재",
-        "price": 261.26,
-        "change_pct": -3.47,
-        "market_cap": 2810402516299
+        "price": 253.63,
+        "change_pct": -1.13,
+        "market_cap": 2728433230781
       },
       {
         "ticker": "GOOGL",
         "name": "Alphabet",
         "sector": "통신서비스",
-        "price": 376.37,
-        "change_pct": -1.04,
-        "market_cap": 4559889657083
+        "price": 361.23,
+        "change_pct": -0.17,
+        "market_cap": 4376704200632
       },
       {
         "ticker": "META",
         "name": "Meta",
         "sector": "통신서비스",
-        "price": 600.47,
-        "change_pct": -5.07,
-        "market_cap": 1524246966985
+        "price": 617.31,
+        "change_pct": 3.29,
+        "market_cap": 1566994083594
       },
       {
         "ticker": "TSLA",
         "name": "Tesla",
         "sector": "경기소비재",
-        "price": 415.88,
-        "change_pct": -4.57,
-        "market_cap": 1561930461809
+        "price": 430.09,
+        "change_pct": 1.5,
+        "market_cap": 1615017655403
       },
       {
         "ticker": "JPM",
         "name": "JPMorgan",
         "sector": "금융",
-        "price": 296.58,
-        "change_pct": -0.91,
-        "market_cap": 794689460370
+        "price": 297.16,
+        "change_pct": -1.26,
+        "market_cap": 796042626720
       },
       {
         "ticker": "V",
         "name": "Visa",
         "sector": "금융",
-        "price": 322.77,
-        "change_pct": -1.1,
-        "market_cap": 613825825432
+        "price": 309.52,
+        "change_pct": -2.46,
+        "market_cap": 588627720082
       },
       {
         "ticker": "UNH",
         "name": "UnitedHealth",
         "sector": "헬스케어",
-        "price": 379.86,
-        "change_pct": -0.12,
-        "market_cap": 344967720000
+        "price": 385.39,
+        "change_pct": 1.98,
+        "market_cap": 349989785160
       },
       {
         "ticker": "AVGO",
         "name": "Broadcom",
         "sector": "기술",
-        "price": 459.97,
-        "change_pct": 2.95,
-        "market_cap": 2177805330374
+        "price": 483.54,
+        "change_pct": 0.41,
+        "market_cap": 2289401494148
       },
       {
         "ticker": "XOM",
         "name": "ExxonMobil",
         "sector": "에너지",
-        "price": 149.38,
-        "change_pct": 2.84,
-        "market_cap": 619172227298
+        "price": 152.9,
+        "change_pct": 2.23,
+        "market_cap": 633762395771
       },
       {
         "ticker": "LLY",
         "name": "Eli Lilly",
         "sector": "헬스케어",
-        "price": 1082.2,
-        "change_pct": -2.06,
-        "market_cap": 965042506031
+        "price": 1082.02,
+        "change_pct": 1.68,
+        "market_cap": 964877590475
       },
       {
         "ticker": "MA",
         "name": "Mastercard",
         "sector": "금융",
-        "price": 495.25,
-        "change_pct": 0.26,
-        "market_cap": 437594904188
+        "price": 465.51,
+        "change_pct": -2.55,
+        "market_cap": 411312706736
       },
       {
         "ticker": "HD",
         "name": "Home Depot",
         "sector": "경기소비재",
-        "price": 310.69,
-        "change_pct": -2.03,
-        "market_cap": 309794184364
+        "price": 310.24,
+        "change_pct": -0.41,
+        "market_cap": 309300616476
       },
       {
         "ticker": "COST",
         "name": "Costco",
         "sector": "필수소비재",
-        "price": 946.11,
-        "change_pct": -1.07,
-        "market_cap": 419744098120
+        "price": 964.2,
+        "change_pct": 1.04,
+        "market_cap": 427633984478
       },
       {
         "ticker": "NFLX",
         "name": "Netflix",
         "sector": "통신서비스",
-        "price": 85.85,
-        "change_pct": -0.2,
-        "market_cap": 361497047203
+        "price": 81.91,
+        "change_pct": -1.7,
+        "market_cap": 344923356790
       },
       {
         "ticker": "AMD",
         "name": "AMD",
         "sector": "기술",
-        "price": 510.13,
-        "change_pct": -1.16,
-        "market_cap": 831818311934
+        "price": 539.01,
+        "change_pct": 3.35,
+        "market_cap": 878910066351
       },
       {
         "ticker": "ORCL",
         "name": "Oracle",
         "sector": "기술",
-        "price": 248.15,
-        "change_pct": 9.91,
-        "market_cap": 713690797346
+        "price": 234.12,
+        "change_pct": -4.28,
+        "market_cap": 673339875476
       },
       {
         "ticker": "ADBE",
         "name": "Adobe",
         "sector": "기술",
-        "price": 274.03,
-        "change_pct": 5.72,
-        "market_cap": 110762925506
+        "price": 254.84,
+        "change_pct": -2.77,
+        "market_cap": 103006326519
       },
       {
         "ticker": "CRM",
         "name": "Salesforce",
         "sector": "기술",
-        "price": 209.6,
-        "change_pct": 9.68,
-        "market_cap": 171662404998
+        "price": 193.91,
+        "change_pct": -3.45,
+        "market_cap": 158812292999
       },
       {
         "ticker": "ACN",
         "name": "Accenture",
         "sector": "기술",
-        "price": 196.59,
-        "change_pct": 5.09,
-        "market_cap": 120988395654
+        "price": 178.04,
+        "change_pct": -4.39,
+        "market_cap": 109572071576
       },
       {
         "ticker": "MCD",
         "name": "McDonald's",
         "sector": "경기소비재",
-        "price": 276.11,
-        "change_pct": -1.11,
-        "market_cap": 196177762320
+        "price": 275.0,
+        "change_pct": -0.49,
+        "market_cap": 195389111225
       },
       {
         "ticker": "NKE",
         "name": "Nike",
         "sector": "경기소비재",
-        "price": 45.93,
-        "change_pct": 0.24,
-        "market_cap": 68017141877
+        "price": 43.39,
+        "change_pct": -0.78,
+        "market_cap": 64255687458
       },
       {
         "ticker": "TMO",
         "name": "Thermo Fisher",
         "sector": "헬스케어",
-        "price": 494.04,
-        "change_pct": 0.31,
-        "market_cap": 183595871744
+        "price": 473.72,
+        "change_pct": -1.73,
+        "market_cap": 176044520853
       },
       {
         "ticker": "ABT",
         "name": "Abbott",
         "sector": "헬스케어",
-        "price": 87.78,
-        "change_pct": 2.55,
-        "market_cap": 152896356531
+        "price": 87.61,
+        "change_pct": 0.74,
+        "market_cap": 152600251485
       },
       {
         "ticker": "DHR",
         "name": "Danaher",
         "sector": "헬스케어",
-        "price": 179.87,
-        "change_pct": -1.53,
-        "market_cap": 127306699222
+        "price": 175.32,
+        "change_pct": -0.45,
+        "market_cap": 124086351509
       },
       {
         "ticker": "NEE",
         "name": "NextEra",
         "sector": "유틸리티",
-        "price": 83.66,
-        "change_pct": -3.85,
-        "market_cap": 174481751887
+        "price": 85.79,
+        "change_pct": 0.13,
+        "market_cap": 178924085572
       },
       {
         "ticker": "AMAT",
         "name": "Applied Materials",
         "sector": "기술",
-        "price": 458.17,
-        "change_pct": 1.8,
-        "market_cap": 363768402704
+        "price": 497.71,
+        "change_pct": 1.56,
+        "market_cap": 395161541120
       },
       {
         "ticker": "PANW",
         "name": "Palo Alto",
         "sector": "기술",
-        "price": 300.48,
-        "change_pct": 6.67,
-        "market_cap": 243689288909
+        "price": 278.76,
+        "change_pct": -6.2,
+        "market_cap": 226074367919
       }
     ],
     "nasdaq100": [
@@ -589,161 +589,161 @@
         "ticker": "AAPL",
         "name": "Apple",
         "sector": "기술",
-        "price": 306.31,
-        "change_pct": -1.84,
-        "market_cap": 4498883980502
+        "price": 315.66,
+        "change_pct": 0.15,
+        "market_cap": 4636210848746
       },
       {
         "ticker": "MSFT",
         "name": "Microsoft",
         "sector": "기술",
-        "price": 460.52,
-        "change_pct": 2.28,
-        "market_cap": 3420942668274
+        "price": 432.32,
+        "change_pct": -2.04,
+        "market_cap": 3211423767195
       },
       {
         "ticker": "NVDA",
         "name": "NVIDIA",
         "sector": "기술",
-        "price": 224.36,
-        "change_pct": 6.26,
-        "market_cap": 5434223574783
+        "price": 216.35,
+        "change_pct": -2.9,
+        "market_cap": 5240940098266
       },
       {
         "ticker": "AMZN",
         "name": "Amazon",
         "sector": "경기소비재",
-        "price": 261.26,
-        "change_pct": -3.47,
-        "market_cap": 2810402516299
+        "price": 253.42,
+        "change_pct": -1.21,
+        "market_cap": 2726174165578
       },
       {
         "ticker": "GOOGL",
         "name": "Alphabet",
         "sector": "통신서비스",
-        "price": 376.37,
-        "change_pct": -1.04,
-        "market_cap": 4559889657083
+        "price": 361.23,
+        "change_pct": -0.17,
+        "market_cap": 4376431706664
       },
       {
         "ticker": "META",
         "name": "Meta",
         "sector": "통신서비스",
-        "price": 600.47,
-        "change_pct": -5.07,
-        "market_cap": 1524246966985
+        "price": 615.27,
+        "change_pct": 2.95,
+        "market_cap": 1561803051319
       },
       {
         "ticker": "TSLA",
         "name": "Tesla",
         "sector": "경기소비재",
-        "price": 415.88,
-        "change_pct": -4.57,
-        "market_cap": 1561930461809
+        "price": 429.44,
+        "change_pct": 1.35,
+        "market_cap": 1613778202341
       },
       {
         "ticker": "AVGO",
         "name": "Broadcom",
         "sector": "기술",
-        "price": 459.97,
-        "change_pct": 2.95,
-        "market_cap": 2177805330374
+        "price": 482.89,
+        "change_pct": 0.27,
+        "market_cap": 2286323988727
       },
       {
         "ticker": "NFLX",
         "name": "Netflix",
         "sector": "통신서비스",
-        "price": 85.85,
-        "change_pct": -0.2,
-        "market_cap": 361497047203
+        "price": 81.95,
+        "change_pct": -1.66,
+        "market_cap": 345053884091
       },
       {
         "ticker": "AMD",
         "name": "AMD",
         "sector": "기술",
-        "price": 510.13,
-        "change_pct": -1.16,
-        "market_cap": 831818311934
+        "price": 537.9,
+        "change_pct": 3.14,
+        "market_cap": 877100123527
       },
       {
         "ticker": "ADBE",
         "name": "Adobe",
         "sector": "기술",
-        "price": 274.03,
-        "change_pct": 5.72,
-        "market_cap": 110762925506
+        "price": 254.95,
+        "change_pct": -2.73,
+        "market_cap": 103050788766
       },
       {
         "ticker": "QCOM",
         "name": "Qualcomm",
         "sector": "기술",
-        "price": 228.99,
-        "change_pct": -8.78,
-        "market_cap": 241355465789
+        "price": 252.48,
+        "change_pct": 4.83,
+        "market_cap": 266113915496
       },
       {
         "ticker": "INTU",
         "name": "Intuit",
         "sector": "기술",
-        "price": 353.76,
-        "change_pct": 6.71,
-        "market_cap": 96766451791
+        "price": 313.38,
+        "change_pct": -2.72,
+        "market_cap": 85700507781
       },
       {
         "ticker": "CSCO",
         "name": "Cisco",
         "sector": "기술",
-        "price": 121.33,
-        "change_pct": 0.76,
-        "market_cap": 478214275121
+        "price": 126.61,
+        "change_pct": -1.08,
+        "market_cap": 499044741689
       },
       {
         "ticker": "PANW",
         "name": "Palo Alto",
         "sector": "기술",
-        "price": 300.48,
-        "change_pct": 6.67,
-        "market_cap": 243689288909
+        "price": 278.76,
+        "change_pct": -6.2,
+        "market_cap": 226074367919
       },
       {
         "ticker": "REGN",
         "name": "Regeneron",
         "sector": "헬스케어",
-        "price": 600.66,
-        "change_pct": -2.3,
-        "market_cap": 62972610145
+        "price": 612.36,
+        "change_pct": 1.57,
+        "market_cap": 64199228099
       },
       {
         "ticker": "GILD",
         "name": "Gilead",
         "sector": "헬스케어",
-        "price": 131.1,
-        "change_pct": -2.48,
-        "market_cap": 162769818059
+        "price": 128.24,
+        "change_pct": 0.53,
+        "market_cap": 159222015472
       },
       {
         "ticker": "VRTX",
         "name": "Vertex",
         "sector": "헬스케어",
-        "price": 438.4,
-        "change_pct": -2.04,
-        "market_cap": 111268293263
+        "price": 422.32,
+        "change_pct": -0.65,
+        "market_cap": 107187105566
       },
       {
         "ticker": "ISRG",
         "name": "Intuitive Surgical",
         "sector": "헬스케어",
-        "price": 412.26,
-        "change_pct": -2.92,
-        "market_cap": 146007176701
+        "price": 401.08,
+        "change_pct": -0.3,
+        "market_cap": 142047627913
       },
       {
         "ticker": "MDLZ",
         "name": "Mondelez",
         "sector": "필수소비재",
-        "price": 61.05,
-        "change_pct": -0.2,
-        "market_cap": 78366817234
+        "price": 61.7,
+        "change_pct": 1.03,
+        "market_cap": 79201191541
       }
     ],
     "dow30": [
@@ -751,428 +751,165 @@
         "ticker": "AAPL",
         "name": "Apple",
         "sector": "기술",
-        "price": 306.31,
-        "change_pct": -1.84,
-        "market_cap": 4498883980502
+        "price": 315.66,
+        "change_pct": 0.15,
+        "market_cap": 4636210848746
       },
       {
         "ticker": "MSFT",
         "name": "Microsoft",
         "sector": "기술",
-        "price": 460.52,
-        "change_pct": 2.28,
-        "market_cap": 3420942668274
+        "price": 432.32,
+        "change_pct": -2.04,
+        "market_cap": 3211423767195
       },
       {
         "ticker": "JPM",
         "name": "JPMorgan",
         "sector": "금융",
-        "price": 296.58,
-        "change_pct": -0.91,
-        "market_cap": 794689460370
+        "price": 296.79,
+        "change_pct": -1.39,
+        "market_cap": 795238806003
       },
       {
         "ticker": "V",
         "name": "Visa",
         "sector": "금융",
-        "price": 322.77,
-        "change_pct": -1.1,
-        "market_cap": 613825825432
+        "price": 309.39,
+        "change_pct": -2.5,
+        "market_cap": 588379555517
       },
       {
         "ticker": "HD",
         "name": "Home Depot",
         "sector": "경기소비재",
-        "price": 310.69,
-        "change_pct": -2.03,
-        "market_cap": 309794184364
+        "price": 310.43,
+        "change_pct": -0.35,
+        "market_cap": 309435206536
       },
       {
         "ticker": "GS",
         "name": "Goldman Sachs",
         "sector": "금융",
-        "price": 1048.58,
-        "change_pct": 2.7,
-        "market_cap": 309338868547
+        "price": 1032.91,
+        "change_pct": -2.97,
+        "market_cap": 304716125308
       },
       {
         "ticker": "CAT",
         "name": "Caterpillar",
         "sector": "산업재",
-        "price": 865.36,
-        "change_pct": -1.2,
-        "market_cap": 398577871661
+        "price": 927.38,
+        "change_pct": 1.93,
+        "market_cap": 427143795443
       },
       {
         "ticker": "BA",
         "name": "Boeing",
         "sector": "산업재",
-        "price": 224.3,
-        "change_pct": -2.96,
-        "market_cap": 176816215249
+        "price": 214.81,
+        "change_pct": -1.33,
+        "market_cap": 169335221797
       },
       {
         "ticker": "MCD",
         "name": "McDonald's",
         "sector": "경기소비재",
-        "price": 276.11,
-        "change_pct": -1.11,
-        "market_cap": 196177762320
+        "price": 275.16,
+        "change_pct": -0.43,
+        "market_cap": 195502794764
       },
       {
         "ticker": "WMT",
         "name": "Walmart",
         "sector": "필수소비재",
-        "price": 114.6,
-        "change_pct": -0.99,
-        "market_cap": 911995859019
+        "price": 115.76,
+        "change_pct": 2.39,
+        "market_cap": 921227259983
       },
       {
         "ticker": "UNH",
         "name": "UnitedHealth",
         "sector": "헬스케어",
-        "price": 379.86,
-        "change_pct": -0.12,
-        "market_cap": 344967720000
+        "price": 385.09,
+        "change_pct": 1.9,
+        "market_cap": 349717325210
       },
       {
         "ticker": "JNJ",
         "name": "J&J",
         "sector": "헬스케어",
-        "price": 223.51,
-        "change_pct": -0.81,
-        "market_cap": 538037051964
+        "price": 223.48,
+        "change_pct": 0.26,
+        "market_cap": 537964838394
       },
       {
         "ticker": "PG",
         "name": "P&G",
         "sector": "필수소비재",
-        "price": 140.28,
-        "change_pct": -2.28,
-        "market_cap": 326655861791
+        "price": 141.57,
+        "change_pct": 0.53,
+        "market_cap": 329671393204
       },
       {
         "ticker": "CVX",
         "name": "Chevron",
         "sector": "에너지",
-        "price": 185.83,
-        "change_pct": 1.85,
-        "market_cap": 370098610184
+        "price": 190.39,
+        "change_pct": 1.51,
+        "market_cap": 379180290979
       },
       {
         "ticker": "AMGN",
         "name": "Amgen",
         "sector": "헬스케어",
-        "price": 329.13,
-        "change_pct": -2.27,
-        "market_cap": 177634186856
+        "price": 330.42,
+        "change_pct": 0.66,
+        "market_cap": 178327713965
       },
       {
         "ticker": "MMM",
         "name": "3M",
         "sector": "산업재",
-        "price": 150.93,
-        "change_pct": -1.44,
-        "market_cap": 78720142882
+        "price": 152.89,
+        "change_pct": -0.01,
+        "market_cap": 79742418215
       },
       {
         "ticker": "DIS",
         "name": "Disney",
         "sector": "경기소비재",
-        "price": 102.85,
-        "change_pct": 1.0,
-        "market_cap": 178600197308
+        "price": 100.92,
+        "change_pct": -0.48,
+        "market_cap": 175248729730
       },
       {
         "ticker": "IBM",
         "name": "IBM",
         "sector": "기술",
-        "price": 320.42,
-        "change_pct": 7.6,
-        "market_cap": 301158054038
+        "price": 310.04,
+        "change_pct": -5.83,
+        "market_cap": 291402040242
       },
       {
         "ticker": "HON",
         "name": "Honeywell",
         "sector": "산업재",
-        "price": 236.54,
-        "change_pct": -0.55,
-        "market_cap": 149884304513
+        "price": 234.89,
+        "change_pct": -0.14,
+        "market_cap": 148838780735
       },
       {
         "ticker": "VZ",
         "name": "Verizon",
         "sector": "통신서비스",
-        "price": 47.73,
-        "change_pct": -0.17,
-        "market_cap": 199299424862
+        "price": 46.99,
+        "change_pct": -1.83,
+        "market_cap": 196230386515
       }
     ],
-    "kospi200": [
-      {
-        "ticker": "005930",
-        "name": "삼성전자",
-        "sector": "IT",
-        "price": 360500,
-        "change_pct": 3.3,
-        "market_cap": 0,
-        "pe_ratio": null
-      },
-      {
-        "ticker": "000660",
-        "name": "SK하이닉스",
-        "sector": "IT",
-        "price": 2360000,
-        "change_pct": -0.13,
-        "market_cap": 0,
-        "pe_ratio": null
-      },
-      {
-        "ticker": "035420",
-        "name": "NAVER",
-        "sector": "IT",
-        "price": 280500,
-        "change_pct": 3.31,
-        "market_cap": 0,
-        "pe_ratio": null
-      },
-      {
-        "ticker": "005380",
-        "name": "현대차",
-        "sector": "경기소비재",
-        "price": 729000,
-        "change_pct": -2.8,
-        "market_cap": 0,
-        "pe_ratio": null
-      },
-      {
-        "ticker": "207940",
-        "name": "삼성바이오로직스",
-        "sector": "헬스케어",
-        "price": 1367000,
-        "change_pct": -0.73,
-        "market_cap": 0,
-        "pe_ratio": null
-      },
-      {
-        "ticker": "068270",
-        "name": "셀트리온",
-        "sector": "헬스케어",
-        "price": 187900,
-        "change_pct": -1.98,
-        "market_cap": 0,
-        "pe_ratio": null
-      },
-      {
-        "ticker": "006400",
-        "name": "삼성SDI",
-        "sector": "에너지",
-        "price": 602000,
-        "change_pct": -7.67,
-        "market_cap": 0,
-        "pe_ratio": null
-      },
-      {
-        "ticker": "051910",
-        "name": "LG화학",
-        "sector": "소재",
-        "price": 355000,
-        "change_pct": -2.34,
-        "market_cap": 0,
-        "pe_ratio": null
-      },
-      {
-        "ticker": "003550",
-        "name": "LG",
-        "sector": "산업재",
-        "price": 140000,
-        "change_pct": -15.56,
-        "market_cap": 0,
-        "pe_ratio": null
-      },
-      {
-        "ticker": "035720",
-        "name": "카카오",
-        "sector": "IT",
-        "price": 42550,
-        "change_pct": -0.35,
-        "market_cap": 0,
-        "pe_ratio": null
-      },
-      {
-        "ticker": "055550",
-        "name": "신한지주",
-        "sector": "금융",
-        "price": 96400,
-        "change_pct": 4.1,
-        "market_cap": 0,
-        "pe_ratio": null
-      },
-      {
-        "ticker": "105560",
-        "name": "KB금융",
-        "sector": "금융",
-        "price": 156600,
-        "change_pct": 2.96,
-        "market_cap": 0,
-        "pe_ratio": null
-      },
-      {
-        "ticker": "000270",
-        "name": "기아",
-        "sector": "경기소비재",
-        "price": 168800,
-        "change_pct": -0.65,
-        "market_cap": 0,
-        "pe_ratio": null
-      },
-      {
-        "ticker": "096770",
-        "name": "SK이노베이션",
-        "sector": "에너지",
-        "price": 116300,
-        "change_pct": 0.09,
-        "market_cap": 0,
-        "pe_ratio": null
-      },
-      {
-        "ticker": "018260",
-        "name": "삼성에스디에스",
-        "sector": "IT",
-        "price": 300500,
-        "change_pct": -16.99,
-        "market_cap": 0,
-        "pe_ratio": null
-      },
-      {
-        "ticker": "066570",
-        "name": "LG전자",
-        "sector": "기타",
-        "price": 392500,
-        "change_pct": 3.15,
-        "market_cap": 0,
-        "pe_ratio": null
-      },
-      {
-        "ticker": "028260",
-        "name": "삼성물산",
-        "sector": "기타",
-        "price": 485500,
-        "change_pct": 6.7,
-        "market_cap": 0,
-        "pe_ratio": null
-      },
-      {
-        "ticker": "011200",
-        "name": "HMM",
-        "sector": "기타",
-        "price": 19510,
-        "change_pct": -1.32,
-        "market_cap": 0,
-        "pe_ratio": null
-      },
-      {
-        "ticker": "034730",
-        "name": "SK",
-        "sector": "기타",
-        "price": 668000,
-        "change_pct": 1.67,
-        "market_cap": 0,
-        "pe_ratio": null
-      },
-      {
-        "ticker": "032830",
-        "name": "삼성생명",
-        "sector": "기타",
-        "price": 480000,
-        "change_pct": 17.07,
-        "market_cap": 0,
-        "pe_ratio": null
-      }
-    ],
-    "kosdaq150": [
-      {
-        "ticker": "086900",
-        "name": "메디톡스",
-        "sector": "기타",
-        "price": 86900,
-        "change_pct": -8.43,
-        "market_cap": 0,
-        "pe_ratio": null
-      },
-      {
-        "ticker": "263750",
-        "name": "펄어비스",
-        "sector": "기타",
-        "price": 42900,
-        "change_pct": -1.61,
-        "market_cap": 0,
-        "pe_ratio": null
-      },
-      {
-        "ticker": "196170",
-        "name": "알테오젠",
-        "sector": "기타",
-        "price": 357000,
-        "change_pct": -2.46,
-        "market_cap": 0,
-        "pe_ratio": null
-      },
-      {
-        "ticker": "145020",
-        "name": "휴젤",
-        "sector": "기타",
-        "price": 243000,
-        "change_pct": -2.21,
-        "market_cap": 0,
-        "pe_ratio": null
-      },
-      {
-        "ticker": "293490",
-        "name": "카카오게임즈",
-        "sector": "기타",
-        "price": 9710,
-        "change_pct": 3.19,
-        "market_cap": 0,
-        "pe_ratio": null
-      },
-      {
-        "ticker": "357780",
-        "name": "솔브레인",
-        "sector": "기타",
-        "price": 362000,
-        "change_pct": -5.97,
-        "market_cap": 0,
-        "pe_ratio": null
-      },
-      {
-        "ticker": "112040",
-        "name": "위메이드",
-        "sector": "기타",
-        "price": 19520,
-        "change_pct": 1.3,
-        "market_cap": 0,
-        "pe_ratio": null
-      },
-      {
-        "ticker": "041510",
-        "name": "에스엠",
-        "sector": "기타",
-        "price": 78300,
-        "change_pct": -1.76,
-        "market_cap": 0,
-        "pe_ratio": null
-      },
-      {
-        "ticker": "039030",
-        "name": "이오테크닉스",
-        "sector": "기타",
-        "price": 432000,
-        "change_pct": -4.0,
-        "market_cap": 0,
-        "pe_ratio": null
-      }
-    ],
+    "kospi200": [],
+    "kosdaq150": [],
     "kospi": [
       {
         "ticker": "005930",
@@ -1216,23 +953,23 @@
       "name": "경기소비재",
       "emoji": "🛍️",
       "etf": "XLY",
-      "change_pct": -2.22,
+      "change_pct": -0.26,
       "stocks": [
         {
           "ticker": "AMZN",
-          "change_pct": -3.47
+          "change_pct": -1.25
         },
         {
           "ticker": "TSLA",
-          "change_pct": -4.57
+          "change_pct": 1.47
         },
         {
           "ticker": "MCD",
-          "change_pct": -1.11
+          "change_pct": -0.43
         },
         {
           "ticker": "NKE",
-          "change_pct": 0.24
+          "change_pct": -0.78
         }
       ]
     },
@@ -1240,19 +977,19 @@
       "name": "유틸리티",
       "emoji": "⚡",
       "etf": "XLU",
-      "change_pct": -2.97,
+      "change_pct": 0.68,
       "stocks": [
         {
           "ticker": "NEE",
-          "change_pct": -3.85
+          "change_pct": 0.08
         },
         {
           "ticker": "DUK",
-          "change_pct": -2.31
+          "change_pct": 1.16
         },
         {
           "ticker": "SO",
-          "change_pct": -3.28
+          "change_pct": 1.31
         }
       ]
     },
@@ -1260,23 +997,23 @@
       "name": "산업재",
       "emoji": "🏭",
       "etf": "XLI",
-      "change_pct": -0.42,
+      "change_pct": 0.27,
       "stocks": [
         {
           "ticker": "HON",
-          "change_pct": -0.55
+          "change_pct": -0.14
         },
         {
           "ticker": "UPS",
-          "change_pct": 2.18
+          "change_pct": 0.73
         },
         {
           "ticker": "RTX",
-          "change_pct": -2.92
+          "change_pct": 0.04
         },
         {
           "ticker": "CAT",
-          "change_pct": -1.2
+          "change_pct": 1.87
         }
       ]
     },
@@ -1284,23 +1021,23 @@
       "name": "통신서비스",
       "emoji": "📡",
       "etf": "XLC",
-      "change_pct": -0.07,
+      "change_pct": -0.48,
       "stocks": [
         {
           "ticker": "GOOGL",
-          "change_pct": -1.04
+          "change_pct": -0.12
         },
         {
           "ticker": "META",
-          "change_pct": -5.07
+          "change_pct": 3.11
         },
         {
           "ticker": "NFLX",
-          "change_pct": -0.2
+          "change_pct": -1.64
         },
         {
           "ticker": "VZ",
-          "change_pct": -0.17
+          "change_pct": -1.83
         }
       ]
     },
@@ -1308,23 +1045,23 @@
       "name": "헬스케어",
       "emoji": "💊",
       "etf": "XLV",
-      "change_pct": -1.09,
+      "change_pct": 0.64,
       "stocks": [
         {
           "ticker": "UNH",
-          "change_pct": -0.12
+          "change_pct": 1.9
         },
         {
           "ticker": "LLY",
-          "change_pct": -2.06
+          "change_pct": 1.58
         },
         {
           "ticker": "ABBV",
-          "change_pct": -2.2
+          "change_pct": 1.25
         },
         {
           "ticker": "TMO",
-          "change_pct": 0.31
+          "change_pct": -1.75
         }
       ]
     },
@@ -1332,23 +1069,23 @@
       "name": "금융",
       "emoji": "💰",
       "etf": "XLF",
-      "change_pct": -0.29,
+      "change_pct": -1.76,
       "stocks": [
         {
           "ticker": "JPM",
-          "change_pct": -0.91
+          "change_pct": -1.42
         },
         {
           "ticker": "BAC",
-          "change_pct": -0.17
+          "change_pct": -2.16
         },
         {
           "ticker": "GS",
-          "change_pct": 2.7
+          "change_pct": -2.92
         },
         {
           "ticker": "V",
-          "change_pct": -1.1
+          "change_pct": -2.49
         }
       ]
     },
@@ -1356,23 +1093,23 @@
       "name": "기술",
       "emoji": "🔧",
       "etf": "XLK",
-      "change_pct": 2.48,
+      "change_pct": -0.76,
       "stocks": [
         {
           "ticker": "AAPL",
-          "change_pct": -1.84
+          "change_pct": 0.15
         },
         {
           "ticker": "MSFT",
-          "change_pct": 2.28
+          "change_pct": -1.98
         },
         {
           "ticker": "NVDA",
-          "change_pct": 6.26
+          "change_pct": -2.91
         },
         {
           "ticker": "AVGO",
-          "change_pct": 2.95
+          "change_pct": 0.34
         }
       ]
     },
@@ -1380,23 +1117,23 @@
       "name": "필수소비재",
       "emoji": "🧴",
       "etf": "XLP",
-      "change_pct": -1.06,
+      "change_pct": 0.65,
       "stocks": [
         {
           "ticker": "PG",
-          "change_pct": -2.28
+          "change_pct": 0.54
         },
         {
           "ticker": "KO",
-          "change_pct": -0.47
+          "change_pct": 0.33
         },
         {
           "ticker": "WMT",
-          "change_pct": -0.99
+          "change_pct": 2.44
         },
         {
           "ticker": "COST",
-          "change_pct": -1.07
+          "change_pct": 1.1
         }
       ]
     },
@@ -1404,19 +1141,19 @@
       "name": "에너지",
       "emoji": "🛢️",
       "etf": "XLE",
-      "change_pct": 1.79,
+      "change_pct": 1.4,
       "stocks": [
         {
           "ticker": "XOM",
-          "change_pct": 2.84
+          "change_pct": 2.45
         },
         {
           "ticker": "CVX",
-          "change_pct": 1.85
+          "change_pct": 1.53
         },
         {
           "ticker": "COP",
-          "change_pct": 1.4
+          "change_pct": 1.28
         }
       ]
     },
@@ -1424,19 +1161,19 @@
       "name": "소재",
       "emoji": "⚗️",
       "etf": "XLB",
-      "change_pct": -0.45,
+      "change_pct": 0.37,
       "stocks": [
         {
           "ticker": "LIN",
-          "change_pct": -0.06
+          "change_pct": 2.5
         },
         {
           "ticker": "APD",
-          "change_pct": 0.1
+          "change_pct": 1.26
         },
         {
           "ticker": "ECL",
-          "change_pct": -2.16
+          "change_pct": 0.83
         }
       ]
     },
@@ -1444,19 +1181,19 @@
       "name": "부동산",
       "emoji": "🏢",
       "etf": "XLRE",
-      "change_pct": -1.64,
+      "change_pct": 0.69,
       "stocks": [
         {
           "ticker": "AMT",
-          "change_pct": 0.3
+          "change_pct": 0.85
         },
         {
           "ticker": "PLD",
-          "change_pct": -3.1
+          "change_pct": 0.77
         },
         {
           "ticker": "EQIX",
-          "change_pct": -1.62
+          "change_pct": 2.37
         }
       ]
     }
@@ -1531,26 +1268,13 @@
       },
       "items": [
         {
-          "ticker": "CRM",
-          "company": "Salesforce, Inc.",
-          "date": "2026-05-27",
-          "weekday": "수",
-          "timing": "AMC",
-          "time_str": "미정",
-          "market_cap": 171662409728,
-          "market_cap_tier": "large",
-          "eps_estimate": null,
-          "eps_actual": null,
-          "surprise_pct": null
-        },
-        {
           "ticker": "COST",
           "company": "Costco Wholesale Corporation",
           "date": "2026-05-28",
           "weekday": "목",
           "timing": "AMC",
           "time_str": "미정",
-          "market_cap": 419744088064,
+          "market_cap": 427889033216,
           "market_cap_tier": "large",
           "eps_estimate": null,
           "eps_actual": null,
@@ -1565,26 +1289,13 @@
       },
       "items": [
         {
-          "ticker": "PANW",
-          "company": "Palo Alto Networks, Inc.",
-          "date": "2026-06-02",
-          "weekday": "화",
-          "timing": "AMC",
-          "time_str": "미정",
-          "market_cap": 243689291776,
-          "market_cap_tier": "large",
-          "eps_estimate": null,
-          "eps_actual": null,
-          "surprise_pct": null
-        },
-        {
           "ticker": "AVGO",
           "company": "Broadcom Inc.",
           "date": "2026-06-03",
           "weekday": "수",
           "timing": "AMC",
           "time_str": "미정",
-          "market_cap": 2177805320192,
+          "market_cap": 2287649685504,
           "market_cap_tier": "large",
           "eps_estimate": null,
           "eps_actual": null,
@@ -1605,7 +1316,7 @@
           "weekday": "수",
           "timing": "AMC",
           "time_str": "미정",
-          "market_cap": 713690841088,
+          "market_cap": 671873105920,
           "market_cap_tier": "large",
           "eps_estimate": null,
           "eps_actual": null,
@@ -1618,7 +1329,7 @@
           "weekday": "목",
           "timing": "AMC",
           "time_str": "미정",
-          "market_cap": 110762926080,
+          "market_cap": 103127588864,
           "market_cap_tier": "large",
           "eps_estimate": null,
           "eps_actual": null,
@@ -1630,7 +1341,7 @@
   "economic_calendar": {
     "yesterday": [
       {
-        "event_id": "2026-06-02-placeholder",
+        "event_id": "2026-06-03-placeholder",
         "time_kst": "--:--",
         "country": "US",
         "flag": "🇺🇸",
@@ -1644,7 +1355,7 @@
     ],
     "today": [
       {
-        "event_id": "2026-06-02-placeholder",
+        "event_id": "2026-06-03-placeholder",
         "time_kst": "--:--",
         "country": "US",
         "flag": "🇺🇸",
