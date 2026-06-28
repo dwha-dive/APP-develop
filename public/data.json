@@ -1,7 +1,7 @@
 {
   "updated_at": {
-    "kr_session": "2026-06-27T07:21:03+09:00",
-    "us_session": "2026-06-27T07:21:03+09:00"
+    "kr_session": "2026-06-29T07:10:23+09:00",
+    "us_session": "2026-06-29T07:10:23+09:00"
   },
   "market_status": {
     "us": "afterhours",
@@ -17,20 +17,20 @@
       "change_pct": -0.24
     },
     "usd_krw": {
-      "value": 1535.0,
-      "change_pct": -0.5
+      "value": 1535.11,
+      "change_pct": -0.74
     },
     "bitcoin": {
-      "value": 59850.01,
-      "change_pct": 0.21
+      "value": 59553.9,
+      "change_pct": -0.64
     },
     "kospi": {
-      "value": NaN,
-      "change_pct": NaN
+      "value": 8411.21,
+      "change_pct": -5.81
     },
     "kosdaq": {
-      "value": NaN,
-      "change_pct": NaN
+      "value": 851.37,
+      "change_pct": -4.1
     }
   },
   "temperature": {
@@ -556,7 +556,7 @@
         "name": "Danaher",
         "sector": "헬스케어",
         "price": 196.19,
-        "change_pct": 1.54,
+        "change_pct": 1.75,
         "market_cap": 138857521039
       },
       {
@@ -895,9 +895,9 @@
         "ticker": "HON",
         "name": "Honeywell",
         "sector": "산업재",
-        "price": 232.21,
+        "price": 464.42,
         "change_pct": 0.42,
-        "market_cap": 147140595017
+        "market_cap": 147140594785
       },
       {
         "ticker": "VZ",
@@ -1526,36 +1526,22 @@
   "earnings": {
     "prev_week": {
       "range": {
-        "start": "2026-06-15",
-        "end": "2026-06-19"
-      },
-      "items": [
-        {
-          "ticker": "ACN",
-          "company": "Accenture plc",
-          "date": "2026-06-18",
-          "weekday": "목",
-          "timing": "AMC",
-          "time_str": "미정",
-          "market_cap": 78928289792,
-          "market_cap_tier": "large",
-          "eps_estimate": null,
-          "eps_actual": null,
-          "surprise_pct": null
-        }
-      ]
-    },
-    "curr_week": {
-      "range": {
         "start": "2026-06-22",
         "end": "2026-06-26"
       },
       "items": []
     },
-    "next_week": {
+    "curr_week": {
       "range": {
         "start": "2026-06-29",
         "end": "2026-07-03"
+      },
+      "items": []
+    },
+    "next_week": {
+      "range": {
+        "start": "2026-07-06",
+        "end": "2026-07-10"
       },
       "items": []
     }
@@ -1563,7 +1549,7 @@
   "economic_calendar": {
     "yesterday": [
       {
-        "event_id": "2026-06-27-placeholder",
+        "event_id": "2026-06-29-placeholder",
         "time_kst": "--:--",
         "country": "US",
         "flag": "🇺🇸",
@@ -1577,7 +1563,7 @@
     ],
     "today": [
       {
-        "event_id": "2026-06-27-placeholder",
+        "event_id": "2026-06-29-placeholder",
         "time_kst": "--:--",
         "country": "US",
         "flag": "🇺🇸",
