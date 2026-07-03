@@ -1,7 +1,7 @@
 {
   "updated_at": {
-    "kr_session": "2026-07-03T07:15:15+09:00",
-    "us_session": "2026-07-03T07:15:15+09:00"
+    "kr_session": "2026-07-04T07:12:40+09:00",
+    "us_session": "2026-07-04T07:12:40+09:00"
   },
   "market_status": {
     "us": "afterhours",
@@ -17,20 +17,20 @@
       "change_pct": -0.8
     },
     "usd_krw": {
-      "value": 1537.19,
-      "change_pct": -0.74
+      "value": 1530.15,
+      "change_pct": -1.4
     },
     "bitcoin": {
-      "value": 61459.78,
-      "change_pct": 2.43
+      "value": 62548.67,
+      "change_pct": 1.73
     },
     "kospi": {
-      "value": 8303.41,
-      "change_pct": 0.0
+      "value": NaN,
+      "change_pct": NaN
     },
     "kosdaq": {
-      "value": 929.35,
-      "change_pct": 0.0
+      "value": NaN,
+      "change_pct": NaN
     }
   },
   "temperature": {
@@ -913,8 +913,8 @@
         "ticker": "005930",
         "name": "삼성전자",
         "sector": "IT",
-        "price": 286000,
-        "change_pct": -9.06,
+        "price": 309500,
+        "change_pct": 8.22,
         "market_cap": 0,
         "pe_ratio": null
       },
@@ -922,8 +922,8 @@
         "ticker": "000660",
         "name": "SK하이닉스",
         "sector": "IT",
-        "price": 2187000,
-        "change_pct": -14.57,
+        "price": 2425000,
+        "change_pct": 10.88,
         "market_cap": 0,
         "pe_ratio": null
       },
@@ -931,8 +931,8 @@
         "ticker": "035420",
         "name": "NAVER",
         "sector": "IT",
-        "price": 199900,
-        "change_pct": 1.27,
+        "price": 195800,
+        "change_pct": -2.05,
         "market_cap": 0,
         "pe_ratio": null
       },
@@ -940,8 +940,8 @@
         "ticker": "005380",
         "name": "현대차",
         "sector": "경기소비재",
-        "price": 482000,
-        "change_pct": -1.13,
+        "price": 492000,
+        "change_pct": 2.07,
         "market_cap": 0,
         "pe_ratio": null
       },
@@ -949,8 +949,8 @@
         "ticker": "207940",
         "name": "삼성바이오로직스",
         "sector": "헬스케어",
-        "price": 1406000,
-        "change_pct": 0.72,
+        "price": 1421000,
+        "change_pct": 1.07,
         "market_cap": 0,
         "pe_ratio": null
       },
@@ -958,8 +958,8 @@
         "ticker": "068270",
         "name": "셀트리온",
         "sector": "헬스케어",
-        "price": 176600,
-        "change_pct": 1.2,
+        "price": 183600,
+        "change_pct": 3.96,
         "market_cap": 0,
         "pe_ratio": null
       },
@@ -967,8 +967,8 @@
         "ticker": "006400",
         "name": "삼성SDI",
         "sector": "에너지",
-        "price": 470500,
-        "change_pct": -4.18,
+        "price": 467500,
+        "change_pct": -0.64,
         "market_cap": 0,
         "pe_ratio": null
       },
@@ -977,7 +977,7 @@
         "name": "LG화학",
         "sector": "소재",
         "price": 281500,
-        "change_pct": 0.54,
+        "change_pct": 0.0,
         "market_cap": 0,
         "pe_ratio": null
       },
@@ -985,8 +985,8 @@
         "ticker": "003550",
         "name": "LG",
         "sector": "산업재",
-        "price": 99000,
-        "change_pct": 2.48,
+        "price": 101100,
+        "change_pct": 2.12,
         "market_cap": 0,
         "pe_ratio": null
       },
@@ -994,8 +994,8 @@
         "ticker": "035720",
         "name": "카카오",
         "sector": "IT",
-        "price": 35250,
-        "change_pct": 1.29,
+        "price": 35500,
+        "change_pct": 0.71,
         "market_cap": 0,
         "pe_ratio": null
       },
@@ -1003,8 +1003,8 @@
         "ticker": "055550",
         "name": "신한지주",
         "sector": "금융",
-        "price": 102200,
-        "change_pct": 6.02,
+        "price": 107300,
+        "change_pct": 4.99,
         "market_cap": 0,
         "pe_ratio": null
       },
@@ -1012,8 +1012,8 @@
         "ticker": "105560",
         "name": "KB금융",
         "sector": "금융",
-        "price": 165000,
-        "change_pct": 4.1,
+        "price": 170100,
+        "change_pct": 3.09,
         "market_cap": 0,
         "pe_ratio": null
       },
@@ -1021,8 +1021,8 @@
         "ticker": "000270",
         "name": "기아",
         "sector": "경기소비재",
-        "price": 145200,
-        "change_pct": 2.61,
+        "price": 152000,
+        "change_pct": 4.68,
         "market_cap": 0,
         "pe_ratio": null
       },
@@ -1030,8 +1030,8 @@
         "ticker": "096770",
         "name": "SK이노베이션",
         "sector": "에너지",
-        "price": 94100,
-        "change_pct": -3.98,
+        "price": 95000,
+        "change_pct": 0.96,
         "market_cap": 0,
         "pe_ratio": null
       },
@@ -1039,8 +1039,8 @@
         "ticker": "018260",
         "name": "삼성에스디에스",
         "sector": "IT",
-        "price": 201500,
-        "change_pct": 2.08,
+        "price": 195400,
+        "change_pct": -3.03,
         "market_cap": 0,
         "pe_ratio": null
       },
@@ -1048,8 +1048,8 @@
         "ticker": "066570",
         "name": "LG전자",
         "sector": "기타",
-        "price": 192300,
-        "change_pct": -0.52,
+        "price": 191000,
+        "change_pct": -0.68,
         "market_cap": 0,
         "pe_ratio": null
       },
@@ -1057,8 +1057,8 @@
         "ticker": "028260",
         "name": "삼성물산",
         "sector": "기타",
-        "price": 406500,
-        "change_pct": -6.34,
+        "price": 433500,
+        "change_pct": 6.64,
         "market_cap": 0,
         "pe_ratio": null
       },
@@ -1066,8 +1066,8 @@
         "ticker": "011200",
         "name": "HMM",
         "sector": "기타",
-        "price": 19100,
-        "change_pct": 2.36,
+        "price": 19170,
+        "change_pct": 0.37,
         "market_cap": 0,
         "pe_ratio": null
       },
@@ -1075,8 +1075,8 @@
         "ticker": "034730",
         "name": "SK",
         "sector": "기타",
-        "price": 683000,
-        "change_pct": -10.48,
+        "price": 690000,
+        "change_pct": 1.02,
         "market_cap": 0,
         "pe_ratio": null
       },
@@ -1084,8 +1084,8 @@
         "ticker": "032830",
         "name": "삼성생명",
         "sector": "기타",
-        "price": 370500,
-        "change_pct": -4.26,
+        "price": 383000,
+        "change_pct": 3.37,
         "market_cap": 0,
         "pe_ratio": null
       }
@@ -1095,8 +1095,8 @@
         "ticker": "086900",
         "name": "메디톡스",
         "sector": "기타",
-        "price": 79400,
-        "change_pct": -2.58,
+        "price": 79100,
+        "change_pct": -0.38,
         "market_cap": 0,
         "pe_ratio": null
       },
@@ -1104,8 +1104,8 @@
         "ticker": "263750",
         "name": "펄어비스",
         "sector": "기타",
-        "price": 37500,
-        "change_pct": -0.66,
+        "price": 36300,
+        "change_pct": -3.2,
         "market_cap": 0,
         "pe_ratio": null
       },
@@ -1113,8 +1113,8 @@
         "ticker": "196170",
         "name": "알테오젠",
         "sector": "기타",
-        "price": 351500,
-        "change_pct": -1.82,
+        "price": 341500,
+        "change_pct": -2.84,
         "market_cap": 0,
         "pe_ratio": null
       },
@@ -1122,8 +1122,8 @@
         "ticker": "145020",
         "name": "휴젤",
         "sector": "기타",
-        "price": 270000,
-        "change_pct": -1.64,
+        "price": 255000,
+        "change_pct": -5.56,
         "market_cap": 0,
         "pe_ratio": null
       },
@@ -1131,8 +1131,8 @@
         "ticker": "293490",
         "name": "카카오게임즈",
         "sector": "기타",
-        "price": 7820,
-        "change_pct": -2.13,
+        "price": 7850,
+        "change_pct": 0.38,
         "market_cap": 0,
         "pe_ratio": null
       },
@@ -1140,8 +1140,8 @@
         "ticker": "357780",
         "name": "솔브레인",
         "sector": "기타",
-        "price": 303500,
-        "change_pct": -10.34,
+        "price": 322500,
+        "change_pct": 6.26,
         "market_cap": 0,
         "pe_ratio": null
       },
@@ -1149,8 +1149,8 @@
         "ticker": "112040",
         "name": "위메이드",
         "sector": "기타",
-        "price": 22100,
-        "change_pct": -11.95,
+        "price": 19180,
+        "change_pct": -13.21,
         "market_cap": 0,
         "pe_ratio": null
       },
@@ -1158,8 +1158,8 @@
         "ticker": "041510",
         "name": "에스엠",
         "sector": "기타",
-        "price": 78600,
-        "change_pct": 7.08,
+        "price": 75800,
+        "change_pct": -3.56,
         "market_cap": 0,
         "pe_ratio": null
       },
@@ -1167,8 +1167,8 @@
         "ticker": "039030",
         "name": "이오테크닉스",
         "sector": "기타",
-        "price": 384500,
-        "change_pct": -11.61,
+        "price": 392500,
+        "change_pct": 2.08,
         "market_cap": 0,
         "pe_ratio": null
       }
@@ -1549,356 +1549,6 @@
   "economic_calendar": {
     "yesterday": [
       {
-        "event_id": "2026/07/02 01:30:00",
-        "time_kst": "01:30",
-        "country": "US",
-        "flag": "🇺🇸",
-        "name": "Atlanta Fed GDPNow  (Q2)",
-        "importance": 2,
-        "actual": "1.2%",
-        "forecast": "2.5%",
-        "previous": "2.5%",
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/07/02 04:15:00",
-        "time_kst": "04:15",
-        "country": "US",
-        "flag": "🇺🇸",
-        "name": "U.S. President Trump Speaks",
-        "importance": 3,
-        "actual": null,
-        "forecast": null,
-        "previous": null,
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/07/02 10:30:00",
-        "time_kst": "10:30",
-        "country": "US",
-        "flag": "🇺🇸",
-        "name": "Exports (MoM)  (May)",
-        "importance": 1,
-        "actual": "-6.9%",
-        "forecast": null,
-        "previous": "7.2%",
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/07/02 10:30:00",
-        "time_kst": "10:30",
-        "country": "US",
-        "flag": "🇺🇸",
-        "name": "Imports (MoM)  (May)",
-        "importance": 1,
-        "actual": "2.6%",
-        "forecast": null,
-        "previous": "0.2%",
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/07/02 10:30:00",
-        "time_kst": "10:30",
-        "country": "US",
-        "flag": "🇺🇸",
-        "name": "Trade Balance  (May)",
-        "importance": 2,
-        "actual": "-3.018B",
-        "forecast": "2.190B",
-        "previous": "1.383B",
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/07/02 17:00:00",
-        "time_kst": "17:00",
-        "country": "US",
-        "flag": "🇺🇸",
-        "name": "Total Vehicle Sales  (Jun)",
-        "importance": 1,
-        "actual": "16.50M",
-        "forecast": "16.10M",
-        "previous": "16.10M",
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/07/02 17:30:00",
-        "time_kst": "17:30",
-        "country": "GB",
-        "flag": "🇬🇧",
-        "name": "BOE Credit Conditions Survey",
-        "importance": 2,
-        "actual": null,
-        "forecast": null,
-        "previous": null,
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/07/02 20:45:00",
-        "time_kst": "20:45",
-        "country": "US",
-        "flag": "🇺🇸",
-        "name": "FOMC Member Daly Speaks",
-        "importance": 2,
-        "actual": null,
-        "forecast": null,
-        "previous": null,
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/07/02 21:30:00",
-        "time_kst": "21:30",
-        "country": "US",
-        "flag": "🇺🇸",
-        "name": "Average Hourly Earnings (MoM)  (Jun)",
-        "importance": 3,
-        "actual": "0.3%",
-        "forecast": "0.3%",
-        "previous": "0.3%",
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/07/02 21:30:00",
-        "time_kst": "21:30",
-        "country": "US",
-        "flag": "🇺🇸",
-        "name": "Average Hourly Earnings (YoY) (YoY)  (Jun)",
-        "importance": 2,
-        "actual": "3.5%",
-        "forecast": "3.5%",
-        "previous": "3.4%",
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/07/02 21:30:00",
-        "time_kst": "21:30",
-        "country": "US",
-        "flag": "🇺🇸",
-        "name": "Average Weekly Hours  (Jun)",
-        "importance": 1,
-        "actual": "34.3",
-        "forecast": "34.3",
-        "previous": "34.3",
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/07/02 21:30:00",
-        "time_kst": "21:30",
-        "country": "US",
-        "flag": "🇺🇸",
-        "name": "Continuing Jobless Claims",
-        "importance": 2,
-        "actual": "1,814K",
-        "forecast": "1,810K",
-        "previous": "1,812K",
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/07/02 21:30:00",
-        "time_kst": "21:30",
-        "country": "US",
-        "flag": "🇺🇸",
-        "name": "Government Payrolls  (Jun)",
-        "importance": 1,
-        "actual": "8.0K",
-        "forecast": null,
-        "previous": "32.0K",
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/07/02 21:30:00",
-        "time_kst": "21:30",
-        "country": "US",
-        "flag": "🇺🇸",
-        "name": "Initial Jobless Claims",
-        "importance": 3,
-        "actual": "215K",
-        "forecast": "219K",
-        "previous": "216K",
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/07/02 21:30:00",
-        "time_kst": "21:30",
-        "country": "US",
-        "flag": "🇺🇸",
-        "name": "Jobless Claims 4-Week Avg.",
-        "importance": 1,
-        "actual": "222.00K",
-        "forecast": null,
-        "previous": "224.50K",
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/07/02 21:30:00",
-        "time_kst": "21:30",
-        "country": "US",
-        "flag": "🇺🇸",
-        "name": "Manufacturing Payrolls  (Jun)",
-        "importance": 1,
-        "actual": "3K",
-        "forecast": "3K",
-        "previous": "-2K",
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/07/02 21:30:00",
-        "time_kst": "21:30",
-        "country": "US",
-        "flag": "🇺🇸",
-        "name": "Nonfarm Payrolls  (Jun)",
-        "importance": 3,
-        "actual": "57K",
-        "forecast": "114K",
-        "previous": "129K",
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/07/02 21:30:00",
-        "time_kst": "21:30",
-        "country": "US",
-        "flag": "🇺🇸",
-        "name": "Participation Rate  (Jun)",
-        "importance": 2,
-        "actual": "61.5%",
-        "forecast": null,
-        "previous": "61.8%",
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/07/02 21:30:00",
-        "time_kst": "21:30",
-        "country": "US",
-        "flag": "🇺🇸",
-        "name": "Private Nonfarm Payrolls  (Jun)",
-        "importance": 2,
-        "actual": "49K",
-        "forecast": "110K",
-        "previous": "97K",
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/07/02 21:30:00",
-        "time_kst": "21:30",
-        "country": "US",
-        "flag": "🇺🇸",
-        "name": "U6 Unemployment Rate  (Jun)",
-        "importance": 2,
-        "actual": "7.9%",
-        "forecast": null,
-        "previous": "8.1%",
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/07/02 21:30:00",
-        "time_kst": "21:30",
-        "country": "US",
-        "flag": "🇺🇸",
-        "name": "Unemployment Rate  (Jun)",
-        "importance": 3,
-        "actual": "4.2%",
-        "forecast": "4.3%",
-        "previous": "4.3%",
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/07/02 22:30:00",
-        "time_kst": "22:30",
-        "country": "US",
-        "flag": "🇺🇸",
-        "name": "S&P Global Manufacturing PMI  (Jun)",
-        "importance": 1,
-        "actual": "53.0",
-        "forecast": null,
-        "previous": "52.9",
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/07/02 23:00:00",
-        "time_kst": "23:00",
-        "country": "US",
-        "flag": "🇺🇸",
-        "name": "All Car Sales  (Jun)",
-        "importance": 1,
-        "actual": "2.70M",
-        "forecast": null,
-        "previous": "2.66M",
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/07/02 23:00:00",
-        "time_kst": "23:00",
-        "country": "US",
-        "flag": "🇺🇸",
-        "name": "All Truck Sales  (Jun)",
-        "importance": 1,
-        "actual": "13.82M",
-        "forecast": null,
-        "previous": "13.42M",
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/07/02 23:00:00",
-        "time_kst": "23:00",
-        "country": "US",
-        "flag": "🇺🇸",
-        "name": "Durables Excluding Defense (MoM)  (May)",
-        "importance": 1,
-        "actual": "-4.6%",
-        "forecast": null,
-        "previous": "-4.6%",
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/07/02 23:00:00",
-        "time_kst": "23:00",
-        "country": "US",
-        "flag": "🇺🇸",
-        "name": "Durables Excluding Transport (MoM)  (May)",
-        "importance": 1,
-        "actual": "1.4%",
-        "forecast": null,
-        "previous": "1.1%",
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/07/02 23:00:00",
-        "time_kst": "23:00",
-        "country": "US",
-        "flag": "🇺🇸",
-        "name": "Factory Orders (MoM)  (May)",
-        "importance": 2,
-        "actual": "-1.3%",
-        "forecast": "-1.7%",
-        "previous": "5.3%",
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/07/02 23:00:00",
-        "time_kst": "23:00",
-        "country": "US",
-        "flag": "🇺🇸",
-        "name": "Factory orders ex transportation (MoM)  (May)",
-        "importance": 1,
-        "actual": "1.9%",
-        "forecast": null,
-        "previous": "1.7%",
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/07/02 23:30:00",
-        "time_kst": "23:30",
-        "country": "US",
-        "flag": "🇺🇸",
-        "name": "Natural Gas Storage",
-        "importance": 1,
-        "actual": "87B",
-        "forecast": "81B",
-        "previous": "76B",
-        "is_next_release": false
-      }
-    ],
-    "today": [
-      {
         "event_id": "2026/07/03 00:30:00",
         "time_kst": "00:30",
         "country": "US",
@@ -1989,11 +1639,10 @@
         "flag": "🇺🇸",
         "name": "S&P Global Manufacturing & Services PMI  (Jun)",
         "importance": 1,
-        "actual": null,
+        "actual": "50.40",
         "forecast": "49.80",
         "previous": "48.70",
-        "is_next_release": true,
-        "next_release_datetime": "2026-07-03T08:00:00+09:00"
+        "is_next_release": false
       },
       {
         "event_id": "2026/07/03 08:00:00",
@@ -2002,7 +1651,7 @@
         "flag": "🇺🇸",
         "name": "S&P Global Services PMI  (Jun)",
         "importance": 1,
-        "actual": null,
+        "actual": "50.5",
         "forecast": "49.9",
         "previous": "48.7",
         "is_next_release": false
@@ -2014,7 +1663,7 @@
         "flag": "🇬🇧",
         "name": "S&P Global Composite PMI  (Jun)",
         "importance": 2,
-        "actual": null,
+        "actual": "49.3",
         "forecast": "49.4",
         "previous": "49.7",
         "is_next_release": false
@@ -2026,13 +1675,13 @@
         "flag": "🇬🇧",
         "name": "S&P Global Services PMI  (Jun)",
         "importance": 2,
-        "actual": null,
+        "actual": "48.8",
         "forecast": "48.7",
         "previous": "49.3",
         "is_next_release": false
       }
     ],
-    "tomorrow": [
+    "today": [
       {
         "event_id": "2026/07/04 00:00:00",
         "time_kst": "00:00",
@@ -2044,8 +1693,141 @@
         "forecast": null,
         "previous": null,
         "is_next_release": false
+      },
+      {
+        "event_id": "2026/07/04 03:00:01",
+        "time_kst": "03:00",
+        "country": "US",
+        "flag": "🇺🇸",
+        "name": "OPEC Crude Oil Production Algeria (Barrel)",
+        "importance": 1,
+        "actual": "0.99M",
+        "forecast": null,
+        "previous": "0.97M",
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/07/04 03:00:01",
+        "time_kst": "03:00",
+        "country": "US",
+        "flag": "🇺🇸",
+        "name": "OPEC Crude Oil Production Congo (Barrel)",
+        "importance": 1,
+        "actual": "0.27M",
+        "forecast": null,
+        "previous": "0.27M",
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/07/04 03:00:01",
+        "time_kst": "03:00",
+        "country": "US",
+        "flag": "🇺🇸",
+        "name": "OPEC Crude Oil Production Gabon (Barrel)",
+        "importance": 1,
+        "actual": "0.22M",
+        "forecast": null,
+        "previous": "0.22M",
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/07/04 03:00:01",
+        "time_kst": "03:00",
+        "country": "US",
+        "flag": "🇺🇸",
+        "name": "OPEC Crude Oil Production Guinea (Barrel)",
+        "importance": 1,
+        "actual": "0.05M",
+        "forecast": null,
+        "previous": "0.05M",
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/07/04 03:00:02",
+        "time_kst": "03:00",
+        "country": "US",
+        "flag": "🇺🇸",
+        "name": "OPEC Crude oil Production Iran (Barrel)",
+        "importance": 1,
+        "actual": "3.00M",
+        "forecast": null,
+        "previous": "2.00M",
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/07/04 03:00:02",
+        "time_kst": "03:00",
+        "country": "US",
+        "flag": "🇺🇸",
+        "name": "OPEC Crude oil Production Iraq (Barrel)",
+        "importance": 1,
+        "actual": "2.00M",
+        "forecast": null,
+        "previous": "1.56M",
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/07/04 03:00:02",
+        "time_kst": "03:00",
+        "country": "US",
+        "flag": "🇺🇸",
+        "name": "OPEC Crude Oil Production Kuwait (Barrel)",
+        "importance": 1,
+        "actual": "1.65M",
+        "forecast": null,
+        "previous": "0.56M",
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/07/04 03:00:02",
+        "time_kst": "03:00",
+        "country": "US",
+        "flag": "🇺🇸",
+        "name": "OPEC Crude Oil Production Libya (Barrel)",
+        "importance": 1,
+        "actual": "1.30M",
+        "forecast": null,
+        "previous": "1.25M",
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/07/04 03:00:02",
+        "time_kst": "03:00",
+        "country": "US",
+        "flag": "🇺🇸",
+        "name": "OPEC Crude Oil Production Nigeria (Barrel)",
+        "importance": 1,
+        "actual": "1.65M",
+        "forecast": null,
+        "previous": "1.55M",
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/07/04 03:00:02",
+        "time_kst": "03:00",
+        "country": "US",
+        "flag": "🇺🇸",
+        "name": "OPEC Crude oil Production Saudi Arabia (Barrel)",
+        "importance": 1,
+        "actual": "7.20M",
+        "forecast": null,
+        "previous": "6.50M",
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/07/04 03:00:03",
+        "time_kst": "03:00",
+        "country": "US",
+        "flag": "🇺🇸",
+        "name": "OPEC Crude oil Production Venezuela (Barrel)",
+        "importance": 1,
+        "actual": "1.10M",
+        "forecast": null,
+        "previous": "1.13M",
+        "is_next_release": false
       }
     ],
+    "tomorrow": [],
     "this_week": [
       {
         "event_id": "2026/06/29 01:35:00",
@@ -3398,7 +3180,7 @@
         "flag": "🇺🇸",
         "name": "S&P Global Manufacturing & Services PMI  (Jun)",
         "importance": 1,
-        "actual": null,
+        "actual": "50.40",
         "forecast": "49.80",
         "previous": "48.70",
         "is_next_release": false
@@ -3410,7 +3192,7 @@
         "flag": "🇺🇸",
         "name": "S&P Global Services PMI  (Jun)",
         "importance": 1,
-        "actual": null,
+        "actual": "50.5",
         "forecast": "49.9",
         "previous": "48.7",
         "is_next_release": false
@@ -3422,7 +3204,7 @@
         "flag": "🇬🇧",
         "name": "S&P Global Composite PMI  (Jun)",
         "importance": 2,
-        "actual": null,
+        "actual": "49.3",
         "forecast": "49.4",
         "previous": "49.7",
         "is_next_release": false
@@ -3434,7 +3216,7 @@
         "flag": "🇬🇧",
         "name": "S&P Global Services PMI  (Jun)",
         "importance": 2,
-        "actual": null,
+        "actual": "48.8",
         "forecast": "48.7",
         "previous": "49.3",
         "is_next_release": false
@@ -3615,6 +3397,18 @@
         "country": "US",
         "flag": "🇺🇸",
         "name": "BoC Business Outlook Survey",
+        "importance": 2,
+        "actual": null,
+        "forecast": null,
+        "previous": null,
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/07/07 00:00:00",
+        "time_kst": "00:00",
+        "country": "US",
+        "flag": "🇺🇸",
+        "name": "Fed Waller Speaks",
         "importance": 2,
         "actual": null,
         "forecast": null,
@@ -3898,6 +3692,18 @@
         "is_next_release": false
       },
       {
+        "event_id": "2026/07/07 19:30:00",
+        "time_kst": "19:30",
+        "country": "GB",
+        "flag": "🇬🇧",
+        "name": "BoE Gov Bailey Speaks",
+        "importance": 2,
+        "actual": null,
+        "forecast": null,
+        "previous": null,
+        "is_next_release": false
+      },
+      {
         "event_id": "2026/07/07 21:15:00",
         "time_kst": "21:15",
         "country": "US",
@@ -3941,7 +3747,7 @@
         "name": "Trade Balance  (May)",
         "importance": 2,
         "actual": null,
-        "forecast": null,
+        "forecast": "-78.80B",
         "previous": "-55.90B",
         "is_next_release": false
       },
@@ -4039,6 +3845,330 @@
         "actual": null,
         "forecast": null,
         "previous": "58.2",
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/07/08 00:00:00",
+        "time_kst": "00:00",
+        "country": "US",
+        "flag": "🇺🇸",
+        "name": "NY Fed 1-Year Consumer Inflation Expectations  (Jun)",
+        "importance": 2,
+        "actual": null,
+        "forecast": null,
+        "previous": "3.5%",
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/07/08 00:30:00",
+        "time_kst": "00:30",
+        "country": "US",
+        "flag": "🇺🇸",
+        "name": "52-Week Bill Auction",
+        "importance": 1,
+        "actual": null,
+        "forecast": null,
+        "previous": "3.750%",
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/07/08 00:30:00",
+        "time_kst": "00:30",
+        "country": "US",
+        "flag": "🇺🇸",
+        "name": "Atlanta Fed GDPNow  (Q2)",
+        "importance": 2,
+        "actual": null,
+        "forecast": null,
+        "previous": null,
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/07/08 01:00:00",
+        "time_kst": "01:00",
+        "country": "US",
+        "flag": "🇺🇸",
+        "name": "EIA Short-Term Energy Outlook",
+        "importance": 2,
+        "actual": null,
+        "forecast": null,
+        "previous": null,
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/07/08 01:15:00",
+        "time_kst": "01:15",
+        "country": "GB",
+        "flag": "🇬🇧",
+        "name": "BoE MPC Member Mann Speaks",
+        "importance": 2,
+        "actual": null,
+        "forecast": null,
+        "previous": null,
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/07/08 02:00:00",
+        "time_kst": "02:00",
+        "country": "US",
+        "flag": "🇺🇸",
+        "name": "3-Year Note Auction",
+        "importance": 2,
+        "actual": null,
+        "forecast": null,
+        "previous": "4.192%",
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/07/08 05:30:00",
+        "time_kst": "05:30",
+        "country": "US",
+        "flag": "🇺🇸",
+        "name": "API Weekly Crude Oil Stock",
+        "importance": 2,
+        "actual": null,
+        "forecast": null,
+        "previous": "-6.072M",
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/07/08 10:30:00",
+        "time_kst": "10:30",
+        "country": "US",
+        "flag": "🇺🇸",
+        "name": "Building Approvals (YoY)  (May)",
+        "importance": 1,
+        "actual": null,
+        "forecast": "5.30%",
+        "previous": "10.20%",
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/07/08 10:30:00",
+        "time_kst": "10:30",
+        "country": "US",
+        "flag": "🇺🇸",
+        "name": "Building Approvals (MoM)  (May)",
+        "importance": 2,
+        "actual": null,
+        "forecast": "-1.1%",
+        "previous": "-3.4%",
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/07/08 10:30:00",
+        "time_kst": "10:30",
+        "country": "US",
+        "flag": "🇺🇸",
+        "name": "Private House Approvals  (May)",
+        "importance": 1,
+        "actual": null,
+        "forecast": "2.8%",
+        "previous": "-1.0%",
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/07/08 20:00:00",
+        "time_kst": "20:00",
+        "country": "US",
+        "flag": "🇺🇸",
+        "name": "MBA 30-Year Mortgage Rate",
+        "importance": 1,
+        "actual": null,
+        "forecast": null,
+        "previous": "6.57%",
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/07/08 20:00:00",
+        "time_kst": "20:00",
+        "country": "US",
+        "flag": "🇺🇸",
+        "name": "MBA Mortgage Applications (WoW)",
+        "importance": 1,
+        "actual": null,
+        "forecast": null,
+        "previous": "0.0%",
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/07/08 20:00:00",
+        "time_kst": "20:00",
+        "country": "US",
+        "flag": "🇺🇸",
+        "name": "MBA Purchase Index",
+        "importance": 1,
+        "actual": null,
+        "forecast": null,
+        "previous": "170.6",
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/07/08 20:00:00",
+        "time_kst": "20:00",
+        "country": "US",
+        "flag": "🇺🇸",
+        "name": "Mortgage Market Index",
+        "importance": 1,
+        "actual": null,
+        "forecast": null,
+        "previous": "272.2",
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/07/08 20:00:00",
+        "time_kst": "20:00",
+        "country": "US",
+        "flag": "🇺🇸",
+        "name": "Mortgage Refinance Index",
+        "importance": 1,
+        "actual": null,
+        "forecast": null,
+        "previous": "828.7",
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/07/08 23:00:00",
+        "time_kst": "23:00",
+        "country": "US",
+        "flag": "🇺🇸",
+        "name": "Wholesale Inventories (MoM)  (May)",
+        "importance": 1,
+        "actual": null,
+        "forecast": "0.3%",
+        "previous": "0.6%",
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/07/08 23:00:00",
+        "time_kst": "23:00",
+        "country": "US",
+        "flag": "🇺🇸",
+        "name": "Wholesale Trade Sales (MoM)  (May)",
+        "importance": 1,
+        "actual": null,
+        "forecast": null,
+        "previous": "2.0%",
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/07/08 23:30:00",
+        "time_kst": "23:30",
+        "country": "US",
+        "flag": "🇺🇸",
+        "name": "Crude Oil Inventories",
+        "importance": 3,
+        "actual": null,
+        "forecast": null,
+        "previous": "-3.775M",
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/07/08 23:30:00",
+        "time_kst": "23:30",
+        "country": "US",
+        "flag": "🇺🇸",
+        "name": "EIA Refinery Crude Runs  (WoW)",
+        "importance": 1,
+        "actual": null,
+        "forecast": null,
+        "previous": "0.085M",
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/07/08 23:30:00",
+        "time_kst": "23:30",
+        "country": "US",
+        "flag": "🇺🇸",
+        "name": "Crude Oil Imports",
+        "importance": 1,
+        "actual": null,
+        "forecast": null,
+        "previous": "0.370M",
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/07/08 23:30:00",
+        "time_kst": "23:30",
+        "country": "US",
+        "flag": "🇺🇸",
+        "name": "Cushing Crude Oil Inventories",
+        "importance": 2,
+        "actual": null,
+        "forecast": null,
+        "previous": "0.709M",
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/07/08 23:30:00",
+        "time_kst": "23:30",
+        "country": "US",
+        "flag": "🇺🇸",
+        "name": "Distillate Fuel Production",
+        "importance": 1,
+        "actual": null,
+        "forecast": null,
+        "previous": "-0.042M",
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/07/08 23:30:00",
+        "time_kst": "23:30",
+        "country": "US",
+        "flag": "🇺🇸",
+        "name": "EIA Weekly Distillates Stocks",
+        "importance": 1,
+        "actual": null,
+        "forecast": null,
+        "previous": "2.483M",
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/07/08 23:30:00",
+        "time_kst": "23:30",
+        "country": "US",
+        "flag": "🇺🇸",
+        "name": "Gasoline Production",
+        "importance": 1,
+        "actual": null,
+        "forecast": null,
+        "previous": "0.481M",
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/07/08 23:30:00",
+        "time_kst": "23:30",
+        "country": "US",
+        "flag": "🇺🇸",
+        "name": "Heating Oil Stockpiles",
+        "importance": 1,
+        "actual": null,
+        "forecast": null,
+        "previous": "-0.310M",
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/07/08 23:30:00",
+        "time_kst": "23:30",
+        "country": "US",
+        "flag": "🇺🇸",
+        "name": "EIA Weekly Refinery Utilization Rates (WoW)",
+        "importance": 1,
+        "actual": null,
+        "forecast": null,
+        "previous": "0.5%",
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/07/08 23:30:00",
+        "time_kst": "23:30",
+        "country": "US",
+        "flag": "🇺🇸",
+        "name": "Gasoline Inventories",
+        "importance": 1,
+        "actual": null,
+        "forecast": null,
+        "previous": "-2.333M",
         "is_next_release": false
       }
     ]
