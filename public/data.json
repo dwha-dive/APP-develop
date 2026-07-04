@@ -1,7 +1,7 @@
 {
   "updated_at": {
-    "kr_session": "2026-07-04T07:12:40+09:00",
-    "us_session": "2026-07-04T07:12:40+09:00"
+    "kr_session": "2026-07-05T07:05:47+09:00",
+    "us_session": "2026-07-05T07:05:47+09:00"
   },
   "market_status": {
     "us": "afterhours",
@@ -21,16 +21,16 @@
       "change_pct": -1.4
     },
     "bitcoin": {
-      "value": 62548.67,
-      "change_pct": 1.73
+      "value": 63187.9,
+      "change_pct": 1.03
     },
     "kospi": {
-      "value": NaN,
-      "change_pct": NaN
+      "value": 8088.34,
+      "change_pct": 5.76
     },
     "kosdaq": {
-      "value": NaN,
-      "change_pct": NaN
+      "value": 868.41,
+      "change_pct": 0.19
     }
   },
   "temperature": {
@@ -1549,140 +1549,6 @@
   "economic_calendar": {
     "yesterday": [
       {
-        "event_id": "2026/07/03 00:30:00",
-        "time_kst": "00:30",
-        "country": "US",
-        "flag": "🇺🇸",
-        "name": "4-Week Bill Auction",
-        "importance": 1,
-        "actual": "3.605%",
-        "forecast": null,
-        "previous": "3.610%",
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/07/03 00:30:00",
-        "time_kst": "00:30",
-        "country": "US",
-        "flag": "🇺🇸",
-        "name": "8-Week Bill Auction",
-        "importance": 1,
-        "actual": "3.650%",
-        "forecast": null,
-        "previous": "3.660%",
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/07/03 00:45:00",
-        "time_kst": "00:45",
-        "country": "GB",
-        "flag": "🇬🇧",
-        "name": "BoE MPC Member Mann Speaks",
-        "importance": 2,
-        "actual": null,
-        "forecast": null,
-        "previous": null,
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/07/03 02:00:00",
-        "time_kst": "02:00",
-        "country": "US",
-        "flag": "🇺🇸",
-        "name": "U.S. Baker Hughes Oil Rig Count",
-        "importance": 2,
-        "actual": "445",
-        "forecast": null,
-        "previous": "440",
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/07/03 02:00:00",
-        "time_kst": "02:00",
-        "country": "US",
-        "flag": "🇺🇸",
-        "name": "U.S. Baker Hughes Total Rig Count",
-        "importance": 2,
-        "actual": "580",
-        "forecast": null,
-        "previous": "573",
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/07/03 05:30:00",
-        "time_kst": "05:30",
-        "country": "US",
-        "flag": "🇺🇸",
-        "name": "Fed's Balance Sheet",
-        "importance": 2,
-        "actual": "6,725B",
-        "forecast": null,
-        "previous": "6,736B",
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/07/03 05:30:00",
-        "time_kst": "05:30",
-        "country": "US",
-        "flag": "🇺🇸",
-        "name": "Reserve Balances with Federal Reserve Banks",
-        "importance": 1,
-        "actual": "3.077T",
-        "forecast": null,
-        "previous": "2.954T",
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/07/03 08:00:00",
-        "time_kst": "08:00",
-        "country": "US",
-        "flag": "🇺🇸",
-        "name": "S&P Global Manufacturing & Services PMI  (Jun)",
-        "importance": 1,
-        "actual": "50.40",
-        "forecast": "49.80",
-        "previous": "48.70",
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/07/03 08:00:00",
-        "time_kst": "08:00",
-        "country": "US",
-        "flag": "🇺🇸",
-        "name": "S&P Global Services PMI  (Jun)",
-        "importance": 1,
-        "actual": "50.5",
-        "forecast": "49.9",
-        "previous": "48.7",
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/07/03 17:30:00",
-        "time_kst": "17:30",
-        "country": "GB",
-        "flag": "🇬🇧",
-        "name": "S&P Global Composite PMI  (Jun)",
-        "importance": 2,
-        "actual": "49.3",
-        "forecast": "49.4",
-        "previous": "49.7",
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/07/03 17:30:00",
-        "time_kst": "17:30",
-        "country": "GB",
-        "flag": "🇬🇧",
-        "name": "S&P Global Services PMI  (Jun)",
-        "importance": 2,
-        "actual": "48.8",
-        "forecast": "48.7",
-        "previous": "49.3",
-        "is_next_release": false
-      }
-    ],
-    "today": [
-      {
         "event_id": "2026/07/04 00:00:00",
         "time_kst": "00:00",
         "country": "GB",
@@ -1827,7 +1693,203 @@
         "is_next_release": false
       }
     ],
-    "tomorrow": [],
+    "today": [
+      {
+        "event_id": "2026/07/05 19:00:00",
+        "time_kst": "19:00",
+        "country": "US",
+        "flag": "🇺🇸",
+        "name": "OPEC Meeting",
+        "importance": 2,
+        "actual": null,
+        "forecast": null,
+        "previous": null,
+        "is_next_release": true,
+        "next_release_datetime": "2026-07-05T19:00:00+09:00"
+      }
+    ],
+    "tomorrow": [
+      {
+        "event_id": "2026/07/06 10:00:00",
+        "time_kst": "10:00",
+        "country": "US",
+        "flag": "🇺🇸",
+        "name": "MI Inflation Gauge (MoM)  (Jun)",
+        "importance": 1,
+        "actual": null,
+        "forecast": null,
+        "previous": "-0.3%",
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/07/06 10:30:00",
+        "time_kst": "10:30",
+        "country": "US",
+        "flag": "🇺🇸",
+        "name": "ANZ Job Advertisements (MoM)  (Jun)",
+        "importance": 1,
+        "actual": null,
+        "forecast": null,
+        "previous": "1.8%",
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/07/06 17:00:00",
+        "time_kst": "17:00",
+        "country": "GB",
+        "flag": "🇬🇧",
+        "name": "Car Registration (YoY)  (Jun)",
+        "importance": 1,
+        "actual": null,
+        "forecast": null,
+        "previous": "7.1%",
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/07/06 17:00:00",
+        "time_kst": "17:00",
+        "country": "GB",
+        "flag": "🇬🇧",
+        "name": "United Kingdom New Passenger Cars Registration  (Jun)",
+        "importance": 1,
+        "actual": null,
+        "forecast": null,
+        "previous": "160,662.0",
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/07/06 17:30:00",
+        "time_kst": "17:30",
+        "country": "GB",
+        "flag": "🇬🇧",
+        "name": "S&P Global Construction PMI  (Jun)",
+        "importance": 2,
+        "actual": null,
+        "forecast": "40.1",
+        "previous": "38.2",
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/07/06 21:15:00",
+        "time_kst": "21:15",
+        "country": "US",
+        "flag": "🇺🇸",
+        "name": "Reserve Assets Total  (Jun)",
+        "importance": 1,
+        "actual": null,
+        "forecast": null,
+        "previous": "126.9B",
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/07/06 22:45:00",
+        "time_kst": "22:45",
+        "country": "US",
+        "flag": "🇺🇸",
+        "name": "S&P Global Composite PMI  (Jun)",
+        "importance": 2,
+        "actual": null,
+        "forecast": "52.2",
+        "previous": "52.2",
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/07/06 22:45:00",
+        "time_kst": "22:45",
+        "country": "US",
+        "flag": "🇺🇸",
+        "name": "S&P Global Services PMI  (Jun)",
+        "importance": 3,
+        "actual": null,
+        "forecast": "51.3",
+        "previous": "51.3",
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/07/06 23:00:00",
+        "time_kst": "23:00",
+        "country": "US",
+        "flag": "🇺🇸",
+        "name": "CB Employment Trends Index  (Jun)",
+        "importance": 1,
+        "actual": null,
+        "forecast": null,
+        "previous": "107.01",
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/07/06 23:00:00",
+        "time_kst": "23:00",
+        "country": "US",
+        "flag": "🇺🇸",
+        "name": "ISM Non-Manufacturing Business Activity  (Jun)",
+        "importance": 1,
+        "actual": null,
+        "forecast": null,
+        "previous": "57.7",
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/07/06 23:00:00",
+        "time_kst": "23:00",
+        "country": "US",
+        "flag": "🇺🇸",
+        "name": "ISM Non-Manufacturing Employment  (Jun)",
+        "importance": 2,
+        "actual": null,
+        "forecast": null,
+        "previous": "47.9",
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/07/06 23:00:00",
+        "time_kst": "23:00",
+        "country": "US",
+        "flag": "🇺🇸",
+        "name": "ISM Non-Manufacturing New Orders  (Jun)",
+        "importance": 1,
+        "actual": null,
+        "forecast": null,
+        "previous": "57.3",
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/07/06 23:00:00",
+        "time_kst": "23:00",
+        "country": "US",
+        "flag": "🇺🇸",
+        "name": "ISM Non-Manufacturing PMI  (Jun)",
+        "importance": 3,
+        "actual": null,
+        "forecast": "54.2",
+        "previous": "54.5",
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/07/06 23:00:00",
+        "time_kst": "23:00",
+        "country": "US",
+        "flag": "🇺🇸",
+        "name": "ISM Non-Manufacturing Prices  (Jun)",
+        "importance": 3,
+        "actual": null,
+        "forecast": null,
+        "previous": "71.3",
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/07/06 23:30:00",
+        "time_kst": "23:30",
+        "country": "US",
+        "flag": "🇺🇸",
+        "name": "BoC Business Outlook Survey",
+        "importance": 2,
+        "actual": null,
+        "forecast": null,
+        "previous": null,
+        "is_next_release": false
+      }
+    ],
     "this_week": [
       {
         "event_id": "2026/06/29 01:35:00",
@@ -3279,7 +3341,7 @@
         "name": "S&P Global Construction PMI  (Jun)",
         "importance": 2,
         "actual": null,
-        "forecast": null,
+        "forecast": "40.1",
         "previous": "38.2",
         "is_next_release": false
       },
@@ -3304,7 +3366,7 @@
         "importance": 2,
         "actual": null,
         "forecast": "52.2",
-        "previous": "51.5",
+        "previous": "52.2",
         "is_next_release": false
       },
       {
@@ -3316,7 +3378,7 @@
         "importance": 3,
         "actual": null,
         "forecast": "51.3",
-        "previous": "50.7",
+        "previous": "51.3",
         "is_next_release": false
       },
       {
@@ -3375,7 +3437,7 @@
         "name": "ISM Non-Manufacturing PMI  (Jun)",
         "importance": 3,
         "actual": null,
-        "forecast": null,
+        "forecast": "54.2",
         "previous": "54.5",
         "is_next_release": false
       },
@@ -3627,7 +3689,7 @@
         "name": "Halifax House Price Index (MoM)  (Jun)",
         "importance": 2,
         "actual": null,
-        "forecast": null,
+        "forecast": "0.2%",
         "previous": "-0.1%",
         "is_next_release": false
       },
@@ -3747,7 +3809,7 @@
         "name": "Trade Balance  (May)",
         "importance": 2,
         "actual": null,
-        "forecast": "-78.80B",
+        "forecast": "-78.50B",
         "previous": "-55.90B",
         "is_next_release": false
       },
@@ -3783,7 +3845,7 @@
         "name": "Trade Balance  (May)",
         "importance": 2,
         "actual": null,
-        "forecast": null,
+        "forecast": "2.40B",
         "previous": "2.72B",
         "is_next_release": false
       },
@@ -3819,7 +3881,7 @@
         "name": "IBD/TIPP Economic Optimism  (Jul)",
         "importance": 1,
         "actual": null,
-        "forecast": null,
+        "forecast": "45.0",
         "previous": "42.5",
         "is_next_release": false
       },
@@ -3843,7 +3905,7 @@
         "name": "Ivey PMI  (Jun)",
         "importance": 2,
         "actual": null,
-        "forecast": null,
+        "forecast": "59.1",
         "previous": "58.2",
         "is_next_release": false
       },
@@ -4036,7 +4098,7 @@
         "importance": 1,
         "actual": null,
         "forecast": "0.3%",
-        "previous": "0.6%",
+        "previous": "0.3%",
         "is_next_release": false
       },
       {
@@ -4169,6 +4231,342 @@
         "actual": null,
         "forecast": null,
         "previous": "-2.333M",
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/07/09 00:00:00",
+        "time_kst": "00:00",
+        "country": "US",
+        "flag": "🇺🇸",
+        "name": "Thomson Reuters IPSOS PCSI  (Jul)",
+        "importance": 1,
+        "actual": null,
+        "forecast": null,
+        "previous": "49.14",
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/07/09 00:00:00",
+        "time_kst": "00:00",
+        "country": "US",
+        "flag": "🇺🇸",
+        "name": "Thomson Reuters IPSOS PCSI  (Jul)",
+        "importance": 1,
+        "actual": null,
+        "forecast": null,
+        "previous": "48.95",
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/07/09 00:30:00",
+        "time_kst": "00:30",
+        "country": "US",
+        "flag": "🇺🇸",
+        "name": "Atlanta Fed GDPNow  (Q2)",
+        "importance": 2,
+        "actual": null,
+        "forecast": "1.2%",
+        "previous": "1.2%",
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/07/09 02:00:00",
+        "time_kst": "02:00",
+        "country": "US",
+        "flag": "🇺🇸",
+        "name": "10-Year Note Auction",
+        "importance": 3,
+        "actual": null,
+        "forecast": null,
+        "previous": "4.538%",
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/07/09 03:00:00",
+        "time_kst": "03:00",
+        "country": "US",
+        "flag": "🇺🇸",
+        "name": "FOMC Meeting Minutes",
+        "importance": 3,
+        "actual": null,
+        "forecast": null,
+        "previous": null,
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/07/09 04:00:00",
+        "time_kst": "04:00",
+        "country": "US",
+        "flag": "🇺🇸",
+        "name": "Consumer Credit  (May)",
+        "importance": 2,
+        "actual": null,
+        "forecast": "17.60B",
+        "previous": "20.73B",
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/07/09 08:01:00",
+        "time_kst": "08:01",
+        "country": "GB",
+        "flag": "🇬🇧",
+        "name": "RICS House Price Balance  (Jun)",
+        "importance": 2,
+        "actual": null,
+        "forecast": null,
+        "previous": "-35%",
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/07/09 19:00:00",
+        "time_kst": "19:00",
+        "country": "GB",
+        "flag": "🇬🇧",
+        "name": "Thomson Reuters IPSOS PCSI  (Jul)",
+        "importance": 1,
+        "actual": null,
+        "forecast": null,
+        "previous": "47.4",
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/07/09 21:30:00",
+        "time_kst": "21:30",
+        "country": "US",
+        "flag": "🇺🇸",
+        "name": "Continuing Jobless Claims",
+        "importance": 2,
+        "actual": null,
+        "forecast": null,
+        "previous": "1,814K",
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/07/09 21:30:00",
+        "time_kst": "21:30",
+        "country": "US",
+        "flag": "🇺🇸",
+        "name": "Initial Jobless Claims",
+        "importance": 3,
+        "actual": null,
+        "forecast": "218K",
+        "previous": "215K",
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/07/09 21:30:00",
+        "time_kst": "21:30",
+        "country": "US",
+        "flag": "🇺🇸",
+        "name": "Jobless Claims 4-Week Avg.",
+        "importance": 1,
+        "actual": null,
+        "forecast": null,
+        "previous": "222.00K",
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/07/09 22:00:00",
+        "time_kst": "22:00",
+        "country": "US",
+        "flag": "🇺🇸",
+        "name": "FOMC Member Williams Speaks",
+        "importance": 2,
+        "actual": null,
+        "forecast": null,
+        "previous": null,
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/07/09 23:00:00",
+        "time_kst": "23:00",
+        "country": "US",
+        "flag": "🇺🇸",
+        "name": "Existing Home Sales  (Jun)",
+        "importance": 3,
+        "actual": null,
+        "forecast": "4.20M",
+        "previous": "4.17M",
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/07/09 23:00:00",
+        "time_kst": "23:00",
+        "country": "US",
+        "flag": "🇺🇸",
+        "name": "Existing Home Sales (MoM)  (Jun)",
+        "importance": 2,
+        "actual": null,
+        "forecast": null,
+        "previous": "3.2%",
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/07/09 23:30:00",
+        "time_kst": "23:30",
+        "country": "US",
+        "flag": "🇺🇸",
+        "name": "Natural Gas Storage",
+        "importance": 1,
+        "actual": null,
+        "forecast": null,
+        "previous": "87B",
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/07/10 00:30:00",
+        "time_kst": "00:30",
+        "country": "US",
+        "flag": "🇺🇸",
+        "name": "4-Week Bill Auction",
+        "importance": 1,
+        "actual": null,
+        "forecast": null,
+        "previous": "3.605%",
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/07/10 00:30:00",
+        "time_kst": "00:30",
+        "country": "US",
+        "flag": "🇺🇸",
+        "name": "8-Week Bill Auction",
+        "importance": 1,
+        "actual": null,
+        "forecast": null,
+        "previous": "3.650%",
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/07/10 02:01:00",
+        "time_kst": "02:01",
+        "country": "US",
+        "flag": "🇺🇸",
+        "name": "30-Year Bond Auction",
+        "importance": 3,
+        "actual": null,
+        "forecast": null,
+        "previous": "5.050%",
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/07/10 02:30:00",
+        "time_kst": "02:30",
+        "country": "US",
+        "flag": "🇺🇸",
+        "name": "Fed Logan Speaks",
+        "importance": 1,
+        "actual": null,
+        "forecast": null,
+        "previous": null,
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/07/10 11:00:00",
+        "time_kst": "11:00",
+        "country": "US",
+        "flag": "🇺🇸",
+        "name": "Thomson Reuters IPSOS PCSI  (Jul)",
+        "importance": 1,
+        "actual": null,
+        "forecast": null,
+        "previous": "46.95",
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/07/10 18:00:00",
+        "time_kst": "18:00",
+        "country": "US",
+        "flag": "🇺🇸",
+        "name": "IEA Monthly Report",
+        "importance": 2,
+        "actual": null,
+        "forecast": null,
+        "previous": null,
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/07/10 21:30:00",
+        "time_kst": "21:30",
+        "country": "US",
+        "flag": "🇺🇸",
+        "name": "Avg hourly wages Permanent employee  (Jun)",
+        "importance": 1,
+        "actual": null,
+        "forecast": null,
+        "previous": "3.2%",
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/07/10 21:30:00",
+        "time_kst": "21:30",
+        "country": "US",
+        "flag": "🇺🇸",
+        "name": "Building Permits (MoM)  (May)",
+        "importance": 2,
+        "actual": null,
+        "forecast": "0.5%",
+        "previous": "-7.6%",
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/07/10 21:30:00",
+        "time_kst": "21:30",
+        "country": "US",
+        "flag": "🇺🇸",
+        "name": "Employment Change  (Jun)",
+        "importance": 2,
+        "actual": null,
+        "forecast": "10.0K",
+        "previous": "87.8K",
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/07/10 21:30:00",
+        "time_kst": "21:30",
+        "country": "US",
+        "flag": "🇺🇸",
+        "name": "Full Employment Change  (Jun)",
+        "importance": 1,
+        "actual": null,
+        "forecast": null,
+        "previous": "154.0K",
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/07/10 21:30:00",
+        "time_kst": "21:30",
+        "country": "US",
+        "flag": "🇺🇸",
+        "name": "Part Time Employment Change  (Jun)",
+        "importance": 1,
+        "actual": null,
+        "forecast": null,
+        "previous": "-66.2K",
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/07/10 21:30:00",
+        "time_kst": "21:30",
+        "country": "US",
+        "flag": "🇺🇸",
+        "name": "Participation Rate  (Jun)",
+        "importance": 1,
+        "actual": null,
+        "forecast": null,
+        "previous": "65.0%",
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/07/10 21:30:00",
+        "time_kst": "21:30",
+        "country": "US",
+        "flag": "🇺🇸",
+        "name": "Unemployment Rate  (Jun)",
+        "importance": 2,
+        "actual": null,
+        "forecast": "6.6%",
+        "previous": "6.6%",
         "is_next_release": false
       }
     ]
