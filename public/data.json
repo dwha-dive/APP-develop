@@ -1,7 +1,7 @@
 {
   "updated_at": {
-    "kr_session": "2026-07-11T07:12:14+09:00",
-    "us_session": "2026-07-11T07:12:14+09:00"
+    "kr_session": "2026-07-12T06:58:34+09:00",
+    "us_session": "2026-07-12T06:58:34+09:00"
   },
   "market_status": {
     "us": "afterhours",
@@ -21,16 +21,16 @@
       "change_pct": -0.3
     },
     "bitcoin": {
-      "value": 63978.71,
-      "change_pct": 1.24
+      "value": 64293.06,
+      "change_pct": 0.26
     },
     "kospi": {
-      "value": NaN,
-      "change_pct": NaN
+      "value": 7475.94,
+      "change_pct": 2.52
     },
     "kosdaq": {
-      "value": NaN,
-      "change_pct": NaN
+      "value": 837.43,
+      "change_pct": 5.47
     }
   },
   "temperature": {
@@ -492,7 +492,7 @@
         "name": "Oracle",
         "sector": "기술",
         "price": 140.64,
-        "change_pct": -2.48,
+        "change_pct": -2.14,
         "market_cap": 405109439681
       },
       {
@@ -904,7 +904,7 @@
         "name": "Verizon",
         "sector": "통신서비스",
         "price": 42.12,
-        "change_pct": -0.28,
+        "change_pct": 1.42,
         "market_cap": 175874536829
       }
     ],
@@ -1300,7 +1300,7 @@
         },
         {
           "ticker": "VZ",
-          "change_pct": -0.28
+          "change_pct": 1.42
         }
       ]
     },
@@ -1628,7 +1628,7 @@
   "economic_calendar": {
     "yesterday": [
       {
-        "event_id": "2026-07-11-placeholder",
+        "event_id": "2026-07-12-placeholder",
         "time_kst": "--:--",
         "country": "US",
         "flag": "🇺🇸",
@@ -1642,7 +1642,7 @@
     ],
     "today": [
       {
-        "event_id": "2026-07-11-placeholder",
+        "event_id": "2026-07-12-placeholder",
         "time_kst": "--:--",
         "country": "US",
         "flag": "🇺🇸",
