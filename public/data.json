@@ -1,7 +1,7 @@
 {
   "updated_at": {
-    "kr_session": "2026-07-18T07:01:00+09:00",
-    "us_session": "2026-07-18T07:01:00+09:00"
+    "kr_session": "2026-07-19T06:58:05+09:00",
+    "us_session": "2026-07-19T06:58:05+09:00"
   },
   "market_status": {
     "us": "afterhours",
@@ -21,8 +21,8 @@
       "change_pct": 0.08
     },
     "bitcoin": {
-      "value": 64109.16,
-      "change_pct": 0.5
+      "value": 64722.12,
+      "change_pct": 1.29
     },
     "kospi": {
       "value": 6820.6,
@@ -429,7 +429,7 @@
         "sector": "기술",
         "price": 370.83,
         "change_pct": -0.97,
-        "market_cap": 1764229734999
+        "market_cap": 1764253400940
       },
       {
         "ticker": "XOM",
@@ -647,7 +647,7 @@
         "sector": "기술",
         "price": 370.83,
         "change_pct": -0.97,
-        "market_cap": 1764229734999
+        "market_cap": 1764253400940
       },
       {
         "ticker": "NFLX",
@@ -1354,7 +1354,7 @@
           "weekday": "금",
           "timing": "AMC",
           "time_str": "미정",
-          "market_cap": 0,
+          "market_cap": 185201770496,
           "market_cap_tier": "large",
           "eps_estimate": null,
           "eps_actual": null,
@@ -1366,7 +1366,7 @@
   "economic_calendar": {
     "yesterday": [
       {
-        "event_id": "2026-07-18-placeholder",
+        "event_id": "2026-07-19-placeholder",
         "time_kst": "--:--",
         "country": "US",
         "flag": "🇺🇸",
@@ -1380,7 +1380,7 @@
     ],
     "today": [
       {
-        "event_id": "2026-07-18-placeholder",
+        "event_id": "2026-07-19-placeholder",
         "time_kst": "--:--",
         "country": "US",
         "flag": "🇺🇸",
