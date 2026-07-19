@@ -1,7 +1,7 @@
 {
   "updated_at": {
-    "kr_session": "2026-07-19T06:58:05+09:00",
-    "us_session": "2026-07-19T06:58:05+09:00"
+    "kr_session": "2026-07-20T07:00:34+09:00",
+    "us_session": "2026-07-20T07:00:34+09:00"
   },
   "market_status": {
     "us": "afterhours",
@@ -17,12 +17,12 @@
       "change_pct": -1.4
     },
     "usd_krw": {
-      "value": 1487.46,
-      "change_pct": 0.08
+      "value": 1486.53,
+      "change_pct": 0.52
     },
     "bitcoin": {
-      "value": 64722.12,
-      "change_pct": 1.29
+      "value": 64370.56,
+      "change_pct": -0.66
     },
     "kospi": {
       "value": 6820.6,
@@ -1263,13 +1263,6 @@
   "earnings": {
     "prev_week": {
       "range": {
-        "start": "2026-07-06",
-        "end": "2026-07-10"
-      },
-      "items": []
-    },
-    "curr_week": {
-      "range": {
         "start": "2026-07-13",
         "end": "2026-07-17"
       },
@@ -1302,7 +1295,7 @@
         }
       ]
     },
-    "next_week": {
+    "curr_week": {
       "range": {
         "start": "2026-07-20",
         "end": "2026-07-24"
@@ -1336,7 +1329,7 @@
         },
         {
           "ticker": "TMO",
-          "company": "TMO",
+          "company": "Thermo Fisher Scientific Inc",
           "date": "2026-07-23",
           "weekday": "목",
           "timing": "AMC",
@@ -1349,7 +1342,7 @@
         },
         {
           "ticker": "NEE",
-          "company": "NEE",
+          "company": "NextEra Energy, Inc.",
           "date": "2026-07-24",
           "weekday": "금",
           "timing": "AMC",
@@ -1361,12 +1354,137 @@
           "surprise_pct": null
         }
       ]
+    },
+    "next_week": {
+      "range": {
+        "start": "2026-07-27",
+        "end": "2026-07-31"
+      },
+      "items": [
+        {
+          "ticker": "V",
+          "company": "Visa Inc.",
+          "date": "2026-07-28",
+          "weekday": "화",
+          "timing": "AMC",
+          "time_str": "미정",
+          "market_cap": 681889234944,
+          "market_cap_tier": "large",
+          "eps_estimate": null,
+          "eps_actual": null,
+          "surprise_pct": null
+        },
+        {
+          "ticker": "MSFT",
+          "company": "Microsoft Corporation",
+          "date": "2026-07-29",
+          "weekday": "수",
+          "timing": "AMC",
+          "time_str": "미정",
+          "market_cap": 2925466222592,
+          "market_cap_tier": "large",
+          "eps_estimate": null,
+          "eps_actual": null,
+          "surprise_pct": null
+        },
+        {
+          "ticker": "META",
+          "company": "Meta Platforms, Inc.",
+          "date": "2026-07-29",
+          "weekday": "수",
+          "timing": "AMC",
+          "time_str": "미정",
+          "market_cap": 1639846903808,
+          "market_cap_tier": "large",
+          "eps_estimate": null,
+          "eps_actual": null,
+          "surprise_pct": null
+        },
+        {
+          "ticker": "QCOM",
+          "company": "QUALCOMM Incorporated",
+          "date": "2026-07-29",
+          "weekday": "수",
+          "timing": "AMC",
+          "time_str": "미정",
+          "market_cap": 181056110592,
+          "market_cap_tier": "large",
+          "eps_estimate": null,
+          "eps_actual": null,
+          "surprise_pct": null
+        },
+        {
+          "ticker": "AAPL",
+          "company": "Apple Inc.",
+          "date": "2026-07-30",
+          "weekday": "목",
+          "timing": "AMC",
+          "time_str": "미정",
+          "market_cap": 4901757779968,
+          "market_cap_tier": "large",
+          "eps_estimate": null,
+          "eps_actual": null,
+          "surprise_pct": null
+        },
+        {
+          "ticker": "AMZN",
+          "company": "Amazon.com, Inc.",
+          "date": "2026-07-30",
+          "weekday": "목",
+          "timing": "AMC",
+          "time_str": "미정",
+          "market_cap": 2659480240128,
+          "market_cap_tier": "large",
+          "eps_estimate": null,
+          "eps_actual": null,
+          "surprise_pct": null
+        },
+        {
+          "ticker": "MA",
+          "company": "Mastercard Incorporated",
+          "date": "2026-07-30",
+          "weekday": "목",
+          "timing": "AMC",
+          "time_str": "미정",
+          "market_cap": 480316162048,
+          "market_cap_tier": "large",
+          "eps_estimate": null,
+          "eps_actual": null,
+          "surprise_pct": null
+        },
+        {
+          "ticker": "REGN",
+          "company": "Regeneron Pharmaceuticals, Inc.",
+          "date": "2026-07-30",
+          "weekday": "목",
+          "timing": "AMC",
+          "time_str": "미정",
+          "market_cap": 70943522816,
+          "market_cap_tier": "large",
+          "eps_estimate": null,
+          "eps_actual": null,
+          "surprise_pct": null
+        },
+        {
+          "ticker": "XOM",
+          "company": "ExxonMobil Holdings Corporation",
+          "date": "2026-07-31",
+          "weekday": "금",
+          "timing": "AMC",
+          "time_str": "미정",
+          "market_cap": 610799452160,
+          "market_cap_tier": "large",
+          "eps_estimate": null,
+          "eps_actual": null,
+          "surprise_pct": null
+        }
+      ]
     }
   },
   "economic_calendar": {
     "yesterday": [
       {
-        "event_id": "2026-07-19-placeholder",
+        "event_id": "2026-07-20-placeholder",
         "time_kst": "--:--",
         "country": "US",
         "flag": "🇺🇸",
@@ -1380,7 +1498,7 @@
     ],
     "today": [
       {
-        "event_id": "2026-07-19-placeholder",
+        "event_id": "2026-07-20-placeholder",
         "time_kst": "--:--",
         "country": "US",
         "flag": "🇺🇸",
