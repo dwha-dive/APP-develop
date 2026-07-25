@@ -1,7 +1,7 @@
 {
   "updated_at": {
-    "kr_session": "2026-07-25T07:13:21+09:00",
-    "us_session": "2026-07-25T07:13:21+09:00"
+    "kr_session": "2026-07-26T07:02:03+09:00",
+    "us_session": "2026-07-26T07:02:03+09:00"
   },
   "market_status": {
     "us": "afterhours",
@@ -17,20 +17,20 @@
       "change_pct": -0.64
     },
     "usd_krw": {
-      "value": 1459.42,
-      "change_pct": -1.1
+      "value": 1462.1,
+      "change_pct": -0.81
     },
     "bitcoin": {
-      "value": 64094.21,
-      "change_pct": -1.46
+      "value": 64327.89,
+      "change_pct": 0.36
     },
     "kospi": {
-      "value": NaN,
-      "change_pct": NaN
+      "value": 6690.62,
+      "change_pct": -5.72
     },
     "kosdaq": {
-      "value": NaN,
-      "change_pct": NaN
+      "value": 748.22,
+      "change_pct": -5.32
     }
   },
   "temperature": {
@@ -468,7 +468,7 @@
         "name": "Costco",
         "sector": "필수소비재",
         "price": 935.03,
-        "change_pct": 0.97,
+        "change_pct": 1.13,
         "market_cap": 414665999096
       },
       {
@@ -841,14 +841,14 @@
         "sector": "헬스케어",
         "price": 263.4,
         "change_pct": 1.59,
-        "market_cap": 634060935468
+        "market_cap": 634767275740
       },
       {
         "ticker": "PG",
         "name": "P&G",
         "sector": "필수소비재",
         "price": 147.41,
-        "change_pct": 0.3,
+        "change_pct": 1.05,
         "market_cap": 343258783874
       },
       {
@@ -897,7 +897,7 @@
         "sector": "산업재",
         "price": 243.15,
         "change_pct": -1.27,
-        "market_cap": 77036375887
+        "market_cap": 77063961497
       },
       {
         "ticker": "VZ",
@@ -1384,7 +1384,7 @@
       "stocks": [
         {
           "ticker": "PG",
-          "change_pct": 0.3
+          "change_pct": 1.05
         },
         {
           "ticker": "KO",
@@ -1396,7 +1396,7 @@
         },
         {
           "ticker": "COST",
-          "change_pct": 0.97
+          "change_pct": 1.13
         }
       ]
     },
@@ -1708,7 +1708,7 @@
   "economic_calendar": {
     "yesterday": [
       {
-        "event_id": "2026-07-25-placeholder",
+        "event_id": "2026-07-26-placeholder",
         "time_kst": "--:--",
         "country": "US",
         "flag": "🇺🇸",
@@ -1722,7 +1722,7 @@
     ],
     "today": [
       {
-        "event_id": "2026-07-25-placeholder",
+        "event_id": "2026-07-26-placeholder",
         "time_kst": "--:--",
         "country": "US",
         "flag": "🇺🇸",
