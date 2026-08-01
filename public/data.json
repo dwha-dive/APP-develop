@@ -1,7 +1,7 @@
 {
   "updated_at": {
-    "kr_session": "2026-08-01T07:12:28+09:00",
-    "us_session": "2026-08-01T07:12:28+09:00"
+    "kr_session": "2026-08-02T07:03:04+09:00",
+    "us_session": "2026-08-02T07:03:04+09:00"
   },
   "market_status": {
     "us": "afterhours",
@@ -17,20 +17,20 @@
       "change_pct": 1.0
     },
     "usd_krw": {
-      "value": 1442.07,
-      "change_pct": -0.01
+      "value": 1436.6,
+      "change_pct": 1.13
     },
     "bitcoin": {
-      "value": 62938.24,
-      "change_pct": -2.76
+      "value": 62740.27,
+      "change_pct": -0.12
     },
     "kospi": {
-      "value": NaN,
-      "change_pct": NaN
+      "value": 6595.45,
+      "change_pct": 17.91
     },
     "kosdaq": {
-      "value": NaN,
-      "change_pct": NaN
+      "value": 719.76,
+      "change_pct": 11.63
     }
   },
   "temperature": {
@@ -453,7 +453,7 @@
         "sector": "금융",
         "price": 573.1,
         "change_pct": -0.74,
-        "market_cap": 506381885728
+        "market_cap": 502041275227
       },
       {
         "ticker": "HD",
@@ -1536,21 +1536,7 @@
         "start": "2026-07-27",
         "end": "2026-07-31"
       },
-      "items": [
-        {
-          "ticker": "XOM",
-          "company": "ExxonMobil Holdings Corporation",
-          "date": "2026-07-31",
-          "weekday": "금",
-          "timing": "AMC",
-          "time_str": "미정",
-          "market_cap": 0,
-          "market_cap_tier": "large",
-          "eps_estimate": null,
-          "eps_actual": null,
-          "surprise_pct": null
-        }
-      ]
+      "items": []
     },
     "next_week": {
       "range": {
@@ -1590,7 +1576,7 @@
   "economic_calendar": {
     "yesterday": [
       {
-        "event_id": "2026-08-01-placeholder",
+        "event_id": "2026-08-02-placeholder",
         "time_kst": "--:--",
         "country": "US",
         "flag": "🇺🇸",
@@ -1604,7 +1590,7 @@
     ],
     "today": [
       {
-        "event_id": "2026-08-01-placeholder",
+        "event_id": "2026-08-02-placeholder",
         "time_kst": "--:--",
         "country": "US",
         "flag": "🇺🇸",
