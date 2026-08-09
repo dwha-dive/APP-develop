@@ -1,7 +1,7 @@
 {
   "updated_at": {
-    "kr_session": "2026-08-09T06:38:32+09:00",
-    "us_session": "2026-08-09T06:38:32+09:00"
+    "kr_session": "2026-08-10T06:40:54+09:00",
+    "us_session": "2026-08-10T06:40:54+09:00"
   },
   "market_status": {
     "us": "afterhours",
@@ -17,12 +17,12 @@
       "change_pct": 1.3
     },
     "usd_krw": {
-      "value": 1407.45,
-      "change_pct": -0.96
+      "value": 1407.79,
+      "change_pct": -1.02
     },
     "bitcoin": {
-      "value": 65007.96,
-      "change_pct": 0.2
+      "value": 65162.63,
+      "change_pct": 0.4
     },
     "kospi": {
       "value": 6258.77,
@@ -565,7 +565,7 @@
         "sector": "유틸리티",
         "price": 84.65,
         "change_pct": 0.06,
-        "market_cap": 176578058574
+        "market_cap": 176546496737
       },
       {
         "ticker": "AMAT",
@@ -743,7 +743,7 @@
         "sector": "필수소비재",
         "price": 62.61,
         "change_pct": -0.22,
-        "market_cap": 79909648227
+        "market_cap": 80369312632
       }
     ],
     "dow30": [
@@ -849,7 +849,7 @@
         "sector": "필수소비재",
         "price": 145.79,
         "change_pct": -0.8,
-        "market_cap": 338879080211
+        "market_cap": 339486429368
       },
       {
         "ticker": "CVX",
@@ -865,7 +865,7 @@
         "sector": "헬스케어",
         "price": 410.95,
         "change_pct": 1.51,
-        "market_cap": 222323956604
+        "market_cap": 221793121788
       },
       {
         "ticker": "MMM",
@@ -1526,19 +1526,12 @@
   "earnings": {
     "prev_week": {
       "range": {
-        "start": "2026-07-27",
-        "end": "2026-07-31"
-      },
-      "items": []
-    },
-    "curr_week": {
-      "range": {
         "start": "2026-08-03",
         "end": "2026-08-07"
       },
       "items": []
     },
-    "next_week": {
+    "curr_week": {
       "range": {
         "start": "2026-08-10",
         "end": "2026-08-14"
@@ -1571,12 +1564,85 @@
           "surprise_pct": null
         }
       ]
+    },
+    "next_week": {
+      "range": {
+        "start": "2026-08-17",
+        "end": "2026-08-21"
+      },
+      "items": [
+        {
+          "ticker": "HD",
+          "company": "Home Depot, Inc. (The)",
+          "date": "2026-08-18",
+          "weekday": "화",
+          "timing": "AMC",
+          "time_str": "미정",
+          "market_cap": 354594619392,
+          "market_cap_tier": "large",
+          "eps_estimate": null,
+          "eps_actual": null,
+          "surprise_pct": null
+        },
+        {
+          "ticker": "BIDU",
+          "company": "Baidu, Inc.",
+          "date": "2026-08-18",
+          "weekday": "화",
+          "timing": "AMC",
+          "time_str": "미정",
+          "market_cap": 37212151808,
+          "market_cap_tier": "large",
+          "eps_estimate": null,
+          "eps_actual": null,
+          "surprise_pct": null
+        },
+        {
+          "ticker": "TGT",
+          "company": "Target Corporation",
+          "date": "2026-08-19",
+          "weekday": "수",
+          "timing": "AMC",
+          "time_str": "미정",
+          "market_cap": 67992408064,
+          "market_cap_tier": "large",
+          "eps_estimate": null,
+          "eps_actual": null,
+          "surprise_pct": null
+        },
+        {
+          "ticker": "LOW",
+          "company": "Lowe's Companies, Inc.",
+          "date": "2026-08-19",
+          "weekday": "수",
+          "timing": "AMC",
+          "time_str": "미정",
+          "market_cap": 125299351552,
+          "market_cap_tier": "large",
+          "eps_estimate": null,
+          "eps_actual": null,
+          "surprise_pct": null
+        },
+        {
+          "ticker": "WMT",
+          "company": "Walmart Inc.",
+          "date": "2026-08-20",
+          "weekday": "목",
+          "timing": "AMC",
+          "time_str": "미정",
+          "market_cap": 890111131648,
+          "market_cap_tier": "large",
+          "eps_estimate": null,
+          "eps_actual": null,
+          "surprise_pct": null
+        }
+      ]
     }
   },
   "economic_calendar": {
     "yesterday": [
       {
-        "event_id": "2026-08-09-placeholder",
+        "event_id": "2026-08-10-placeholder",
         "time_kst": "--:--",
         "country": "US",
         "flag": "🇺🇸",
@@ -1590,7 +1656,7 @@
     ],
     "today": [
       {
-        "event_id": "2026-08-09-placeholder",
+        "event_id": "2026-08-10-placeholder",
         "time_kst": "--:--",
         "country": "US",
         "flag": "🇺🇸",
