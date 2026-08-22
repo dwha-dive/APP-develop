@@ -1,7 +1,7 @@
 {
   "updated_at": {
-    "kr_session": "2026-08-22T06:32:13+09:00",
-    "us_session": "2026-08-22T06:32:13+09:00"
+    "kr_session": "2026-08-23T06:29:27+09:00",
+    "us_session": "2026-08-23T06:29:27+09:00"
   },
   "market_status": {
     "us": "afterhours",
@@ -17,20 +17,20 @@
       "change_pct": 0.43
     },
     "usd_krw": {
-      "value": 1385.98,
-      "change_pct": -0.25
+      "value": 1383.9,
+      "change_pct": -0.5
     },
     "bitcoin": {
-      "value": 78131.95,
-      "change_pct": 6.98
+      "value": 77183.11,
+      "change_pct": -1.47
     },
     "kospi": {
-      "value": NaN,
-      "change_pct": NaN
+      "value": 6912.95,
+      "change_pct": 0.88
     },
     "kosdaq": {
-      "value": NaN,
-      "change_pct": NaN
+      "value": 801.94,
+      "change_pct": -4.63
     }
   },
   "temperature": {
@@ -533,7 +533,7 @@
         "sector": "경기소비재",
         "price": 40.76,
         "change_pct": 1.37,
-        "market_cap": 60360952979
+        "market_cap": 60467404644
       },
       {
         "ticker": "TMO",
@@ -565,7 +565,7 @@
         "sector": "유틸리티",
         "price": 83.65,
         "change_pct": -1.62,
-        "market_cap": 174460891379
+        "market_cap": 174492080365
       },
       {
         "ticker": "AMAT",
@@ -743,7 +743,7 @@
         "sector": "필수소비재",
         "price": 64.45,
         "change_pct": 0.48,
-        "market_cap": 82731223501
+        "market_cap": 82258050378
       }
     ],
     "dow30": [
@@ -824,7 +824,7 @@
         "name": "Walmart",
         "sector": "필수소비재",
         "price": 103.7,
-        "change_pct": -0.13,
+        "change_pct": 0.1,
         "market_cap": 825252784087
       },
       {
@@ -849,7 +849,7 @@
         "sector": "필수소비재",
         "price": 144.68,
         "change_pct": 1.2,
-        "market_cap": 336901683081
+        "market_cap": 336298958096
       },
       {
         "ticker": "CVX",
@@ -864,8 +864,8 @@
         "name": "Amgen",
         "sector": "헬스케어",
         "price": 439.33,
-        "change_pct": 1.29,
-        "market_cap": 237110028769
+        "change_pct": 1.88,
+        "market_cap": 237515851497
       },
       {
         "ticker": "MMM",
@@ -1392,7 +1392,7 @@
         },
         {
           "ticker": "WMT",
-          "change_pct": -0.13
+          "change_pct": 0.1
         },
         {
           "ticker": "COST",
@@ -1577,7 +1577,7 @@
           "weekday": "수",
           "timing": "AMC",
           "time_str": "미정",
-          "market_cap": 171310235648,
+          "market_cap": 0,
           "market_cap_tier": "large",
           "eps_estimate": null,
           "eps_actual": null,
@@ -1589,7 +1589,7 @@
   "economic_calendar": {
     "yesterday": [
       {
-        "event_id": "2026-08-22-placeholder",
+        "event_id": "2026-08-23-placeholder",
         "time_kst": "--:--",
         "country": "US",
         "flag": "🇺🇸",
@@ -1603,7 +1603,7 @@
     ],
     "today": [
       {
-        "event_id": "2026-08-22-placeholder",
+        "event_id": "2026-08-23-placeholder",
         "time_kst": "--:--",
         "country": "US",
         "flag": "🇺🇸",
