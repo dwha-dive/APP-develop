@@ -1,7 +1,7 @@
 {
   "updated_at": {
-    "kr_session": "2026-08-23T06:29:27+09:00",
-    "us_session": "2026-08-23T06:29:27+09:00"
+    "kr_session": "2026-08-24T06:29:11+09:00",
+    "us_session": "2026-08-24T06:29:11+09:00"
   },
   "market_status": {
     "us": "afterhours",
@@ -17,12 +17,12 @@
       "change_pct": 0.43
     },
     "usd_krw": {
-      "value": 1383.9,
-      "change_pct": -0.5
+      "value": 1385.89,
+      "change_pct": -0.35
     },
     "bitcoin": {
-      "value": 77183.11,
-      "change_pct": -1.47
+      "value": 77998.29,
+      "change_pct": 1.19
     },
     "kospi": {
       "value": 6912.95,
@@ -1526,19 +1526,12 @@
   "earnings": {
     "prev_week": {
       "range": {
-        "start": "2026-08-10",
-        "end": "2026-08-14"
-      },
-      "items": []
-    },
-    "curr_week": {
-      "range": {
         "start": "2026-08-17",
         "end": "2026-08-21"
       },
       "items": []
     },
-    "next_week": {
+    "curr_week": {
       "range": {
         "start": "2026-08-24",
         "end": "2026-08-28"
@@ -1584,12 +1577,46 @@
           "surprise_pct": null
         }
       ]
+    },
+    "next_week": {
+      "range": {
+        "start": "2026-08-31",
+        "end": "2026-09-04"
+      },
+      "items": [
+        {
+          "ticker": "PANW",
+          "company": "Palo Alto Networks, Inc.",
+          "date": "2026-09-01",
+          "weekday": "화",
+          "timing": "AMC",
+          "time_str": "미정",
+          "market_cap": 291664035840,
+          "market_cap_tier": "large",
+          "eps_estimate": null,
+          "eps_actual": null,
+          "surprise_pct": null
+        },
+        {
+          "ticker": "AVGO",
+          "company": "Broadcom Inc.",
+          "date": "2026-09-02",
+          "weekday": "수",
+          "timing": "AMC",
+          "time_str": "미정",
+          "market_cap": 1752930451456,
+          "market_cap_tier": "large",
+          "eps_estimate": null,
+          "eps_actual": null,
+          "surprise_pct": null
+        }
+      ]
     }
   },
   "economic_calendar": {
     "yesterday": [
       {
-        "event_id": "2026-08-23-placeholder",
+        "event_id": "2026-08-24-placeholder",
         "time_kst": "--:--",
         "country": "US",
         "flag": "🇺🇸",
@@ -1603,7 +1630,7 @@
     ],
     "today": [
       {
-        "event_id": "2026-08-23-placeholder",
+        "event_id": "2026-08-24-placeholder",
         "time_kst": "--:--",
         "country": "US",
         "flag": "🇺🇸",
