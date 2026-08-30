@@ -1,7 +1,7 @@
 {
   "updated_at": {
-    "kr_session": "2026-08-30T08:13:08+09:00",
-    "us_session": "2026-08-30T08:13:08+09:00"
+    "kr_session": "2026-08-31T08:23:40+09:00",
+    "us_session": "2026-08-31T08:23:40+09:00"
   },
   "market_status": {
     "us": "afterhours",
@@ -17,11 +17,11 @@
       "change_pct": -0.52
     },
     "usd_krw": {
-      "value": 1371.5,
-      "change_pct": -0.65
+      "value": 1377.66,
+      "change_pct": -0.2
     },
     "bitcoin": {
-      "value": 78210.57,
+      "value": 77954.67,
       "change_pct": 0.0
     },
     "kospi": {
@@ -533,7 +533,7 @@
         "sector": "경기소비재",
         "price": 39.6,
         "change_pct": 3.02,
-        "market_cap": 58643124247
+        "market_cap": 58746546375
       },
       {
         "ticker": "TMO",
@@ -565,7 +565,7 @@
         "sector": "유틸리티",
         "price": 81.84,
         "change_pct": -1.22,
-        "market_cap": 170685934861
+        "market_cap": 170716448985
       },
       {
         "ticker": "AMAT",
@@ -743,7 +743,7 @@
         "sector": "필수소비재",
         "price": 62.36,
         "change_pct": -0.11,
-        "market_cap": 80048400191
+        "market_cap": 79590571213
       }
     ],
     "dow30": [
@@ -849,7 +849,7 @@
         "sector": "필수소비재",
         "price": 143.78,
         "change_pct": 0.45,
-        "market_cap": 334805958214
+        "market_cap": 334206982529
       },
       {
         "ticker": "CVX",
@@ -1526,13 +1526,6 @@
   "earnings": {
     "prev_week": {
       "range": {
-        "start": "2026-08-17",
-        "end": "2026-08-21"
-      },
-      "items": []
-    },
-    "curr_week": {
-      "range": {
         "start": "2026-08-24",
         "end": "2026-08-28"
       },
@@ -1552,7 +1545,7 @@
         }
       ]
     },
-    "next_week": {
+    "curr_week": {
       "range": {
         "start": "2026-08-31",
         "end": "2026-09-04"
@@ -1585,12 +1578,46 @@
           "surprise_pct": null
         }
       ]
+    },
+    "next_week": {
+      "range": {
+        "start": "2026-09-07",
+        "end": "2026-09-11"
+      },
+      "items": [
+        {
+          "ticker": "ORCL",
+          "company": "Oracle Corporation",
+          "date": "2026-09-10",
+          "weekday": "목",
+          "timing": "AMC",
+          "time_str": "미정",
+          "market_cap": 434519080960,
+          "market_cap_tier": "large",
+          "eps_estimate": null,
+          "eps_actual": null,
+          "surprise_pct": null
+        },
+        {
+          "ticker": "ADBE",
+          "company": "Adobe Inc.",
+          "date": "2026-09-10",
+          "weekday": "목",
+          "timing": "AMC",
+          "time_str": "미정",
+          "market_cap": 115879198720,
+          "market_cap_tier": "large",
+          "eps_estimate": null,
+          "eps_actual": null,
+          "surprise_pct": null
+        }
+      ]
     }
   },
   "economic_calendar": {
     "yesterday": [
       {
-        "event_id": "2026-08-30-placeholder",
+        "event_id": "2026-08-31-placeholder",
         "time_kst": "--:--",
         "country": "US",
         "flag": "🇺🇸",
@@ -1604,7 +1631,7 @@
     ],
     "today": [
       {
-        "event_id": "2026-08-30-placeholder",
+        "event_id": "2026-08-31-placeholder",
         "time_kst": "--:--",
         "country": "US",
         "flag": "🇺🇸",
