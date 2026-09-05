@@ -1,7 +1,7 @@
 {
   "updated_at": {
-    "kr_session": "2026-09-05T07:58:12+09:00",
-    "us_session": "2026-09-05T07:58:12+09:00"
+    "kr_session": "2026-09-06T07:47:29+09:00",
+    "us_session": "2026-09-06T07:47:29+09:00"
   },
   "market_status": {
     "us": "afterhours",
@@ -17,20 +17,20 @@
       "change_pct": -0.29
     },
     "usd_krw": {
-      "value": 1345.99,
-      "change_pct": -0.91
+      "value": 1351.1,
+      "change_pct": -0.32
     },
     "bitcoin": {
-      "value": 79661.43,
-      "change_pct": -1.98
+      "value": 79772.91,
+      "change_pct": 0.13
     },
     "kospi": {
-      "value": NaN,
-      "change_pct": NaN
+      "value": 6687.21,
+      "change_pct": 1.64
     },
     "kosdaq": {
-      "value": NaN,
-      "change_pct": NaN
+      "value": 813.5,
+      "change_pct": 2.95
     }
   },
   "temperature": {
@@ -380,7 +380,7 @@
         "name": "Alphabet",
         "sector": "통신서비스",
         "price": 338.46,
-        "change_pct": -1.17,
+        "change_pct": -1.11,
         "market_cap": 4139343638396
       },
       {
@@ -427,9 +427,9 @@
         "ticker": "AVGO",
         "name": "Broadcom",
         "sector": "기술",
-        "price": 357.89,
+        "price": 357.9,
         "change_pct": 0.21,
-        "market_cap": 1702714112694
+        "market_cap": 1702737923826
       },
       {
         "ticker": "XOM",
@@ -622,7 +622,7 @@
         "name": "Alphabet",
         "sector": "통신서비스",
         "price": 338.46,
-        "change_pct": -1.17,
+        "change_pct": -1.11,
         "market_cap": 4139343638396
       },
       {
@@ -645,9 +645,9 @@
         "ticker": "AVGO",
         "name": "Broadcom",
         "sector": "기술",
-        "price": 357.89,
+        "price": 357.9,
         "change_pct": 0.21,
-        "market_cap": 1702714112694
+        "market_cap": 1702737923826
       },
       {
         "ticker": "NFLX",
@@ -717,9 +717,9 @@
         "ticker": "GILD",
         "name": "Gilead",
         "sector": "헬스케어",
-        "price": 150.99,
+        "price": 151.0,
         "change_pct": -0.15,
-        "market_cap": 187227022574
+        "market_cap": 187233228405
       },
       {
         "ticker": "VRTX",
@@ -1288,7 +1288,7 @@
       "stocks": [
         {
           "ticker": "GOOGL",
-          "change_pct": -1.17
+          "change_pct": -1.11
         },
         {
           "ticker": "META",
@@ -1340,7 +1340,7 @@
         },
         {
           "ticker": "BAC",
-          "change_pct": -0.57
+          "change_pct": -0.06
         },
         {
           "ticker": "GS",
@@ -1590,356 +1590,6 @@
   "economic_calendar": {
     "yesterday": [
       {
-        "event_id": "2026/09/04 00:30:00",
-        "time_kst": "00:30",
-        "country": "US",
-        "flag": "🇺🇸",
-        "name": "4-Week Bill Auction",
-        "importance": 1,
-        "actual": "3.700%",
-        "forecast": null,
-        "previous": "3.650%",
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/09/04 00:30:00",
-        "time_kst": "00:30",
-        "country": "US",
-        "flag": "🇺🇸",
-        "name": "8-Week Bill Auction",
-        "importance": 1,
-        "actual": "3.750%",
-        "forecast": null,
-        "previous": "3.670%",
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/09/04 01:20:00",
-        "time_kst": "01:20",
-        "country": "US",
-        "flag": "🇺🇸",
-        "name": "Atlanta Fed GDPNow  (Q3)",
-        "importance": 2,
-        "actual": "4.7%",
-        "forecast": "4.8%",
-        "previous": "4.8%",
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/09/04 02:15:00",
-        "time_kst": "02:15",
-        "country": "GB",
-        "flag": "🇬🇧",
-        "name": "BoE MPC Member Pill Speaks",
-        "importance": 2,
-        "actual": null,
-        "forecast": null,
-        "previous": null,
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/09/04 04:55:00",
-        "time_kst": "04:55",
-        "country": "US",
-        "flag": "🇺🇸",
-        "name": "Fed Goolsbee Speaks",
-        "importance": 1,
-        "actual": null,
-        "forecast": null,
-        "previous": null,
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/09/04 05:30:00",
-        "time_kst": "05:30",
-        "country": "US",
-        "flag": "🇺🇸",
-        "name": "Fed's Balance Sheet",
-        "importance": 2,
-        "actual": "6,737B",
-        "forecast": null,
-        "previous": "6,731B",
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/09/04 05:30:00",
-        "time_kst": "05:30",
-        "country": "US",
-        "flag": "🇺🇸",
-        "name": "Reserve Balances with Federal Reserve Banks",
-        "importance": 1,
-        "actual": "2.929T",
-        "forecast": null,
-        "previous": "2.916T",
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/09/04 17:00:00",
-        "time_kst": "17:00",
-        "country": "GB",
-        "flag": "🇬🇧",
-        "name": "Car Registration (YoY)  (Aug)",
-        "importance": 1,
-        "actual": "13.7%",
-        "forecast": null,
-        "previous": "11.7%",
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/09/04 17:00:00",
-        "time_kst": "17:00",
-        "country": "GB",
-        "flag": "🇬🇧",
-        "name": "United Kingdom New Passenger Cars Registration  (Aug)",
-        "importance": 1,
-        "actual": "94,236.0",
-        "forecast": null,
-        "previous": "156,571.0",
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/09/04 17:30:00",
-        "time_kst": "17:30",
-        "country": "GB",
-        "flag": "🇬🇧",
-        "name": "S&P Global Construction PMI  (Aug)",
-        "importance": 2,
-        "actual": "44.3",
-        "forecast": "45.8",
-        "previous": "44.7",
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/09/04 17:50:00",
-        "time_kst": "17:50",
-        "country": "GB",
-        "flag": "🇬🇧",
-        "name": "BoE Gov Bailey Speaks",
-        "importance": 2,
-        "actual": null,
-        "forecast": null,
-        "previous": null,
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/09/04 21:30:00",
-        "time_kst": "21:30",
-        "country": "US",
-        "flag": "🇺🇸",
-        "name": "Average Hourly Earnings (MoM)  (Aug)",
-        "importance": 3,
-        "actual": "0.3%",
-        "forecast": "0.3%",
-        "previous": "0.2%",
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/09/04 21:30:00",
-        "time_kst": "21:30",
-        "country": "US",
-        "flag": "🇺🇸",
-        "name": "Average Hourly Earnings (YoY) (YoY)  (Aug)",
-        "importance": 2,
-        "actual": "3.1%",
-        "forecast": "3.0%",
-        "previous": "3.2%",
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/09/04 21:30:00",
-        "time_kst": "21:30",
-        "country": "US",
-        "flag": "🇺🇸",
-        "name": "Average Weekly Hours  (Aug)",
-        "importance": 1,
-        "actual": "34.4",
-        "forecast": "34.3",
-        "previous": "34.3",
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/09/04 21:30:00",
-        "time_kst": "21:30",
-        "country": "US",
-        "flag": "🇺🇸",
-        "name": "Government Payrolls  (Aug)",
-        "importance": 1,
-        "actual": "35.0K",
-        "forecast": null,
-        "previous": "-50.0K",
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/09/04 21:30:00",
-        "time_kst": "21:30",
-        "country": "US",
-        "flag": "🇺🇸",
-        "name": "Manufacturing Payrolls  (Aug)",
-        "importance": 1,
-        "actual": "16K",
-        "forecast": "5K",
-        "previous": "14K",
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/09/04 21:30:00",
-        "time_kst": "21:30",
-        "country": "US",
-        "flag": "🇺🇸",
-        "name": "Nonfarm Payrolls  (Aug)",
-        "importance": 3,
-        "actual": "162K",
-        "forecast": "55K",
-        "previous": "21K",
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/09/04 21:30:00",
-        "time_kst": "21:30",
-        "country": "US",
-        "flag": "🇺🇸",
-        "name": "Participation Rate  (Aug)",
-        "importance": 2,
-        "actual": "61.6%",
-        "forecast": null,
-        "previous": "61.4%",
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/09/04 21:30:00",
-        "time_kst": "21:30",
-        "country": "US",
-        "flag": "🇺🇸",
-        "name": "Private Nonfarm Payrolls  (Aug)",
-        "importance": 2,
-        "actual": "127K",
-        "forecast": "45K",
-        "previous": "71K",
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/09/04 21:30:00",
-        "time_kst": "21:30",
-        "country": "US",
-        "flag": "🇺🇸",
-        "name": "U6 Unemployment Rate  (Aug)",
-        "importance": 2,
-        "actual": "7.7%",
-        "forecast": null,
-        "previous": "7.9%",
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/09/04 21:30:00",
-        "time_kst": "21:30",
-        "country": "US",
-        "flag": "🇺🇸",
-        "name": "Unemployment Rate  (Aug)",
-        "importance": 3,
-        "actual": "4.1%",
-        "forecast": "4.1%",
-        "previous": "4.1%",
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/09/04 21:30:00",
-        "time_kst": "21:30",
-        "country": "US",
-        "flag": "🇺🇸",
-        "name": "Avg hourly wages Permanent employee  (Aug)",
-        "importance": 1,
-        "actual": "2.0%",
-        "forecast": null,
-        "previous": "3.0%",
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/09/04 21:30:00",
-        "time_kst": "21:30",
-        "country": "US",
-        "flag": "🇺🇸",
-        "name": "Employment Change  (Aug)",
-        "importance": 2,
-        "actual": "-41.7K",
-        "forecast": "15.1K",
-        "previous": "75.1K",
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/09/04 21:30:00",
-        "time_kst": "21:30",
-        "country": "US",
-        "flag": "🇺🇸",
-        "name": "Full Employment Change  (Aug)",
-        "importance": 1,
-        "actual": "-35.9K",
-        "forecast": null,
-        "previous": "38.6K",
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/09/04 21:30:00",
-        "time_kst": "21:30",
-        "country": "US",
-        "flag": "🇺🇸",
-        "name": "Part Time Employment Change  (Aug)",
-        "importance": 1,
-        "actual": "-5.8K",
-        "forecast": null,
-        "previous": "36.6K",
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/09/04 21:30:00",
-        "time_kst": "21:30",
-        "country": "US",
-        "flag": "🇺🇸",
-        "name": "Participation Rate  (Aug)",
-        "importance": 1,
-        "actual": "65.0%",
-        "forecast": null,
-        "previous": "65.1%",
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/09/04 21:30:00",
-        "time_kst": "21:30",
-        "country": "US",
-        "flag": "🇺🇸",
-        "name": "Unemployment Rate  (Aug)",
-        "importance": 2,
-        "actual": "6.4%",
-        "forecast": "6.4%",
-        "previous": "6.4%",
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/09/04 23:00:00",
-        "time_kst": "23:00",
-        "country": "US",
-        "flag": "🇺🇸",
-        "name": "Ivey PMI n.s.a  (Aug)",
-        "importance": 1,
-        "actual": "62.7",
-        "forecast": null,
-        "previous": "54.1",
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/09/04 23:00:00",
-        "time_kst": "23:00",
-        "country": "US",
-        "flag": "🇺🇸",
-        "name": "Ivey PMI  (Aug)",
-        "importance": 2,
-        "actual": "64.3",
-        "forecast": "56.2",
-        "previous": "55.1",
-        "is_next_release": false
-      }
-    ],
-    "today": [
-      {
         "event_id": "2026/09/05 02:00:00",
         "time_kst": "02:00",
         "country": "US",
@@ -2132,7 +1782,7 @@
         "is_next_release": false
       }
     ],
-    "tomorrow": [
+    "today": [
       {
         "event_id": "2026/09/06 19:00:00",
         "time_kst": "19:00",
@@ -2143,6 +1793,57 @@
         "actual": null,
         "forecast": null,
         "previous": null,
+        "is_next_release": true,
+        "next_release_datetime": "2026-09-06T19:00:00+09:00"
+      }
+    ],
+    "tomorrow": [
+      {
+        "event_id": "2026/09/07 10:30:00",
+        "time_kst": "10:30",
+        "country": "US",
+        "flag": "🇺🇸",
+        "name": "ANZ Job Advertisements (MoM)  (Aug)",
+        "importance": 1,
+        "actual": null,
+        "forecast": null,
+        "previous": "0.8%",
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/09/07 15:00:00",
+        "time_kst": "15:00",
+        "country": "GB",
+        "flag": "🇬🇧",
+        "name": "Lloyds House Price Index (MoM)  (Aug)",
+        "importance": 2,
+        "actual": null,
+        "forecast": "0.2%",
+        "previous": "0.0%",
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/09/07 15:00:00",
+        "time_kst": "15:00",
+        "country": "GB",
+        "flag": "🇬🇧",
+        "name": "Lloyds House Price Index (YoY)  (Aug)",
+        "importance": 2,
+        "actual": null,
+        "forecast": null,
+        "previous": "0.1%",
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/09/07 19:00:00",
+        "time_kst": "19:00",
+        "country": "US",
+        "flag": "🇺🇸",
+        "name": "Leading Index (MoM)  (Aug)",
+        "importance": 1,
+        "actual": null,
+        "forecast": null,
+        "previous": "0.14%",
         "is_next_release": false
       }
     ],
@@ -3849,7 +3550,7 @@
         "name": "Lloyds House Price Index (MoM)  (Aug)",
         "importance": 2,
         "actual": null,
-        "forecast": null,
+        "forecast": "0.2%",
         "previous": "0.0%",
         "is_next_release": false
       },
@@ -3885,7 +3586,7 @@
         "name": "BRC Retail Sales Monitor (YoY)  (Aug)",
         "importance": 2,
         "actual": null,
-        "forecast": null,
+        "forecast": "1.2%",
         "previous": "1.0%",
         "is_next_release": false
       },
@@ -3969,7 +3670,7 @@
         "name": "NFIB Small Business Optimism  (Aug)",
         "importance": 1,
         "actual": null,
-        "forecast": null,
+        "forecast": "99.2",
         "previous": "99.8",
         "is_next_release": false
       },
@@ -3983,6 +3684,30 @@
         "actual": null,
         "forecast": null,
         "previous": "11.80K",
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/09/08 22:15:00",
+        "time_kst": "22:15",
+        "country": "GB",
+        "flag": "🇬🇧",
+        "name": "BoE Gov Bailey Speaks",
+        "importance": 2,
+        "actual": null,
+        "forecast": null,
+        "previous": null,
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/09/08 22:15:00",
+        "time_kst": "22:15",
+        "country": "GB",
+        "flag": "🇬🇧",
+        "name": "MPC Member Ramsden Speaks",
+        "importance": 2,
+        "actual": null,
+        "forecast": null,
+        "previous": null,
         "is_next_release": false
       },
       {
