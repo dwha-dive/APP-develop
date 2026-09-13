@@ -1,7 +1,7 @@
 {
   "updated_at": {
-    "kr_session": "2026-09-13T07:57:02+09:00",
-    "us_session": "2026-09-13T07:57:02+09:00"
+    "kr_session": "2026-09-14T08:05:09+09:00",
+    "us_session": "2026-09-14T08:05:09+09:00"
   },
   "market_status": {
     "us": "afterhours",
@@ -17,12 +17,12 @@
       "change_pct": 0.96
     },
     "usd_krw": {
-      "value": 1341.05,
-      "change_pct": -0.53
+      "value": 1342.9,
+      "change_pct": -0.39
     },
     "bitcoin": {
-      "value": 77230.63,
-      "change_pct": 0.07
+      "value": 76711.8,
+      "change_pct": -0.72
     },
     "kospi": {
       "value": 6909.91,
@@ -533,7 +533,7 @@
         "sector": "경기소비재",
         "price": 36.8,
         "change_pct": 0.49,
-        "market_cap": 54592751138
+        "market_cap": 54496641684
       },
       {
         "ticker": "TMO",
@@ -565,7 +565,7 @@
         "sector": "유틸리티",
         "price": 82.31,
         "change_pct": -0.16,
-        "market_cap": 171696861290
+        "market_cap": 171666171925
       },
       {
         "ticker": "AMAT",
@@ -743,7 +743,7 @@
         "sector": "필수소비재",
         "price": 62.44,
         "change_pct": -0.05,
-        "market_cap": 79692673326
+        "market_cap": 80151089626
       }
     ],
     "dow30": [
@@ -849,7 +849,7 @@
         "sector": "필수소비재",
         "price": 145.27,
         "change_pct": 1.61,
-        "market_cap": 337414616687
+        "market_cap": 337670400557
       },
       {
         "ticker": "CVX",
@@ -1526,30 +1526,44 @@
   "earnings": {
     "prev_week": {
       "range": {
-        "start": "2026-08-31",
-        "end": "2026-09-04"
-      },
-      "items": []
-    },
-    "curr_week": {
-      "range": {
         "start": "2026-09-07",
         "end": "2026-09-11"
       },
       "items": []
     },
-    "next_week": {
+    "curr_week": {
       "range": {
         "start": "2026-09-14",
         "end": "2026-09-18"
       },
       "items": []
+    },
+    "next_week": {
+      "range": {
+        "start": "2026-09-21",
+        "end": "2026-09-25"
+      },
+      "items": [
+        {
+          "ticker": "COST",
+          "company": "Costco Wholesale Corporation",
+          "date": "2026-09-24",
+          "weekday": "목",
+          "timing": "AMC",
+          "time_str": "미정",
+          "market_cap": 401246322688,
+          "market_cap_tier": "large",
+          "eps_estimate": null,
+          "eps_actual": null,
+          "surprise_pct": null
+        }
+      ]
     }
   },
   "economic_calendar": {
     "yesterday": [
       {
-        "event_id": "2026-09-13-placeholder",
+        "event_id": "2026-09-14-placeholder",
         "time_kst": "--:--",
         "country": "US",
         "flag": "🇺🇸",
@@ -1563,7 +1577,7 @@
     ],
     "today": [
       {
-        "event_id": "2026-09-13-placeholder",
+        "event_id": "2026-09-14-placeholder",
         "time_kst": "--:--",
         "country": "US",
         "flag": "🇺🇸",
