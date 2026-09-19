@@ -1,7 +1,7 @@
 {
   "updated_at": {
-    "kr_session": "2026-09-19T08:11:57+09:00",
-    "us_session": "2026-09-19T08:11:57+09:00"
+    "kr_session": "2026-09-20T07:52:52+09:00",
+    "us_session": "2026-09-20T07:52:52+09:00"
   },
   "market_status": {
     "us": "afterhours",
@@ -17,20 +17,20 @@
       "change_pct": 0.39
     },
     "usd_krw": {
-      "value": 1385.95,
-      "change_pct": 0.68
+      "value": 1385.0,
+      "change_pct": 0.4
     },
     "bitcoin": {
-      "value": 81108.85,
-      "change_pct": 6.16
+      "value": 81208.2,
+      "change_pct": 0.38
     },
     "kospi": {
-      "value": NaN,
-      "change_pct": NaN
+      "value": 6894.23,
+      "change_pct": 2.66
     },
     "kosdaq": {
-      "value": NaN,
-      "change_pct": NaN
+      "value": 827.12,
+      "change_pct": 0.6
     }
   },
   "temperature": {
@@ -1563,7 +1563,7 @@
   "economic_calendar": {
     "yesterday": [
       {
-        "event_id": "2026-09-19-placeholder",
+        "event_id": "2026-09-20-placeholder",
         "time_kst": "--:--",
         "country": "US",
         "flag": "🇺🇸",
@@ -1577,7 +1577,7 @@
     ],
     "today": [
       {
-        "event_id": "2026-09-19-placeholder",
+        "event_id": "2026-09-20-placeholder",
         "time_kst": "--:--",
         "country": "US",
         "flag": "🇺🇸",
