@@ -1,7 +1,7 @@
 {
   "updated_at": {
-    "kr_session": "2026-10-24T08:49:24+09:00",
-    "us_session": "2026-10-24T08:49:24+09:00"
+    "kr_session": "2026-10-25T08:04:47+09:00",
+    "us_session": "2026-10-25T08:04:47+09:00"
   },
   "market_status": {
     "us": "afterhours",
@@ -17,20 +17,20 @@
       "change_pct": -0.21
     },
     "usd_krw": {
-      "value": 1323.66,
-      "change_pct": -0.15
+      "value": 1325.4,
+      "change_pct": -0.04
     },
     "bitcoin": {
-      "value": 81065.03,
-      "change_pct": -0.3
+      "value": 80518.66,
+      "change_pct": -0.69
     },
     "kospi": {
-      "value": NaN,
-      "change_pct": NaN
+      "value": 5550.3,
+      "change_pct": 0.3
     },
     "kosdaq": {
-      "value": NaN,
-      "change_pct": NaN
+      "value": 751.69,
+      "change_pct": -1.62
     }
   },
   "temperature": {
@@ -349,7 +349,7 @@
         "sector": "기술",
         "price": 347.73,
         "change_pct": -0.14,
-        "market_cap": 5074761329575
+        "market_cap": 5074834371736
       },
       {
         "ticker": "MSFT",
@@ -591,7 +591,7 @@
         "sector": "기술",
         "price": 347.73,
         "change_pct": -0.14,
-        "market_cap": 5074761329575
+        "market_cap": 5074834371736
       },
       {
         "ticker": "MSFT",
@@ -743,7 +743,7 @@
         "sector": "필수소비재",
         "price": 63.8,
         "change_pct": -2.13,
-        "market_cap": 81428453062
+        "market_cap": 81896854091
       }
     ],
     "dow30": [
@@ -753,7 +753,7 @@
         "sector": "기술",
         "price": 347.73,
         "change_pct": -0.14,
-        "market_cap": 5074761329575
+        "market_cap": 5074834371736
       },
       {
         "ticker": "MSFT",
@@ -848,7 +848,7 @@
         "name": "P&G",
         "sector": "필수소비재",
         "price": 161.02,
-        "change_pct": -2.76,
+        "change_pct": -2.12,
         "market_cap": 373209451588
       },
       {
@@ -1384,7 +1384,7 @@
       "stocks": [
         {
           "ticker": "PG",
-          "change_pct": -2.76
+          "change_pct": -2.12
         },
         {
           "ticker": "KO",
@@ -1596,7 +1596,7 @@
           "weekday": "수",
           "timing": "AMC",
           "time_str": "미정",
-          "market_cap": 179440746496,
+          "market_cap": 180626014208,
           "market_cap_tier": "large",
           "eps_estimate": null,
           "eps_actual": null,
@@ -1669,7 +1669,7 @@
           "weekday": "목",
           "timing": "AMC",
           "time_str": "미정",
-          "market_cap": 1135596929024,
+          "market_cap": 1135107506176,
           "market_cap_tier": "large",
           "eps_estimate": null,
           "eps_actual": null,
@@ -1720,7 +1720,7 @@
   "economic_calendar": {
     "yesterday": [
       {
-        "event_id": "2026-10-24-placeholder",
+        "event_id": "2026-10-25-placeholder",
         "time_kst": "--:--",
         "country": "US",
         "flag": "🇺🇸",
@@ -1734,7 +1734,7 @@
     ],
     "today": [
       {
-        "event_id": "2026-10-24-placeholder",
+        "event_id": "2026-10-25-placeholder",
         "time_kst": "--:--",
         "country": "US",
         "flag": "🇺🇸",
