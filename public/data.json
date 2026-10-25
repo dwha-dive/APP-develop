@@ -1,7 +1,7 @@
 {
   "updated_at": {
-    "kr_session": "2026-10-25T08:04:47+09:00",
-    "us_session": "2026-10-25T08:04:47+09:00"
+    "kr_session": "2026-10-26T08:09:06+09:00",
+    "us_session": "2026-10-26T08:09:06+09:00"
   },
   "market_status": {
     "us": "afterhours",
@@ -17,12 +17,12 @@
       "change_pct": -0.21
     },
     "usd_krw": {
-      "value": 1325.4,
-      "change_pct": -0.04
+      "value": 1323.43,
+      "change_pct": -0.19
     },
     "bitcoin": {
-      "value": 80518.66,
-      "change_pct": -0.69
+      "value": 80271.34,
+      "change_pct": -0.64
     },
     "kospi": {
       "value": 5550.3,
@@ -743,7 +743,7 @@
         "sector": "필수소비재",
         "price": 63.8,
         "change_pct": -2.13,
-        "market_cap": 81896854091
+        "market_cap": 81428453062
       }
     ],
     "dow30": [
@@ -1526,13 +1526,6 @@
   "earnings": {
     "prev_week": {
       "range": {
-        "start": "2026-10-12",
-        "end": "2026-10-16"
-      },
-      "items": []
-    },
-    "curr_week": {
-      "range": {
         "start": "2026-10-19",
         "end": "2026-10-23"
       },
@@ -1596,7 +1589,7 @@
           "weekday": "수",
           "timing": "AMC",
           "time_str": "미정",
-          "market_cap": 180626014208,
+          "market_cap": 179440746496,
           "market_cap_tier": "large",
           "eps_estimate": null,
           "eps_actual": null,
@@ -1604,7 +1597,7 @@
         }
       ]
     },
-    "next_week": {
+    "curr_week": {
       "range": {
         "start": "2026-10-26",
         "end": "2026-10-30"
@@ -1669,7 +1662,7 @@
           "weekday": "목",
           "timing": "AMC",
           "time_str": "미정",
-          "market_cap": 1135107506176,
+          "market_cap": 1135596929024,
           "market_cap_tier": "large",
           "eps_estimate": null,
           "eps_actual": null,
@@ -1715,12 +1708,59 @@
           "surprise_pct": null
         }
       ]
+    },
+    "next_week": {
+      "range": {
+        "start": "2026-11-02",
+        "end": "2026-11-06"
+      },
+      "items": [
+        {
+          "ticker": "AAPL",
+          "company": "Apple Inc.",
+          "date": "2026-11-02",
+          "weekday": "월",
+          "timing": "AMC",
+          "time_str": "미정",
+          "market_cap": 5074761285632,
+          "market_cap_tier": "large",
+          "eps_estimate": null,
+          "eps_actual": null,
+          "surprise_pct": null
+        },
+        {
+          "ticker": "AMD",
+          "company": "Advanced Micro Devices, Inc.",
+          "date": "2026-11-03",
+          "weekday": "화",
+          "timing": "AMC",
+          "time_str": "미정",
+          "market_cap": 843646697472,
+          "market_cap_tier": "large",
+          "eps_estimate": null,
+          "eps_actual": null,
+          "surprise_pct": null
+        },
+        {
+          "ticker": "QCOM",
+          "company": "QUALCOMM Incorporated",
+          "date": "2026-11-04",
+          "weekday": "수",
+          "timing": "AMC",
+          "time_str": "미정",
+          "market_cap": 187843641344,
+          "market_cap_tier": "large",
+          "eps_estimate": null,
+          "eps_actual": null,
+          "surprise_pct": null
+        }
+      ]
     }
   },
   "economic_calendar": {
     "yesterday": [
       {
-        "event_id": "2026-10-25-placeholder",
+        "event_id": "2026-10-26-placeholder",
         "time_kst": "--:--",
         "country": "US",
         "flag": "🇺🇸",
@@ -1734,7 +1774,7 @@
     ],
     "today": [
       {
-        "event_id": "2026-10-25-placeholder",
+        "event_id": "2026-10-26-placeholder",
         "time_kst": "--:--",
         "country": "US",
         "flag": "🇺🇸",
