@@ -1,7 +1,7 @@
 {
   "updated_at": {
-    "kr_session": "2026-11-07T09:50:13+09:00",
-    "us_session": "2026-11-07T09:50:13+09:00"
+    "kr_session": "2026-11-08T09:23:53+09:00",
+    "us_session": "2026-11-08T09:23:53+09:00"
   },
   "market_status": {
     "us": "afterhours",
@@ -13,7 +13,7 @@
       "change_pct": 0.31
     },
     "nasdaq": {
-      "value": 24579.42,
+      "value": 24579.43,
       "change_pct": 1.09
     },
     "usd_krw": {
@@ -21,16 +21,16 @@
       "change_pct": 1.21
     },
     "bitcoin": {
-      "value": 75780.34,
+      "value": 75713.79,
       "change_pct": 0.0
     },
     "kospi": {
-      "value": NaN,
-      "change_pct": NaN
+      "value": 5059.69,
+      "change_pct": -6.02
     },
     "kosdaq": {
-      "value": NaN,
-      "change_pct": NaN
+      "value": 644.27,
+      "change_pct": -5.03
     }
   },
   "temperature": {
@@ -413,7 +413,7 @@
         "sector": "금융",
         "price": 422.65,
         "change_pct": 0.01,
-        "market_cap": 789935356318
+        "market_cap": 788580380589
       },
       {
         "ticker": "UNH",
@@ -525,7 +525,7 @@
         "sector": "경기소비재",
         "price": 276.52,
         "change_pct": -0.55,
-        "market_cap": 195677028377
+        "market_cap": 195163589656
       },
       {
         "ticker": "NKE",
@@ -571,9 +571,9 @@
         "ticker": "AMAT",
         "name": "Applied Materials",
         "sector": "기술",
-        "price": 332.71,
+        "price": 332.72,
         "change_pct": 4.22,
-        "market_cap": 264041770341
+        "market_cap": 264045742203
       },
       {
         "ticker": "PANW",
@@ -777,7 +777,7 @@
         "sector": "금융",
         "price": 422.65,
         "change_pct": 0.01,
-        "market_cap": 789935356318
+        "market_cap": 788580380589
       },
       {
         "ticker": "HD",
@@ -817,7 +817,7 @@
         "sector": "경기소비재",
         "price": 276.52,
         "change_pct": -0.55,
-        "market_cap": 195677028377
+        "market_cap": 195163589656
       },
       {
         "ticker": "WMT",
@@ -857,7 +857,7 @@
         "sector": "에너지",
         "price": 212.61,
         "change_pct": -0.15,
-        "market_cap": 414802111190
+        "market_cap": 414856047371
       },
       {
         "ticker": "AMGN",
@@ -1616,356 +1616,6 @@
   "economic_calendar": {
     "yesterday": [
       {
-        "event_id": "2026/11/06 00:30:00",
-        "time_kst": "00:30",
-        "country": "US",
-        "flag": "🇺🇸",
-        "name": "Natural Gas Storage",
-        "importance": 1,
-        "actual": "77B",
-        "forecast": "81B",
-        "previous": "80B",
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/11/06 00:30:00",
-        "time_kst": "00:30",
-        "country": "US",
-        "flag": "🇺🇸",
-        "name": "BoC Senior Deputy Governor Rogers Speaks",
-        "importance": 2,
-        "actual": null,
-        "forecast": null,
-        "previous": null,
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/11/06 00:30:00",
-        "time_kst": "00:30",
-        "country": "US",
-        "flag": "🇺🇸",
-        "name": "BoC Gov Macklem Speaks",
-        "importance": 2,
-        "actual": null,
-        "forecast": null,
-        "previous": null,
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/11/06 01:30:00",
-        "time_kst": "01:30",
-        "country": "US",
-        "flag": "🇺🇸",
-        "name": "4-Week Bill Auction",
-        "importance": 1,
-        "actual": "3.890%",
-        "forecast": null,
-        "previous": "3.910%",
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/11/06 01:30:00",
-        "time_kst": "01:30",
-        "country": "US",
-        "flag": "🇺🇸",
-        "name": "8-Week Bill Auction",
-        "importance": 1,
-        "actual": "3.975%",
-        "forecast": null,
-        "previous": "4.020%",
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/11/06 06:30:00",
-        "time_kst": "06:30",
-        "country": "US",
-        "flag": "🇺🇸",
-        "name": "Fed's Balance Sheet",
-        "importance": 2,
-        "actual": "6,748B",
-        "forecast": null,
-        "previous": "6,746B",
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/11/06 06:30:00",
-        "time_kst": "06:30",
-        "country": "US",
-        "flag": "🇺🇸",
-        "name": "Reserve Balances with Federal Reserve Banks",
-        "importance": 1,
-        "actual": "2.962T",
-        "forecast": null,
-        "previous": "2.895T",
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/11/06 09:00:00",
-        "time_kst": "09:00",
-        "country": "US",
-        "flag": "🇺🇸",
-        "name": "Fed Logan Speaks",
-        "importance": 1,
-        "actual": null,
-        "forecast": null,
-        "previous": null,
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/11/06 16:00:00",
-        "time_kst": "16:00",
-        "country": "GB",
-        "flag": "🇬🇧",
-        "name": "Lloyds House Price Index (MoM)  (Oct)",
-        "importance": 2,
-        "actual": "-0.6%",
-        "forecast": "0.0%",
-        "previous": "-0.1%",
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/11/06 16:00:00",
-        "time_kst": "16:00",
-        "country": "GB",
-        "flag": "🇬🇧",
-        "name": "Lloyds House Price Index (YoY)  (Oct)",
-        "importance": 2,
-        "actual": "-1.2%",
-        "forecast": "-0.3%",
-        "previous": "-0.1%",
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/11/06 18:30:00",
-        "time_kst": "18:30",
-        "country": "GB",
-        "flag": "🇬🇧",
-        "name": "Mortgage Rate (GBP)  (Oct)",
-        "importance": 2,
-        "actual": "6.58%",
-        "forecast": null,
-        "previous": "6.58%",
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/11/06 18:30:00",
-        "time_kst": "18:30",
-        "country": "US",
-        "flag": "🇺🇸",
-        "name": "FOMC Member Williams Speaks",
-        "importance": 2,
-        "actual": null,
-        "forecast": null,
-        "previous": null,
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/11/06 21:15:00",
-        "time_kst": "21:15",
-        "country": "GB",
-        "flag": "🇬🇧",
-        "name": "BoE MPC Member Pill Speaks",
-        "importance": 2,
-        "actual": null,
-        "forecast": null,
-        "previous": null,
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/11/06 22:30:00",
-        "time_kst": "22:30",
-        "country": "US",
-        "flag": "🇺🇸",
-        "name": "Average Hourly Earnings (MoM)  (Oct)",
-        "importance": 3,
-        "actual": "0.4%",
-        "forecast": "0.3%",
-        "previous": "0.3%",
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/11/06 22:30:00",
-        "time_kst": "22:30",
-        "country": "US",
-        "flag": "🇺🇸",
-        "name": "Average Hourly Earnings (YoY) (YoY)  (Oct)",
-        "importance": 2,
-        "actual": "3.1%",
-        "forecast": "2.9%",
-        "previous": "3.2%",
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/11/06 22:30:00",
-        "time_kst": "22:30",
-        "country": "US",
-        "flag": "🇺🇸",
-        "name": "Average Weekly Hours  (Oct)",
-        "importance": 1,
-        "actual": "34.4",
-        "forecast": "34.4",
-        "previous": "34.4",
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/11/06 22:30:00",
-        "time_kst": "22:30",
-        "country": "US",
-        "flag": "🇺🇸",
-        "name": "Government Payrolls  (Oct)",
-        "importance": 1,
-        "actual": "6.0K",
-        "forecast": null,
-        "previous": "-18.0K",
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/11/06 22:30:00",
-        "time_kst": "22:30",
-        "country": "US",
-        "flag": "🇺🇸",
-        "name": "Manufacturing Payrolls  (Oct)",
-        "importance": 1,
-        "actual": "19K",
-        "forecast": "5K",
-        "previous": "13K",
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/11/06 22:30:00",
-        "time_kst": "22:30",
-        "country": "US",
-        "flag": "🇺🇸",
-        "name": "Nonfarm Payrolls  (Oct)",
-        "importance": 3,
-        "actual": "165K",
-        "forecast": "65K",
-        "previous": "60K",
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/11/06 22:30:00",
-        "time_kst": "22:30",
-        "country": "US",
-        "flag": "🇺🇸",
-        "name": "Participation Rate  (Oct)",
-        "importance": 2,
-        "actual": "61.9%",
-        "forecast": "61.8%",
-        "previous": "61.8%",
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/11/06 22:30:00",
-        "time_kst": "22:30",
-        "country": "US",
-        "flag": "🇺🇸",
-        "name": "Private Nonfarm Payrolls  (Oct)",
-        "importance": 2,
-        "actual": "159K",
-        "forecast": "64K",
-        "previous": "78K",
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/11/06 22:30:00",
-        "time_kst": "22:30",
-        "country": "US",
-        "flag": "🇺🇸",
-        "name": "U6 Unemployment Rate  (Oct)",
-        "importance": 2,
-        "actual": "7.9%",
-        "forecast": null,
-        "previous": "7.6%",
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/11/06 22:30:00",
-        "time_kst": "22:30",
-        "country": "US",
-        "flag": "🇺🇸",
-        "name": "Unemployment Rate  (Oct)",
-        "importance": 3,
-        "actual": "4.1%",
-        "forecast": "4.2%",
-        "previous": "4.2%",
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/11/06 22:30:00",
-        "time_kst": "22:30",
-        "country": "US",
-        "flag": "🇺🇸",
-        "name": "Avg hourly wages Permanent employee  (Oct)",
-        "importance": 1,
-        "actual": "2.0%",
-        "forecast": null,
-        "previous": "2.3%",
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/11/06 22:30:00",
-        "time_kst": "22:30",
-        "country": "US",
-        "flag": "🇺🇸",
-        "name": "Employment Change  (Oct)",
-        "importance": 2,
-        "actual": "-4.7K",
-        "forecast": "14.6K",
-        "previous": "-68.3K",
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/11/06 22:30:00",
-        "time_kst": "22:30",
-        "country": "US",
-        "flag": "🇺🇸",
-        "name": "Full Employment Change  (Oct)",
-        "importance": 1,
-        "actual": "-18.1K",
-        "forecast": null,
-        "previous": "-35.4K",
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/11/06 22:30:00",
-        "time_kst": "22:30",
-        "country": "US",
-        "flag": "🇺🇸",
-        "name": "Part Time Employment Change  (Oct)",
-        "importance": 1,
-        "actual": "13.4K",
-        "forecast": null,
-        "previous": "-32.9K",
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/11/06 22:30:00",
-        "time_kst": "22:30",
-        "country": "US",
-        "flag": "🇺🇸",
-        "name": "Participation Rate  (Oct)",
-        "importance": 1,
-        "actual": "64.8%",
-        "forecast": null,
-        "previous": "64.8%",
-        "is_next_release": false
-      },
-      {
-        "event_id": "2026/11/06 22:30:00",
-        "time_kst": "22:30",
-        "country": "US",
-        "flag": "🇺🇸",
-        "name": "Unemployment Rate  (Oct)",
-        "importance": 2,
-        "actual": "6.7%",
-        "forecast": "6.5%",
-        "previous": "6.5%",
-        "is_next_release": false
-      }
-    ],
-    "today": [
-      {
         "event_id": "2026/11/07 00:00:00",
         "time_kst": "00:00",
         "country": "US",
@@ -2266,7 +1916,82 @@
         "is_next_release": false
       }
     ],
-    "tomorrow": [],
+    "today": [
+      {
+        "event_id": "2026-11-08-placeholder",
+        "time_kst": "--:--",
+        "country": "US",
+        "flag": "🇺🇸",
+        "name": "데이터 수집 실패 — 직접 확인 필요",
+        "importance": 1,
+        "actual": null,
+        "forecast": null,
+        "previous": null,
+        "is_next_release": false
+      }
+    ],
+    "tomorrow": [
+      {
+        "event_id": "2026/11/09 09:30:00",
+        "time_kst": "09:30",
+        "country": "US",
+        "flag": "🇺🇸",
+        "name": "Building Approvals (YoY)  (Sep)",
+        "importance": 1,
+        "actual": null,
+        "forecast": "-0.80%",
+        "previous": "10.30%",
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/11/09 09:30:00",
+        "time_kst": "09:30",
+        "country": "US",
+        "flag": "🇺🇸",
+        "name": "Building Approvals (MoM)  (Sep)",
+        "importance": 2,
+        "actual": null,
+        "forecast": "5.1%",
+        "previous": "-6.1%",
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/11/09 09:30:00",
+        "time_kst": "09:30",
+        "country": "US",
+        "flag": "🇺🇸",
+        "name": "Private House Approvals  (Sep)",
+        "importance": 1,
+        "actual": null,
+        "forecast": "-5.3%",
+        "previous": "3.7%",
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/11/09 20:00:00",
+        "time_kst": "20:00",
+        "country": "US",
+        "flag": "🇺🇸",
+        "name": "Leading Index (MoM)  (Oct)",
+        "importance": 1,
+        "actual": null,
+        "forecast": null,
+        "previous": "0.08%",
+        "is_next_release": false
+      },
+      {
+        "event_id": "2026/11/09 22:40:00",
+        "time_kst": "22:40",
+        "country": "US",
+        "flag": "🇺🇸",
+        "name": "FOMC Member Bowman Speaks",
+        "importance": 2,
+        "actual": null,
+        "forecast": null,
+        "previous": null,
+        "is_next_release": false
+      }
+    ],
     "this_week": [
       {
         "event_id": "2026/11/02 07:00:00",
@@ -3975,6 +3700,18 @@
         "is_next_release": false
       },
       {
+        "event_id": "2026/11/10 17:30:00",
+        "time_kst": "17:30",
+        "country": "GB",
+        "flag": "🇬🇧",
+        "name": "BoE Breeden Speaks",
+        "importance": 1,
+        "actual": null,
+        "forecast": null,
+        "previous": null,
+        "is_next_release": false
+      },
+      {
         "event_id": "2026/11/10 18:00:00",
         "time_kst": "18:00",
         "country": "US",
@@ -3994,7 +3731,7 @@
         "name": "NFIB Small Business Optimism  (Oct)",
         "importance": 1,
         "actual": null,
-        "forecast": null,
+        "forecast": "97.7",
         "previous": "97.9",
         "is_next_release": false
       },
